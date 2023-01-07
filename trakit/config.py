@@ -1,12 +1,13 @@
 import json
 import typing
-from importlib import resources
+
+from pkg_resources import resource_stream
 
 
 class Config:
     def __init__(self):
-        content = resources.read_text('trakit.data', 'config.json', 'utf-8')
-        cfg: typing.Mapping[str, typing.Any] = json.loads(content)
+        with resource_stream('trakit', 'data/config.json') as f:
+            cfg: typing.Mapping[str, typing.Any] = json.load(f)
         self.ignored: typing.Set[str] = set(cfg.get('ignored', []))
         self.countries: typing.Mapping[str, str] = cfg.get('countries', {})
         self.languages: typing.Mapping[str, str] = cfg.get('languages', {})
