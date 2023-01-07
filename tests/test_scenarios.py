@@ -1,6 +1,6 @@
 import pytest
 
-from trackit import trackit
+from trakit import trakit
 
 from . import parameters_from_yaml
 
@@ -10,7 +10,7 @@ def test_scenarios(value, expected):
     # given
 
     # when
-    actual = trackit(value)
+    actual = trakit(value)
 
     # then
     assert dict(actual) == expected

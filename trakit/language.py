@@ -17,10 +17,10 @@ from babelfish.converters import CaseInsensitiveDict
 from rebulk import Rebulk
 from rebulk.match import Match
 
-from trackit.config import Config
-from trackit.converters.country import GuessCountryConverter
-from trackit.converters.language import GuessLanguageConverter
-from trackit.words import blank_match, blank_release_names, to_combinations, to_match, to_sentence, to_words
+from trakit.config import Config
+from trakit.converters.country import GuessCountryConverter
+from trakit.converters.language import GuessLanguageConverter
+from trakit.words import blank_match, blank_release_names, to_combinations, to_match, to_sentence, to_words
 
 
 class LanguageFinder:

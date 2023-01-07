@@ -1,11 +1,11 @@
 import json
 import os
 
-import trackit.config
+import trakit.config
 
 from .generator import GENERATED_PATH, Generator
 
-TRACKIT_PATH = os.path.join(os.path.dirname(trackit.__file__), 'data')
+TRACKIT_PATH = os.path.join(os.path.dirname(trakit.__file__), 'data')
 
 
 def test_generate_config():

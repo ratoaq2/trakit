@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "trackit"
+name = "trakit"
 version = "0.1.0"
 description = "Guess additional information from track titles"
 authors = [
@@ -7,7 +7,7 @@ authors = [
 ]
 license = "MIT"
 readme = "README.md"
-repository = "https://github.com/ratoaq2/trackit"
+repository = "https://github.com/ratoaq2/trakit"
 keywords = [
     "video",
     "mkv",
@@ -41,7 +41,7 @@ classifiers = [
 ]
 
 [tool.poetry.scripts]
-trackit = "trackit.__main__:main"
+trakit = "trakit.__main__:main"
 
 [tool.poetry.dependencies]
 python = "^3.8.1"

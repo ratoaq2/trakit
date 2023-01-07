@@ -3,5 +3,5 @@
 set -ex
 
 flake8
-mypy --check-untyped-defs trackit
-pytest trackit -vv tests
+mypy --check-untyped-defs trakit
+pytest trakit -vv tests

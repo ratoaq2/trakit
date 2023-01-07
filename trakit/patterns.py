@@ -4,9 +4,9 @@ from functools import partial
 from rebulk import Rebulk
 from rebulk.validators import chars_surround
 
-from trackit.config import Config
-from trackit.language import language
-from trackit.words import seps
+from trakit.config import Config
+from trakit.language import language
+from trakit.words import seps
 
 
 def configure(config: Config):

@@ -1,19 +1,19 @@
-# TrackIt
+# TrakIt
 Guess additional information from track titles
 
 [![Latest
-Version](https://img.shields.io/pypi/v/trackit.svg)](https://pypi.python.org/pypi/trackit)
+Version](https://img.shields.io/pypi/v/trakit.svg)](https://pypi.python.org/pypi/trakit)
 
-[![tests](https://github.com/ratoaq2/trackit/actions/workflows/test.yml/badge.svg)](https://github.com/ratoaq2/trackit/actions/workflows/test.yml)
+[![tests](https://github.com/ratoaq2/trakit/actions/workflows/test.yml/badge.svg)](https://github.com/ratoaq2/trakit/actions/workflows/test.yml)
 
-[![License](https://img.shields.io/github/license/ratoaq2/trackit.svg)](https://github.com/ratoaq2/trackit/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/ratoaq2/trakit.svg)](https://github.com/ratoaq2/trakit/blob/master/LICENSE)
 
   - Project page  
-    <https://github.com/ratoaq2/trackit>
+    <https://github.com/ratoaq2/trakit>
 
 ## Info
 
-**TrackIt** is a track name parser.
+**TrakIt** is a track name parser.
 It is a tiny library created to solve a very specific problem.
 It's very common that video files do not have precise metadata information, 
 where you can have multiple subtitle tracks tagged as **Portuguese**, 
@@ -61,16 +61,16 @@ Or you have multiple audio tracks in **English**,
 but one of them is **British English** (`British English Forced (PGS)`) and others are **American English**
 (`American English (PGS)`)
 
-Given a track name, **TrackIt** can guess the language:
+Given a track name, **TrakIt** can guess the language:
 
 ```bash
-> trackit "Português (Brasil)"
+> trakit "Português (Brasil)"
 {
   "language": "pt-BR"
 }
 ```
 
-**TrackIt** is also able to identify:
+**TrakIt** is also able to identify:
 * SDH: Subtitles for the Deaf or Hard of Hearing
 * Forced flag
 * Closed captions
@@ -78,42 +78,42 @@ Given a track name, **TrackIt** can guess the language:
 * Commentary tracks
 
 ```bash
->> trackit "British English (SDH) (PGS)"
+>> trakit "British English (SDH) (PGS)"
 {
   "language": "en-GB",
   "hearing_impaired": true
 }
 
->> trackit "English CC (SRT)"
+>> trakit "English CC (SRT)"
 {
   "language": "en",
   "closed_caption": true
 }
 
->> trackit "Cast and Crew Commentary (English AC3 Stereo)"
+>> trakit "Cast and Crew Commentary (English AC3 Stereo)"
 {
   "language": "en",
   "commentary": true
 }
 
->> trackit "Français Forced (SRT)"
+>> trakit "Français Forced (SRT)"
 {
   "language": "fr",
   "forced": true
 }
 ```
 
-**TrackIt** is not a release parser. Use [GuessIt](https://github.com/guessit-io/guessit)
+**TrakIt** is not a release parser. Use [GuessIt](https://github.com/guessit-io/guessit)
 
-**TrackIt** is not a video metadata extractor.
+**TrakIt** is not a video metadata extractor.
 Use [KnowIt](https://github.com/ratoaq2/knowit).
-KnowIt already uses **trackit** to enhance the extracted information
+KnowIt already uses **trakit** to enhance the extracted information
 
 ## Installation
 
-**TrackIt** can be installed as a regular python module by running:
+**TrakIt** can be installed as a regular python module by running:
 
-    $ [sudo] pip install trackit
+    $ [sudo] pip install trakit
 
 For a better isolation with your system you should use a dedicated
 virtualenv or install for your user only using the `--user` flag.

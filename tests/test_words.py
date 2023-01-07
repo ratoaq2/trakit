@@ -4,7 +4,7 @@ import pytest
 
 from rebulk.match import Match
 
-from trackit.words import blank_match, blank_release_names, to_combinations, to_sentence, to_words
+from trakit.words import blank_match, blank_release_names, to_combinations, to_sentence, to_words
 
 from . import parameters_from_yaml
 

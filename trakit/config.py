@@ -5,7 +5,7 @@ from importlib.resources import as_file, files
 
 class Config:
     def __init__(self):
-        with as_file(files('trackit.data').joinpath('config.json')) as f:
+        with as_file(files('trakit.data').joinpath('config.json')) as f:
             cfg: typing.Mapping[str, typing.Any] = json.loads(f.read_text(encoding='utf-8'))
 
         self.ignored: typing.Set[str] = set(cfg.get('ignored', []))
