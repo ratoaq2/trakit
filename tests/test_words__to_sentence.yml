@@ -1,0 +1,10 @@
+? A Foobar 2019
+: - start:  0
+    end:    1
+    value: A
+  - start:  4
+    end:    5
+    value: Foobar
+  - start: 14
+    end:   15
+    value: "2019"

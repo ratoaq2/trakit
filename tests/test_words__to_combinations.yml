@@ -1,0 +1,79 @@
+? Commentary by director John Woo (EU) (Français PGS)
+: - - { start:  0, end: 10, value: Commentary }
+    - { start: 11, end: 13, value: by }
+    - { start: 14, end: 22, value: director }
+    - { start: 23, end: 27, value: John }
+
+  - - { start: 11, end: 13, value: by }
+    - { start: 14, end: 22, value: director }
+    - { start: 23, end: 27, value: John }
+    - { start: 28, end: 31, value: Woo }
+
+  - - { start: 14, end: 22, value: director }
+    - { start: 23, end: 27, value: John }
+    - { start: 28, end: 31, value: Woo }
+    - { start: 33, end: 35, value: EU }
+
+  - - { start: 23, end: 27, value: John }
+    - { start: 28, end: 31, value: Woo }
+    - { start: 33, end: 35, value: EU }
+    - { start: 38, end: 46, value: Français }
+
+  - - { start: 28, end: 31, value: Woo }
+    - { start: 33, end: 35, value: EU }
+    - { start: 38, end: 46, value: Français }
+    - { start: 47, end: 50, value: PGS }
+
+  - - { start:  0, end: 10, value: Commentary }
+    - { start: 11, end: 13, value: by }
+    - { start: 14, end: 22, value: director }
+
+  - - { start: 11, end: 13, value: by }
+    - { start: 14, end: 22, value: director }
+    - { start: 23, end: 27, value: John }
+
+  - - { start: 14, end: 22, value: director }
+    - { start: 23, end: 27, value: John }
+    - { start: 28, end: 31, value: Woo }
+
+  - - { start: 23, end: 27, value: John }
+    - { start: 28, end: 31, value: Woo }
+    - { start: 33, end: 35, value: EU }
+
+  - - { start: 28, end: 31, value: Woo }
+    - { start: 33, end: 35, value: EU }
+    - { start: 38, end: 46, value: Français }
+
+  - - { start: 33, end: 35, value: EU }
+    - { start: 38, end: 46, value: Français }
+    - { start: 47, end: 50, value: PGS }
+
+  - - { start:  0, end: 10, value: Commentary }
+    - { start: 11, end: 13, value: by }
+
+  - - { start: 11, end: 13, value: by }
+    - { start: 14, end: 22, value: director }
+
+  - - { start: 14, end: 22, value: director }
+    - { start: 23, end: 27, value: John }
+
+  - - { start: 23, end: 27, value: John }
+    - { start: 28, end: 31, value: Woo }
+
+  - - { start: 28, end: 31, value: Woo }
+    - { start: 33, end: 35, value: EU }
+
+  - - { start: 33, end: 35, value: EU }
+    - { start: 38, end: 46, value: Français }
+
+  - - { start: 38, end: 46, value: Français }
+    - { start: 47, end: 50, value: PGS }
+
+  - - { start:  0, end: 10, value: Commentary }
+  - - { start: 11, end: 13, value: by }
+  - - { start: 14, end: 22, value: director }
+  - - { start: 23, end: 27, value: John }
+  - - { start: 28, end: 31, value: Woo }
+  - - { start: 33, end: 35, value: EU }
+  - - { start: 38, end: 46, value: Français }
+  - - { start: 47, end: 50, value: PGS }

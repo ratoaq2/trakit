@@ -1,0 +1,5063 @@
+? (Deutsch DTS 5.1)
+: language: de
+
+? (Deutsch DTS-HD MA 7.1)
+: language: de
+
+? (English DTS 5.1)
+: language: en
+
+? (English DTS-HD MA 5.1)
+: language: en
+
+? (SDH)
+: hearing_impaired: true
+
+? (SDH) (English SRT)
+: hearing_impaired: true
+  language: en
+
+? 1080p (H.264)
+: {}
+
+? 1080p (HEVC Main 10)
+: {}
+
+? 1080p (HEVC Main)
+: {}
+
+? 3/2+1
+: {}
+
+? 3/2+1 (English DTS 5.1)
+: language: en
+
+? 480i (MPEG2VIDEO)
+: {}
+
+? 4K (H.264)
+: {}
+
+? 4K (HEVC Main 10)
+: {}
+
+? 4K (HEVC Main)
+: {}
+
+? 4K DoVi (HEVC Main 10)
+: {}
+
+? 4K DoVi/HDR10 (HEVC Main 10)
+: {}
+
+? 4K HDR10 (HEVC Main 10)
+: {}
+
+? 5.1 Mix
+: {}
+
+? 5.1 Mix (English DTS-HD MA)
+: language: en
+
+? 5.1 Upmix
+: {}
+
+? 5.1 Upmix (English DTS)
+: language: en
+
+? 720p (H.264 Constrained Baseline)
+: {}
+
+? 720p (H.264)
+: {}
+
+? 720p (MPEG4)
+: {}
+
+? "@RK Dolby Digital 5.1"
+: {}
+
+? "@RK Dolby Digital 5.1 (Português AC3)"
+: language: pt
+
+? A.Day.2019.2160p.BluRay.REMUX.HEVC.DTS-X.7.1-FGT
+: {}
+
+? A.Day.2019.2160p.BluRay.REMUX.HEVC.DTS-X.7.1-FGT (4K HDR10 HEVC Main 10)
+: {}
+
+? A.Day.2019.2160p.BluRay.REMUX.HEVC.DTS-X.7.1-FGT (English AC3 5.1)
+: language: en
+
+? A.Day.2019.2160p.BluRay.REMUX.HEVC.DTS-X.7.1-FGT (English DTS 5.1)
+: language: en
+
+? A.Day.2019.2160p.BluRay.REMUX.HEVC.DTS-X.7.1-FGT (English DTS-HD MA 7.1)
+: language: en
+
+? A.Day.2019.2160p.BluRay.REMUX.HEVC.DTS-X.7.1-FGT (Español AC3 5.1)
+: language: es
+
+? A.Day.2019.2160p.BluRay.REMUX.HEVC.DTS-X.7.1-FGT (Français AC3 5.1)
+: language: fr
+
+? A.Movie.Part.II.2020.HDR.2160p.WEB.H265-SHHH
+: {}
+
+? A.Movie.Part.II.2020.HDR.2160p.WEB.H265-SHHH (Português SRT OpenSubtitles)
+: language: pt
+
+? A.Movie.1985.BluRay.720p.DTS.x264-CHD
+: {}
+
+? A.Movie.1985.BluRay.720p.DTS.x264-CHD (720p H.264)
+: {}
+
+? A.Movie.1985.DTS-HD.HR Core_1509kbps
+: {}
+
+? A.Movie.1985.DTS-HD.HR Core_1509kbps (English DTS 5.1)
+: language: en
+
+? AC-3
+: {}
+
+? AC-3 (English 5.1)
+: language: en
+
+? AC-3 5.1
+: {}
+
+? AC-3 5.1 (English)
+: language: en
+
+? AC3
+: {}
+
+? AC3 (Português 5.1)
+: language: pt
+
+? AC3 448 Kbps
+: {}
+
+? AC3 448 Kbps (Русский 5.1)
+: language: ru
+
+? AC3 5.1
+: {}
+
+? AC3 5.1 (English)
+: language: en
+
+? AC3 5.1 640 kbps
+: {}
+
+? AC3 5.1 640 kbps (English)
+: language: en
+
+? AC3 5.1 @ 640 kbps
+: {}
+
+? AC3 5.1 @ 640 kbps (English)
+: language: en
+
+? AC3 5.1-EX
+: {}
+
+? AC3 5.1-EX (한국어)
+: language: ko
+
+? AC3 @ 448 kbps 5.1ch
+: {}
+
+? AC3 @ 448 kbps 5.1ch (English 5.1)
+: language: en
+
+? Ad.Hominem.2019.2160p.UHD.BluRay-AAAUHD
+: {}
+
+? Ad.Hominem.2019.2160p.UHD.BluRay-AAAUHD (4K HDR10 HEVC Main 10)
+: {}
+
+? Alternate Score Version
+: version: alternate
+
+? Alternate Score Version (English DTS-HD MA 5.1)
+: version: alternate
+  language: en
+
+? American English
+: language: en-US
+
+? American English (PGS)
+: language: en-US
+
+? American English (SDH)
+: language: en-US
+  hearing_impaired: true
+
+? American English (SDH) (PGS)
+: language: en-US
+  hearing_impaired: true
+
+? American English Forced
+: language: en-US
+  forced: true
+
+? American English Forced (PGS)
+: language: en-US
+  forced: true
+
+? American English SDH
+: language: en-US
+  hearing_impaired: true
+
+? American English SDH (PGS)
+: language: en-US
+  hearing_impaired: true
+
+? American-English-FORCED-PGS
+: language: en-US
+  forced: true
+
+? American-English-PGS
+: language: en-US
+
+? American-English-SDH-PGS
+: language: en-US
+  hearing_impaired: true
+
+? Movie.13.1995.2160p.BluRay.REMUX.HEVC.DTS-X.7.1-FGT
+: {}
+
+? Movie.13.1995.2160p.BluRay.REMUX.HEVC.DTS-X.7.1-FGT (4K HDR10 HEVC Main 10)
+: {}
+
+? Movie.13.1995.2160p.BluRay.REMUX.HEVC.DTS-X.7.1-FGT (Deutsch DTS-HD MA 7.1)
+: language: de
+
+? Movie.13.1995.2160p.BluRay.REMUX.HEVC.DTS-X.7.1-FGT (English AC3 Stereo)
+: language: en
+
+? Movie.13.1995.2160p.BluRay.REMUX.HEVC.DTS-X.7.1-FGT (English DTS-HD MA 7.1)
+: language: en
+
+? Movie.13.1995.2160p.BluRay.REMUX.HEVC.DTS-X.7.1-FGT (Türkçe DTS Stereo)
+: language: tr
+
+? Arabic
+: language: ar
+
+? Arabic (SUP)
+: language: ar
+
+? Arabic (SUP) (العربية PGS)
+: language: ar
+
+? Arabic (العربية PGS)
+: language: ar
+
+? Arabic (العربية SRT)
+: language: ar
+
+? Arabic-PGS
+: language: ar
+
+? Arabic-PGS (العربية)
+: language: ar
+
+? Movie.2016.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.7.1-FGT
+: {}
+
+? Movie.2016.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.7.1-FGT (4K HDR10 HEVC Main 10)
+: {}
+
+? Movie.2016.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.7.1-FGT (Deutsch AC3 5.1)
+: language: de
+
+? Movie.2016.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.7.1-FGT (English DTS-HD MA 7.1)
+: language: en
+
+? Movie.2016.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.7.1-FGT (Español AC3 5.1)
+: language: es
+
+? Movie.2016.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.7.1-FGT (Français AC3 5.1)
+: language: fr
+
+? Movie.2016.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.7.1-FGT (Italiano AC3 5.1)
+: language: it
+
+? Movie.2016.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.7.1-FGT (Português AC3 5.1)
+: language: pt
+
+? Movie.2016.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.7.1-FGT (magyar AC3 5.1)
+: language: hu
+
+? Movie.2016.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.7.1-FGT (polski AC3 5.1)
+: language: pl
+
+? Movie.2016.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.7.1-FGT (Čeština AC3 5.1)
+: language: cs
+
+? Movie.2016.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.7.1-FGT (Русский AC3 5.1)
+: language: ru
+
+? Movie.2016.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.7.1-FGT (ไทย AC3 5.1)
+: language: th
+
+? Atmos
+: {}
+
+? Atmos (English TRUEHD 5.1)
+: language: en
+
+? Atmos (English TRUEHD 7.1)
+: language: en
+
+? Atmos 5.1
+: {}
+
+? Atmos 5.1 (English TRUEHD)
+: language: en
+
+? Atmos 7.1
+: {}
+
+? Atmos 7.1 (English TRUEHD)
+: language: en
+
+? BR
+: language: pt-BR
+
+? BR (Português PGS)
+: language: pt-BR
+
+? A.Movie.2005.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT
+: {}
+
+? A.Movie.2005.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (4K HDR10 HEVC Main 10)
+: {}
+
+? A.Movie.2005.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (English DTS-HD MA 5.1)
+: language: en
+
+? A.Movie.2005.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (Español AC3 5.1)
+: language: es
+
+? A.Movie.2005.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (Français AC3 5.1)
+: language: fr
+
+? A.Movie.2014.720p.BluRay.DTS.x264-LEGi0N
+: {}
+
+? A.Movie.2014.720p.BluRay.DTS.x264-LEGi0N (720p H.264)
+: {}
+
+? A.Movie.2014.720p.BluRay.DTS.x264-LEGi0N (English DTS 5.1)
+: language: en
+
+? A.Movie.2014.720p.BluRay.DTS.x264-LEGi0N (English PGS)
+: language: en
+
+? A.Movie.2014.720p.BluRay.DTS.x264-LEGi0N (Español PGS)
+: language: es
+
+? Brazilian
+: language: pt-BR
+
+? Brazilian (Português PGS)
+: language: pt-BR
+
+? Brazilian (Português SRT)
+: language: pt-BR
+
+? Brazilian Portuguese
+: language: pt-BR
+
+? Brazilian Portuguese (Português EAC3 5.1)
+: language: pt-BR
+
+? Brazilian Portuguese (Português SRT)
+: language: pt-BR
+
+? Brazilian Portuguese [SDH]
+: language: pt-BR
+  hearing_impaired: true
+
+? Brazilian Portuguese [SDH] (Português SRT)
+: language: pt-BR
+  hearing_impaired: true
+
+? Brazilian SDH
+: language: pt-BR
+  hearing_impaired: true
+
+? Brazilian SDH (Português SRT)
+: hearing_impaired: true
+  language: pt-BR
+
+? British English
+: language: en-GB
+
+? British English (PGS)
+: language: en-GB
+
+? British English (SDH)
+: language: en-GB
+  hearing_impaired: true
+
+? British English (SDH) (PGS)
+: language: en-GB
+  hearing_impaired: true
+
+? British English Forced
+: language: en-GB
+  forced: true
+
+? British English Forced (PGS)
+: language: en-GB
+  forced: true
+
+? British English SDH
+: language: en-GB
+  hearing_impaired: true
+
+? British English SDH (PGS)
+: language: en-GB
+  hearing_impaired: true
+
+? British.English-SDH-PGS
+: language: en-GB
+  hearing_impaired: true
+
+? British.English-SDH-PGS (English)
+: language: en-GB
+  hearing_impaired: true
+
+? Bulgarian
+: language: bg
+
+? Bulgarian (български PGS)
+: language: bg
+
+? Bulgarian-PGS
+: language: bg
+
+? Bulgarian-PGS (български)
+: language: bg
+
+? CA
+: language: fr-CA
+
+? CA (Français PGS)
+: language: fr-CA
+
+? CC
+: closed_caption: true
+
+? CC (English SRT)
+: closed_caption: true
+  language: en
+
+? CHD
+: {}
+
+? CHD (720p H.264)
+: {}
+
+? Canadian
+: language: fr-CA
+
+? Canadian (Français PGS)
+: language: fr-CA
+
+? Canadian (Français SRT)
+: language: fr-CA
+
+? Canadian SDH
+: language: fr-CA
+  hearing_impaired: true
+
+? Canadian SDH (Français SRT)
+: hearing_impaired: true
+  language: fr-CA
+
+? Cantonese
+: language: zh
+
+? Cantonese (中文 PGS)
+: language: zh
+
+? Cantonese (中文 SRT)
+: language: zh
+
+? Cast and Crew Commentary
+: commentary: true
+
+? Cast and Crew Commentary (English AC3 Stereo)
+: commentary: true
+  language: en
+
+? Castilian
+: language: es
+
+? Castilian (Español PGS)
+: language: es
+
+? Catalan
+: language: ca
+
+? Catalan (català PGS)
+: language: ca
+
+? A.Movie.2019.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT
+: {}
+
+? A.Movie.2019.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT (1080p H.264)
+: {}
+
+? A.Movie.2019.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT (English DTS-HD MA 5.1)
+: language: en
+
+? Chinese
+: language: zh
+
+? Chinese (Cantonese)
+: language: zh
+
+? Chinese (Cantonese) (中文 PGS)
+: language: zh
+
+? Chinese (Hong Kong SAR China)
+: language: zh-HK
+
+? Chinese (Hong Kong SAR China) (中文 SRT)
+: language: zh-HK
+
+? Chinese (Hong Kong)
+: language: zh-HK
+
+? Chinese (Hong Kong) (中文 SRT)
+: language: zh-HK
+
+? Chinese (SUP)
+: language: zh
+
+? Chinese (SUP) (中文 PGS)
+: language: zh
+
+? Chinese (Simplified)
+: language: zh-Hans
+
+? Chinese (Simplified) (中文 PGS)
+: language: zh-Hans
+
+? Chinese (Simplified) (中文 SRT)
+: language: zh-Hans
+
+? Chinese (Traditional)
+: language: zh-Hant
+
+? Chinese (Traditional) (中文 PGS)
+: language: zh-Hant
+
+? Chinese (Traditional) (中文 SRT)
+: language: zh-Hant
+
+? Chinese (中文 PGS)
+: language: zh
+
+? Chinese 1
+: language: zh
+
+? Chinese 1 (中文 PGS)
+: language: zh
+
+? Chinese 2
+: language: zh
+
+? Chinese 2 (中文 PGS)
+: language: zh
+
+? Chinese Simplified
+: language: zh-Hans
+
+? Chinese Simplified (中文 SRT)
+: language: zh-Hans
+
+? Chinese Traditional
+: language: zh-Hant
+
+? Chinese Traditional (中文 SRT)
+: language: zh-Hant
+
+? Chinese-PGS
+: language: zh
+
+? Chinese-PGS (中文)
+: language: zh
+
+? Movie.2017.1080p.BluRay.x264.TrueHD.7.1.Atmos-SWTYBLZ
+: {}
+
+? Movie.2017.1080p.BluRay.x264.TrueHD.7.1.Atmos-SWTYBLZ (1080p H.264)
+: {}
+
+? Movie.2017.1080p.BluRay.x264.TrueHD.7.1.Atmos-SWTYBLZ (English AC3 5.1)
+: language: en
+
+? Movie.2017.1080p.BluRay.x264.TrueHD.7.1.Atmos-SWTYBLZ (English TRUEHD 7.1)
+: language: en
+
+? Commentary
+: commentary: true
+
+? Commentary (Dansk VOBSUB)
+: commentary: true
+  language: da
+
+? Commentary (Deutsch VOBSUB)
+: commentary: true
+  language: de
+
+? Commentary (English AAC Stereo)
+: commentary: true
+  language: en
+
+? Commentary (English AC3 Stereo)
+: commentary: true
+  language: en
+
+? Commentary (English HE-AAC Stereo)
+: commentary: true
+  language: en
+
+? Commentary (English PGS)
+: commentary: true
+  language: en
+
+? Commentary (English SRT)
+: commentary: true
+  language: en
+
+? Commentary (English VOBSUB)
+: commentary: true
+  language: en
+
+? Commentary (Español PGS)
+: commentary: true
+  language: es
+
+? Commentary (Español VOBSUB)
+: commentary: true
+  language: es
+
+? Commentary (Français PGS)
+: commentary: true
+  language: fr
+
+? Commentary (Français VOBSUB)
+: commentary: true
+  language: fr
+
+? Commentary (Italiano VOBSUB)
+: commentary: true
+  language: it
+
+? Commentary (Nederlands VOBSUB)
+: commentary: true
+  language: nl
+
+? Commentary (Suomi VOBSUB)
+: commentary: true
+  language: fi
+
+? Commentary (Svenska VOBSUB)
+: commentary: true
+  language: sv
+
+? Commentary (norsk bokmål VOBSUB)
+: commentary: true
+  language: 'no'
+
+? Commentary (日本語 VOBSUB)
+: commentary: true
+  language: ja
+
+? Commentary 1
+: commentary: true
+
+? Commentary 1 (Deutsch PGS)
+: commentary: true
+  language: de
+
+? Commentary 1 (English AAC Stereo)
+: commentary: true
+  language: en
+
+? Commentary 1 (English PGS)
+: commentary: true
+  language: en
+
+? Commentary 1 (English VORBIS Stereo)
+: commentary: true
+  language: en
+
+? Commentary 1 (Español PGS)
+: commentary: true
+  language: es
+
+? Commentary 1 (Français PGS)
+: commentary: true
+  language: fr
+
+? Commentary 1 (日本語 PGS)
+: commentary: true
+  language: ja
+
+? Commentary 2
+: commentary: true
+
+? Commentary 2 (Deutsch PGS)
+: commentary: true
+  language: de
+
+? Commentary 2 (English AAC Stereo)
+: commentary: true
+  language: en
+
+? Commentary 2 (English PGS)
+: commentary: true
+  language: en
+
+? Commentary 2 (English VORBIS Stereo)
+: commentary: true
+  language: en
+
+? Commentary 2 (Español PGS)
+: commentary: true
+  language: es
+
+? Commentary 2 (Français PGS)
+: commentary: true
+  language: fr
+
+? Commentary 2 (日本語 PGS)
+: commentary: true
+  language: ja
+
+? Commentary by Director Joe Wright
+: commentary: true
+
+? Commentary by Director Joe Wright (Deutsch PGS)
+: commentary: true
+  language: de
+
+? Commentary by Director Joe Wright (English AC3 Stereo)
+: commentary: true
+  language: en
+
+? Commentary by Director Joe Wright (English PGS)
+: commentary: true
+  language: en
+
+? Commentary by Director Joe Wright (Italiano PGS)
+: commentary: true
+  language: it
+
+? Commentary by Hampton Fancher, David Peoples, Michael Deeley, and Katherine Haber
+: commentary: true
+
+? Commentary by Hampton Fancher, David Peoples, Michael Deeley, and Katherine Haber (English AC3 Stereo)
+: commentary: true
+  language: en
+
+? Commentary by John Carpenter and actor Kurt Russell
+: commentary: true
+
+? Commentary by John Carpenter and actor Kurt Russell (English AAC Stereo)
+: commentary: true
+  language: en
+
+? Commentary by Ridley Scott
+: commentary: true
+
+? Commentary by Ridley Scott (English AC3 Stereo)
+: commentary: true
+  language: en
+
+? Commentary by Syd Mead, Douglas Trumbull, David Dryer, Richard Yuricich, David Snyder, and Lawrence G. Paull
+: commentary: true
+
+? Commentary by Syd Mead, Douglas Trumbull, David Dryer, Richard Yuricich, David Snyder, and Lawrence G. Paull (English AC3 Stereo)
+: commentary: true
+  language: en
+
+? Commentary by Sylvester Stallone
+: commentary: true
+
+? Commentary by Sylvester Stallone (Deutsch PGS)
+: commentary: true
+  language: de
+
+? Commentary by Sylvester Stallone (English DTS Stereo)
+: commentary: true
+  language: en
+
+? Commentary by Sylvester Stallone (Français PGS)
+: commentary: true
+  language: fr
+
+? Commentary by author David Morrell
+: commentary: true
+
+? Commentary by author David Morrell (Deutsch PGS)
+: commentary: true
+  language: de
+
+? Commentary by author David Morrell (English DTS Stereo)
+: commentary: true
+  language: en
+
+? Commentary by author David Morrell (Français PGS)
+: commentary: true
+  language: fr
+
+? Commentary by director John McTiernan and Jackson De Govia
+: commentary: true
+
+? Commentary by director John McTiernan and Jackson De Govia (English AC3 Stereo)
+: commentary: true
+  language: en
+
+? Commentary by director John McTiernan and Jackson De Govia (English PGS)
+: commentary: true
+  language: en
+
+? Commentary by director John McTiernan and Jackson De Govia (Español PGS)
+: commentary: true
+  language: es
+
+? Commentary by director John McTiernan and Jackson De Govia (Français PGS)
+: commentary: true
+  language: fr
+
+? Commentary by director John McTiernan and Jackson De Govia (Italiano PGS)
+: commentary: true
+  language: it
+
+? Commentary by director John McTiernan and Jackson De Govia (Nederlands PGS)
+: commentary: true
+  language: nl
+
+? Commentary by director John McTiernan and Jackson De Govia (PGS)
+: commentary: true
+
+? Commentary by director John Woo
+: commentary: true
+
+? Commentary by director John Woo (BR)
+: commentary: true
+  language: pt-BR
+
+? Commentary by director John Woo (BR) (Português PGS)
+: commentary: true
+  language: pt-BR
+
+? Commentary by director John Woo (Deutsch PGS)
+: commentary: true
+  language: de
+
+? Commentary by director John Woo (EU)
+: commentary: true
+
+? Commentary by director John Woo (EU) (Español PGS)
+: commentary: true
+  language: es
+
+? Commentary by director John Woo (EU) (Français PGS)
+: commentary: true
+  language: fr
+
+? Commentary by director John Woo (English AC3 Stereo)
+: commentary: true
+  language: en
+
+? Commentary by director John Woo (English PGS)
+: commentary: true
+  language: en
+
+? Commentary by director John Woo (Italiano PGS)
+: commentary: true
+  language: it
+
+? Commentary by director John Woo (LA)
+: commentary: true
+
+? Commentary by director John Woo (LA) (Español PGS)
+: commentary: true
+  language: es
+
+? Commentary by director John Woo (日本語 PGS)
+: commentary: true
+  language: ja
+
+? Commentary by director Jon Favreau
+: commentary: true
+
+? Commentary by director Jon Favreau (English AC3 Stereo)
+: commentary: true
+  language: en
+
+? Commentary by director Jon Favreau (English PGS)
+: commentary: true
+  language: en
+
+? Commentary by director Ridley Scott, executive producer/co-writer Ronald Shusett, writer Dan O'Bannon, editor Terry Rawlings and actors Sigourney Weaver, Tom Skerritt, Veronica Cartwright, Harry Dean Stanton and John Hurt (recorded in 2003)
+: commentary: true
+
+? Commentary by director Ridley Scott, executive producer/co-writer Ronald Shusett, writer Dan O'Bannon, editor Terry Rawlings and actors Sigourney Weaver, Tom Skerritt, Veronica Cartwright, Harry Dean Stanton and John Hurt (recorded in 2003) (Deutsch PGS)
+: commentary: true
+  language: de
+
+? Commentary by director Ridley Scott, executive producer/co-writer Ronald Shusett, writer Dan O'Bannon, editor Terry Rawlings and actors Sigourney Weaver, Tom Skerritt, Veronica Cartwright, Harry Dean Stanton and John Hurt (recorded in 2003) (English AC3 Stereo)
+: commentary: true
+  language: en
+
+? Commentary by director Ridley Scott, executive producer/co-writer Ronald Shusett, writer Dan O'Bannon, editor Terry Rawlings and actors Sigourney Weaver, Tom Skerritt, Veronica Cartwright, Harry Dean Stanton and John Hurt (recorded in 2003) (English PGS)
+: commentary: true
+  language: en
+
+? Commentary by director Ridley Scott, executive producer/co-writer Ronald Shusett, writer Dan O'Bannon, editor Terry Rawlings and actors Sigourney Weaver, Tom Skerritt, Veronica Cartwright, Harry Dean Stanton and John Hurt (recorded in 2003) (Español PGS)
+: commentary: true
+  language: es
+
+? Commentary by director Ridley Scott, executive producer/co-writer Ronald Shusett, writer Dan O'Bannon, editor Terry Rawlings and actors Sigourney Weaver, Tom Skerritt, Veronica Cartwright, Harry Dean Stanton and John Hurt (recorded in 2003) (Français PGS)
+: commentary: true
+  language: fr
+
+? Commentary by director Ridley Scott, executive producer/co-writer Ronald Shusett, writer Dan O'Bannon, editor Terry Rawlings and actors Sigourney Weaver, Tom Skerritt, Veronica Cartwright, Harry Dean Stanton and John Hurt (recorded in 2003) (Italiano PGS)
+: commentary: true
+  language: it
+
+? Commentary by director Ridley Scott, executive producer/co-writer Ronald Shusett, writer Dan O'Bannon, editor Terry Rawlings and actors Sigourney Weaver, Tom Skerritt, Veronica Cartwright, Harry Dean Stanton and John Hurt (recorded in 2003) (日本語 PGS)
+: commentary: true
+  language: ja
+
+? Commentary by visual effects supervisor Richard Edlund
+: commentary: true
+
+? Commentary by visual effects supervisor Richard Edlund (English AC3 Stereo)
+: commentary: true
+  language: en
+
+? Commentary by visual effects supervisor Richard Edlund (English PGS)
+: commentary: true
+  language: en
+
+? Commentary with Director Barry Jenkins
+: commentary: true
+
+? Commentary with Director Barry Jenkins (English AC3 Stereo)
+: commentary: true
+  language: en
+
+? Commentary with Director Ivan Reitman, actor and writer Harold Ramis and associate producer Joe Medjuck
+: commentary: true
+
+? Commentary with Director Ivan Reitman, actor and writer Harold Ramis and associate producer Joe Medjuck (Deutsch PGS)
+: commentary: true
+  language: de
+
+? Commentary with Director Ivan Reitman, actor and writer Harold Ramis and associate producer Joe Medjuck (English AC3 Stereo)
+: commentary: true
+  language: en
+
+? Commentary with Director Ivan Reitman, actor and writer Harold Ramis and associate producer Joe Medjuck (English PGS)
+: commentary: true
+  language: en
+
+? Commentary with Director Ivan Reitman, actor and writer Harold Ramis and associate producer Joe Medjuck (Español PGS)
+: commentary: true
+  language: es
+
+? Commentary with Director Ivan Reitman, actor and writer Harold Ramis and associate producer Joe Medjuck (Français PGS)
+: commentary: true
+  language: fr
+
+? Commentary with Director Ivan Reitman, actor and writer Harold Ramis and associate producer Joe Medjuck (Italiano PGS)
+: commentary: true
+  language: it
+
+? Commentary with Director Ivan Reitman, actor and writer Harold Ramis and associate producer Joe Medjuck (Nederlands PGS)
+: commentary: true
+  language: nl
+
+? Commentary with Director Ivan Reitman, actor and writer Harold Ramis and associate producer Joe Medjuck (Português PGS)
+: commentary: true
+  language: pt
+
+? Commentary with Director Ivan Reitman, actor and writer Harold Ramis and associate producer Joe Medjuck (日本語 PGS)
+: commentary: true
+  language: ja
+
+? Commentary with Director Ivan Reitman, actor and writer Harold Ramis and associate producer Joe Medjuck (한국어 PGS)
+: commentary: true
+  language: ko
+
+? Commentary with Director Matt Reeves
+: commentary: true
+
+? Commentary with Director Matt Reeves (CA)
+: commentary: true
+  language: fr-CA
+
+? Commentary with Director Matt Reeves (CA) (Français PGS)
+: commentary: true
+  language: fr-CA
+
+? Commentary with Director Matt Reeves (Deutsch PGS)
+: commentary: true
+  language: de
+
+? Commentary with Director Matt Reeves (EU)
+: commentary: true
+
+? Commentary with Director Matt Reeves (EU) (Français PGS)
+: commentary: true
+  language: fr
+
+? Commentary with Director Matt Reeves (English AC3 Stereo)
+: commentary: true
+  language: en
+
+? Commentary with Director Matt Reeves (English PGS)
+: commentary: true
+  language: en
+
+? Commentary with Director Matt Reeves (Español PGS)
+: commentary: true
+  language: es
+
+? Commentary with Director Matt Reeves (Português PGS)
+: commentary: true
+  language: pt
+
+? Commentary with Director Matt Reeves (日本語 PGS)
+: commentary: true
+  language: ja
+
+? Commentary with Director and co-screenwriter Shane Black and co-screenwriter Drew Pearce
+: commentary: true
+
+? Commentary with Director and co-screenwriter Shane Black and co-screenwriter Drew Pearce (English AC3 Stereo)
+: commentary: true
+  language: en
+
+? Commentary with Director and co-screenwriter Shane Black and co-screenwriter Drew Pearce (English PGS)
+: commentary: true
+  language: en
+
+? Commentary with Mike White Patrick Bromley and El Goro
+: commentary: true
+
+? Commentary with Mike White Patrick Bromley and El Goro (English AAC Stereo)
+: commentary: true
+  language: en
+
+? Commentary with Writer/Director Damien Chazelle and Composer Justin Hurwitz
+: commentary: true
+
+? Commentary with Writer/Director Damien Chazelle and Composer Justin Hurwitz (English AAC Stereo)
+: commentary: true
+  language: en
+
+? Commentary with Writer/Director Jordan Peele
+: commentary: true
+
+? Commentary with Writer/Director Jordan Peele (English AC3 Stereo)
+: commentary: true
+  language: en
+
+? Commentary with Writer/Director Jordan Peele (English PGS)
+: commentary: true
+  language: en
+
+? Commentary with Writer/Director Jordan Peele (Français PGS)
+: commentary: true
+  language: fr
+
+? Commentary with actor Tom Cruise and director Christopher McQuarrie
+: commentary: true
+
+? Commentary with actor Tom Cruise and director Christopher McQuarrie (CA)
+: commentary: true
+  language: fr-CA
+
+? Commentary with actor Tom Cruise and director Christopher McQuarrie (CA) (Français PGS)
+: commentary: true
+  language: fr-CA
+
+? Commentary with actor Tom Cruise and director Christopher McQuarrie (Deutsch PGS)
+: commentary: true
+  language: de
+
+? Commentary with actor Tom Cruise and director Christopher McQuarrie (EU)
+: commentary: true
+
+? Commentary with actor Tom Cruise and director Christopher McQuarrie (EU) (Español PGS)
+: commentary: true
+  language: es
+
+? Commentary with actor Tom Cruise and director Christopher McQuarrie (EU) (Français PGS)
+: commentary: true
+  language: fr
+
+? Commentary with actor Tom Cruise and director Christopher McQuarrie (English PGS)
+: commentary: true
+  language: en
+
+? Commentary with actor Tom Cruise and director Christopher McQuarrie (Italiano PGS)
+: commentary: true
+  language: it
+
+? Commentary with actor Tom Cruise and director Christopher McQuarrie (Latin)
+: commentary: true
+  language: es-419
+
+? Commentary with actor Tom Cruise and director Christopher McQuarrie (Latin) (Español PGS)
+: commentary: true
+  language: es-419
+
+? Commentary with actor Tom Cruise and director Christopher McQuarrie (Português PGS)
+: commentary: true
+  language: pt
+
+? Commentary with actor Tom Cruise and director J.J. Abrams
+: commentary: true
+
+? Commentary with actor Tom Cruise and director J.J. Abrams (Deutsch PGS)
+: commentary: true
+  language: de
+
+? Commentary with actor Tom Cruise and director J.J. Abrams (EU)
+: commentary: true
+
+? Commentary with actor Tom Cruise and director J.J. Abrams (EU) (Español PGS)
+: commentary: true
+  language: es
+
+? Commentary with actor Tom Cruise and director J.J. Abrams (English AC3 Stereo)
+: commentary: true
+  language: en
+
+? Commentary with actor Tom Cruise and director J.J. Abrams (English PGS)
+: commentary: true
+  language: en
+
+? Commentary with actor Tom Cruise and director J.J. Abrams (Français PGS)
+: commentary: true
+  language: fr
+
+? Commentary with actor Tom Cruise and director J.J. Abrams (Italiano PGS)
+: commentary: true
+  language: it
+
+? Commentary with actor Tom Cruise and director J.J. Abrams (Latin)
+: commentary: true
+  language: es-419
+
+? Commentary with actor Tom Cruise and director J.J. Abrams (Latin) (Español PGS)
+: commentary: true
+  language: es-419
+
+? Commentary with actor Tom Cruise and director J.J. Abrams (Português PGS)
+: commentary: true
+  language: pt
+
+? Commentary with actor Tom Cruise and director J.J. Abrams (日本語 PGS)
+: commentary: true
+  language: ja
+
+? Commentary with director David Leitch and editor El├¡sabet Ronaldsd├│ttir
+: commentary: true
+
+? Commentary with director David Leitch and editor El├¡sabet Ronaldsd├│ttir (English AC3 Stereo)
+: commentary: true
+  language: en
+
+? Commentary with director Francis Lawrence, and writer/producer Akiva Goldsman
+: commentary: true
+
+? Commentary with director Francis Lawrence, and writer/producer Akiva Goldsman (English AC3 Stereo)
+: commentary: true
+  language: en
+
+? Commentary with director James Mangold
+: commentary: true
+
+? Commentary with director James Mangold (English AAC Stereo)
+: commentary: true
+  language: en
+
+? Commentary with director Louis Leterrier and actor Tim Roth
+: commentary: true
+
+? Commentary with director Louis Leterrier and actor Tim Roth (Dansk PGS)
+: commentary: true
+  language: da
+
+? Commentary with director Louis Leterrier and actor Tim Roth (English AC3 Stereo)
+: commentary: true
+  language: en
+
+? Commentary with director Louis Leterrier and actor Tim Roth (English PGS)
+: commentary: true
+  language: en
+
+? Commentary with director Louis Leterrier and actor Tim Roth (Italiano PGS)
+: commentary: true
+  language: it
+
+? Commentary with director Louis Leterrier and actor Tim Roth (Nederlands PGS)
+: commentary: true
+  language: nl
+
+? Commentary with director Louis Leterrier and actor Tim Roth (Português PGS)
+: commentary: true
+  language: pt
+
+? Commentary with director Louis Leterrier and actor Tim Roth (Suomi PGS)
+: commentary: true
+  language: fi
+
+? Commentary with director Louis Leterrier and actor Tim Roth (Svenska PGS)
+: commentary: true
+  language: sv
+
+? Commentary with director Louis Leterrier and actor Tim Roth (norsk PGS)
+: commentary: true
+  language: 'no'
+
+? Commentary with director Louis Leterrier and actor Tim Roth (한국어 PGS)
+: commentary: true
+  language: ko
+
+? Commentary with director/actor Kenneth Branagh and writer Michael Greene
+: commentary: true
+
+? Commentary with director/actor Kenneth Branagh and writer Michael Greene (Dansk PGS)
+: commentary: true
+  language: da
+
+? Commentary with director/actor Kenneth Branagh and writer Michael Greene (Deutsch PGS)
+: commentary: true
+  language: de
+
+? Commentary with director/actor Kenneth Branagh and writer Michael Greene (English AC3 Stereo)
+: commentary: true
+  language: en
+
+? Commentary with director/actor Kenneth Branagh and writer Michael Greene (English PGS)
+: commentary: true
+  language: en
+
+? Commentary with director/actor Kenneth Branagh and writer Michael Greene (Español PGS)
+: commentary: true
+  language: es
+
+? Commentary with director/actor Kenneth Branagh and writer Michael Greene (Français PGS)
+: commentary: true
+  language: fr
+
+? Commentary with director/actor Kenneth Branagh and writer Michael Greene (Italiano PGS)
+: commentary: true
+  language: it
+
+? Commentary with director/actor Kenneth Branagh and writer Michael Greene (Nederlands PGS)
+: commentary: true
+  language: nl
+
+? Commentary with director/actor Kenneth Branagh and writer Michael Greene (Suomi PGS)
+: commentary: true
+  language: fi
+
+? Commentary with director/actor Kenneth Branagh and writer Michael Greene (Svenska PGS)
+: commentary: true
+  language: sv
+
+? Commentary with director/actor Kenneth Branagh and writer Michael Greene (norsk PGS)
+: commentary: true
+  language: 'no'
+
+? Commentary with director/actor Kenneth Branagh and writer Michael Greene (日本語 PGS)
+: commentary: true
+  language: ja
+
+? Commentary with writers Alex Kurtzman, and Jeff Pinkner; and producers Matt Tolmach, and Avi Arad
+: commentary: true
+
+? Commentary with writers Alex Kurtzman, and Jeff Pinkner; and producers Matt Tolmach, and Avi Arad (English AC3 Stereo)
+: commentary: true
+  language: en
+
+? Cop and Crook Commentary
+: commentary: true
+
+? Cop and Crook Commentary (English AC3 Stereo)
+: commentary: true
+  language: en
+
+? Croatian
+: language: hr
+
+? Croatian (Hrvatski PGS)
+: language: hr
+
+? Croatian-PGS
+: language: hr
+
+? Croatian-PGS (Hrvatski)
+: language: hr
+
+? Czech
+: language: cs
+
+? Czech (Czechia)
+: language: cs
+
+? Czech (Czechia) (Čeština SRT)
+: language: cs
+
+? Czech (SUP)
+: language: cs
+
+? Czech (SUP) (Čeština PGS)
+: language: cs
+
+? Czech (Čeština PGS)
+: language: cs
+
+? Czech (Čeština SRT)
+: language: cs
+
+? Czech-FORCED-PGS
+: language: cs
+  forced: true
+
+? Czech-FORCED-PGS (Čeština)
+: language: cs
+  forced: true
+
+? Czech-PGS
+: language: cs
+
+? Czech-PGS (Čeština)
+: language: cs
+
+? DD 2.0
+: {}
+
+? DD 2.0 (English AC3)
+: language: en
+
+? DD 5.1
+: {}
+
+? DD 5.1 (English AC3)
+: language: en
+
+? DD 5.1 (Español AC3)
+: language: es
+
+? DD 5.1 (Français AC3)
+: language: fr
+
+? DD 5.1 (Italiano AC3)
+: language: it
+
+? DD 5.1 (magyar AC3)
+: language: hu
+
+? DD 5.1 (polski AC3)
+: language: pl
+
+? DD 5.1 (Čeština AC3)
+: language: cs
+
+? DD2.0@192kbps
+: {}
+
+? DD2.0@192kbps (Українська AC3 Stereo)
+: language: uk
+
+? DD5.1@384kbps
+: {}
+
+? DD5.1@384kbps (Русский AC3 5.1)
+: language: ru
+
+? DDP 5.1
+: {}
+
+? DDP 5.1 (English EAC3)
+: language: en
+
+? DDP 5.1 Atmos
+: {}
+
+? DDP 5.1 Atmos (English EAC3)
+: language: en
+
+? DDP 7.1
+: {}
+
+? DDP 7.1 (Deutsch EAC3 5.1)
+: language: de
+
+? DDP 7.1 (Français EAC3 5.1)
+: language: fr
+
+? DDP 7.1 (Italiano EAC3 5.1)
+: language: it
+
+? DTS
+: {}
+
+? DTS (English 5.1)
+: language: en
+
+? DTS (Português 5.1)
+: language: pt
+
+? DTS 1536 Kbps
+: {}
+
+? DTS 1536 Kbps (English 5.1)
+: language: en
+
+? DTS-HD MA 5.1
+: {}
+
+? DTS-HD MA 5.1 (English)
+: language: en
+
+? DTS-HD MA 5.1 (Español)
+: language: es
+
+? DTS-HD MA 5.1 (Français)
+: language: fr
+
+? DTS-HD MA 5.1 (Italiano)
+: language: it
+
+? DTS-HD MA 5.1 (日本語)
+: language: ja
+
+? DTS-HD MA 6.1
+: {}
+
+? DTS-HD MA 6.1 (Deutsch)
+: language: de
+
+? DTS-HD MA 6.1 (Français)
+: language: fr
+
+? DTS-HD MA 6.1 (Italiano)
+: language: it
+
+? DTS-HD MA 7.1
+: {}
+
+? DTS-HD MA 7.1 (English)
+: language: en
+
+? DTS-HD Master Audio / 5.1 / 48 kHz / 3453 kbps / 24-bit
+: {}
+
+? DTS-HD Master Audio / 5.1 / 48 kHz / 3453 kbps / 24-bit (English)
+: language: en
+
+? DTS-HD NA 5.1
+: {}
+
+? DTS-HD NA 5.1 (English)
+: language: en
+
+? DTS-X 7.1
+: {}
+
+? DTS-X 7.1 (English)
+: language: en
+
+? DTS5.1@1509kbps
+: {}
+
+? DTS5.1@1509kbps (English DTS 5.1)
+: language: en
+
+? DTSHD-MA 7.1 English
+: language: en
+
+? DTSHD-MA 7.1 English (DTS-HD MA)
+: language: en
+
+? DUB iTunes
+: {}
+
+? DUB iTunes (Русский AC3 5.1)
+: language: ru
+
+? Danish
+: language: da
+
+? Danish (Dansk PGS)
+: language: da
+
+? Danish (Dansk SRT)
+: language: da
+
+? Danish (SUP)
+: language: da
+
+? Danish (SUP) (English PGS)
+: language: da
+
+? Danish-PGS
+: language: da
+
+? Danish-PGS (Dansk)
+: language: da
+
+? Dansk
+: language: da
+
+? Dansk (ASS)
+: language: da
+
+? Dansk (DTS-HD MA 5.1)
+: language: da
+
+? Dansk (EAC3 5.1)
+: language: da
+
+? Dansk (PGS)
+: language: da
+
+? Dansk (SRT)
+: language: da
+
+? Dansk (VOBSUB)
+: language: da
+
+? Descriptive Audio
+: descriptive: true
+
+? Descriptive Audio (English AC3 5.1)
+: descriptive: true
+  language: en
+
+? Deutsch
+: language: de
+
+? Deutsch (AAC 5.1)
+: language: de
+
+? Deutsch (AC3 5.1)
+: language: de
+
+? Deutsch (AC3 Stereo)
+: language: de
+
+? Deutsch (ASS)
+: language: de
+
+? Deutsch (DTS 5.1)
+: language: de
+
+? Deutsch (DTS-HD MA 5.1)
+: language: de
+
+? Deutsch (DTS-HD MA 6.1)
+: language: de
+
+? Deutsch (DTS-HD MA 7.1)
+: language: de
+
+? Deutsch (EAC3 5.1)
+: language: de
+
+? Deutsch (PGS)
+: language: de
+
+? Deutsch (SRT External)
+: language: de
+  external: true
+
+? Deutsch (SRT)
+: language: de
+
+? Deutsch (TRUEHD 7.1)
+: language: de
+
+? Deutsch (VOBSUB)
+: language: de
+
+? Deutsch Forced (PGS)
+: language: de
+  forced: true
+
+? Deutsch Forced (VOBSUB)
+: language: de
+  forced: true
+
+? Dolby Atmos TrueHD 7.1 @ 4838 kbps
+: {}
+
+? Dolby Atmos TrueHD 7.1 @ 4838 kbps (English)
+: language: en
+
+? Movie.2019.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT
+: {}
+
+? Movie.2019.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT (1080p H.264)
+: {}
+
+? Movie.2019.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT (English DTS-HD MA 5.1)
+: language: en
+
+? Dub License
+: {}
+
+? Dub License (Русский AC3 5.1)
+: language: ru
+
+? Dutch
+: language: nl
+
+? Dutch (Nederlands PGS)
+: language: nl
+
+? Dutch (Nederlands SRT)
+: language: nl
+
+? Dutch (SUP)
+: language: nl
+
+? Dutch (SUP) (Nederlands PGS)
+: language: nl
+
+? Dutch-PGS
+: language: nl
+
+? Dutch-PGS (Nederlands)
+: language: nl
+
+? ENG
+: language: en
+
+? ENG (English PGS)
+: language: en
+
+? ENG (English SRT)
+: language: en
+
+? ENG (SRT)
+: language: en
+
+? ENG SDH
+: language: en
+  hearing_impaired: true
+
+? ENG SDH (English SRT)
+: hearing_impaired: true
+  language: en
+
+? ENG/SUP (SDH)
+: language: en
+  hearing_impaired: true
+
+? ENG/SUP (SDH) (English PGS)
+: hearing_impaired: true
+  language: en
+
+? EShare
+: {}
+
+? EShare (720p H.264)
+: {}
+
+? EShare (English AC3 5.1)
+: language: en
+
+? EShare (Español AC3 5.1)
+: language: es
+
+? EShare (Español Forced SRT)
+: language: es
+  forced: true
+
+? EShare (Español SRT)
+: language: es
+
+? EU
+: {}
+
+? EU (Español PGS)
+: language: es
+
+? EU (Français PGS)
+: language: fr
+
+? English
+: language: en
+
+? English  [SDH]
+: language: en
+  hearing_impaired: true
+
+? English  [SDH] (SRT)
+: language: en
+  hearing_impaired: true
+
+? English (AAC 5.1)
+: language: en
+
+? English (AAC 7.1)
+: language: en
+
+? English (AAC Stereo)
+: language: en
+
+? English (AC3 5.1)
+: language: en
+
+? English (AC3 Mono)
+: language: en
+
+? English (AC3 Stereo)
+: language: en
+
+? English (ASS)
+: language: en
+
+? English (DCA 7.1)
+: language: en
+
+? English (DTS 4.1)
+: language: en
+
+? English (DTS 5.1)
+: language: en
+
+? English (DTS Stereo)
+: language: en
+
+? English (DTS-HD MA 5.1)
+: language: en
+
+? English (DTS-HD MA 7.1)
+: language: en
+
+? English (DTS-HD MA Stereo)
+: language: en
+
+? English (EAC3 5.1)
+: language: en
+
+? English (EAC3 Stereo)
+: language: en
+
+? English (FLAC Stereo)
+: language: en
+
+? English (Forced PGS)
+: language: en
+  forced: true
+
+? English (Forced SRT)
+: language: en
+  forced: true
+
+? English (Forced only)
+: language: en
+  forced: true
+
+? English (Forced only) (PGS)
+: language: en
+  forced: true
+
+? English (HE-AAC 5.1)
+: language: en
+
+? English (HE-AAC 7.1)
+: language: en
+
+? English (HE-AAC Stereo)
+: language: en
+
+? English (MOV_TEXT)
+: language: en
+
+? English (PCM Stereo)
+: language: en
+
+? English (PGS)
+: language: en
+
+? English (SDH)
+: language: en
+  hearing_impaired: true
+
+? English (SDH) (PGS)
+: language: en
+  hearing_impaired: true
+
+? English (SDH) (SRT)
+: language: en
+  hearing_impaired: true
+
+? English (SRT External)
+: language: en
+  external: true
+
+? English (SRT)
+: language: en
+
+? English (SUP)
+: language: en
+
+? English (SUP) (PGS)
+: language: en
+
+? English (TRUEHD 5.1)
+: language: en
+
+? English (TRUEHD 7.1)
+: language: en
+
+? English (VOBSUB)
+: language: en
+
+? English (VORBIS Stereo)
+: language: en
+
+? English (forced)
+: language: en
+  forced: true
+
+? English (forced) (SRT)
+: language: en
+  forced: true
+
+? English - SDH
+: language: en
+  hearing_impaired: true
+
+? English - SDH (SRT)
+: language: en
+  hearing_impaired: true
+
+? English 7.1
+: language: en
+
+? English 7.1 (AAC)
+: language: en
+
+? English AC3 640kbps
+: language: en
+
+? English AC3 640kbps (5.1)
+: language: en
+
+? English Ac3 5.1 chnls 640 kbps
+: language: en
+
+? English CC
+: language: en
+  closed_caption: true
+
+? English CC (SRT)
+: language: en
+  closed_caption: true
+
+? English DD 5.1
+: language: en
+
+? English DD 5.1 (AC3)
+: language: en
+
+? English DTS
+: language: en
+
+? English DTS (5.1)
+: language: en
+
+? English DTS 5.1 CH @ 1.5M
+: language: en
+
+? English DTS-HD MA 5.1
+: language: en
+
+? English DTSHD-MA 5.1
+: language: en
+
+? English DTSHD-MA 5.1 (DTS-HD MA)
+: language: en
+
+? English Digital Theater Systems (DTS)
+: language: en
+
+? English Digital Theater Systems (DTS) (5.1)
+: language: en
+
+? English Dolby TrueHD with Dolby Atmos (TrueHD)
+: language: en
+
+? English Dolby TrueHD with Dolby Atmos (TrueHD) (7.1)
+: language: en
+
+? English FORCED
+: language: en
+  forced: true
+
+? English FORCED (SRT)
+: language: en
+  forced: true
+
+? English Forced
+: language: en
+  forced: true
+
+? English Forced (PGS)
+: language: en
+  forced: true
+
+? English Forced (SRT)
+: language: en
+  forced: true
+
+? English Forced (VOBSUB)
+: language: en
+  forced: true
+
+? English Forced SRT
+: language: en
+  forced: true
+
+? English PGS
+: language: en
+
+? English REGULAR (SRT)
+: language: en
+
+? English SDH
+: language: en
+  hearing_impaired: true
+
+? English SDH (PGS)
+: language: en
+  hearing_impaired: true
+
+? English SDH (SRT)
+: language: en
+  hearing_impaired: true
+
+? English SDH SRT
+: language: en
+  hearing_impaired: true
+
+? English SRT
+: language: en
+
+? English TrueHD 5.1
+: language: en
+
+? English TrueHD Atmos 7.1
+: language: en
+
+? English [Forced]
+: language: en
+  forced: true
+
+? English [Forced] (SRT)
+: language: en
+  forced: true
+
+? English [Full]
+: language: en
+
+? English [Full] (SRT)
+: language: en
+
+? English [SDH]
+: language: en
+  hearing_impaired: true
+
+? English [SDH] (SRT)
+: language: en
+  hearing_impaired: true
+
+? English forced
+: language: en
+  forced: true
+
+? English forced (SRT)
+: language: en
+  forced: true
+
+? English regular
+: language: en
+
+? English regular (SRT)
+: language: en
+
+? English sdh
+: language: en
+  hearing_impaired: true
+
+? English sdh (SRT)
+: language: en
+  hearing_impaired: true
+
+? English subtitles
+: language: en
+
+? English subtitles (SRT)
+: language: en
+
+? English-COMMENTARY-PGS
+: language: en
+  commentary: true
+
+? English-FORCED-PGS
+: language: en
+  forced: true
+
+? English-FORCED-SRT
+: language: en
+  forced: true
+
+? English-Forced
+: language: en
+  forced: true
+
+? English-Forced (SRT)
+: language: en
+  forced: true
+
+? English-PGS
+: language: en
+
+? English-SDH-PGS
+: language: en
+  hearing_impaired: true
+
+? English-SDH-SRT
+: language: en
+  hearing_impaired: true
+
+? English-SRT
+: language: en
+
+? English-SRT (Forced)
+: language: en
+  forced: true
+
+? English-srt
+: language: en
+
+? Español
+: language: es
+
+? Español (AC3 5.1)
+: language: es
+
+? Español (ASS)
+: language: es
+
+? Español (DTS 5.1)
+: language: es
+
+? Español (DTS-HD MA 5.1)
+: language: es
+
+? Español (EAC3 5.1)
+: language: es
+
+? Español (España)
+: language: es-ES
+
+? Español (España) (SRT)
+: language: es-ES
+
+? Español (FLAC 5.1)
+: language: es
+
+? Español (Latinoamericano)
+: language: es-419
+
+? Español (Latinoamericano) (SRT)
+: language: es-419
+
+? Español (Latinoamérica)
+: language: es-419
+
+? Español (Latinoamérica) (SRT)
+: language: es-419
+
+? Español (MOV_TEXT)
+: language: es
+
+? Español (PGS)
+: language: es
+
+? Español (SRT)
+: language: es
+
+? Español (VOBSUB)
+: language: es
+
+? Español Forced (SRT)
+: language: es
+  forced: true
+
+? Estonian
+: language: et
+
+? Estonian (eesti PGS)
+: language: et-EE
+
+? Estonian-PGS
+: language: et
+
+? Estonian-PGS (eesti)
+: language: et-EE
+
+? European
+: {}
+
+? European (Español SRT)
+: language: es
+
+? European (català SRT)
+: language: ca
+
+? European (euskara SRT)
+: language: eu
+
+? European (galego SRT)
+: language: gl
+
+? European Spanish
+: language: es
+
+? European Spanish (Español SRT)
+: language: es
+
+? FAQ
+: {}
+
+? FAQ (English PGS)
+: language: en
+
+? FAQ (Français PGS)
+: language: fr
+
+? FORCED
+: forced: true
+
+? FORCED (Deutsch PGS)
+: forced: true
+  language: de
+
+? FORCED (English PGS)
+: forced: true
+  language: en
+
+? FORCED (English SRT)
+: forced: true
+  language: en
+
+? FORCED (Español PGS)
+: forced: true
+  language: es
+
+? FORCED (Français PGS)
+: forced: true
+  language: fr
+
+? FORCED (Italiano PGS)
+: forced: true
+  language: it
+
+? FORCED (日本語 PGS)
+: forced: true
+  language: ja
+
+? FR
+: language: fr-FR
+
+? FR (SRT)
+: language: fr-FR
+
+? Filipino
+: language: fil
+
+? Filipino (SRT)
+: language: fil
+
+? Finnish
+: language: fi
+
+? Finnish (SUP)
+: language: fi
+
+? Finnish (SUP) (Suomi PGS)
+: language: fi-FI
+
+? Finnish (Suomi PGS)
+: language: fi-FI
+
+? Finnish (Suomi SRT)
+: language: fi-FI
+
+? Finnish-PGS
+: language: fi
+
+? Finnish-PGS (Suomi)
+: language: fi-FI
+
+? Forced
+: forced: true
+
+? Forced (Deutsch VOBSUB)
+: forced: true
+  language: de
+
+? Forced (English PGS)
+: forced: true
+  language: en
+
+? Forced (English SRT)
+: forced: true
+  language: en
+
+? Forced (English VOBSUB)
+: forced: true
+  language: en
+
+? Forced (Français SRT)
+: forced: true
+  language: fr
+
+? Forced (Русский SRT)
+: forced: true
+  language: ru
+
+? Forced (Українська SRT)
+: forced: true
+  language: uk
+
+? Forced SRT
+: forced: true
+
+? Forced SRT (English)
+: forced: true
+  language: en
+
+? A.Movie.2018.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT
+: {}
+
+? A.Movie.2018.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT (1080p H.264)
+: {}
+
+? A.Movie.2018.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT (English DTS-HD MA 5.1)
+: language: en
+
+? A.Movie.1995.BluRay.720p.x264.DTS-MySiLU
+: {}
+
+? A.Movie.1995.BluRay.720p.x264.DTS-MySiLU (720p H.264)
+: {}
+
+? Français
+: language: fr
+
+? Français (AAC 5.1)
+: language: fr
+
+? Français (AC3 5.1)
+: language: fr
+
+? Français (ASS)
+: language: fr
+
+? Français (Canada)
+: language: fr-CA
+
+? Français (Canada) (SRT)
+: language: fr-CA
+
+? Français (Canadien)
+: language: fr-CA
+
+? Français (Canadien) (SRT)
+: language: fr-CA
+
+? Français (DTS 5.1)
+: language: fr
+
+? Français (DTS-HD MA 5.1)
+: language: fr
+
+? Français (DTS-HD MA 6.1)
+: language: fr
+
+? Français (EAC3 5.1)
+: language: fr
+
+? Français (France)
+: language: fr-FR
+
+? Français (France) (SRT)
+: language: fr-FR
+
+? Français (PGS)
+: language: fr
+
+? Français (SRT)
+: language: fr
+
+? Français (TRUEHD 7.1)
+: language: fr
+
+? Français (VOBSUB)
+: language: fr
+
+? Français Forced (SRT)
+: language: fr
+  forced: true
+
+? French
+: language: fr
+
+? French (Canada)
+: language: fr-CA
+
+? French (Canada) (Français SRT)
+: language: fr-CA
+
+? French (Canadian)
+: language: fr-CA
+
+? French (Canadian) (Français SRT)
+: language: fr-CA
+
+? French (Français DTS 5.1)
+: language: fr
+
+? French (Français PGS)
+: language: fr
+
+? French (Français SRT)
+: language: fr
+
+? French (SDH)
+: language: fr
+  hearing_impaired: true
+
+? French (SDH) (Français PGS)
+: language: fr
+  hearing_impaired: true
+
+? French (SUP)
+: language: fr
+
+? French (SUP) (Français PGS)
+: language: fr
+
+? French AC3 640kbps
+: language: fr
+
+? French AC3 640kbps (Français 5.1)
+: language: fr
+
+? French Canadian
+: language: fr-CA
+
+? French Canadian (Français SRT)
+: language: fr-CA
+
+? French-COMMENTARY-PGS
+: language: fr
+  commentary: true
+
+? French-COMMENTARY-PGS (Français)
+: language: fr
+  commentary: true
+
+? French-FORCED-PGS
+: language: fr
+  forced: true
+
+? French-FORCED-PGS (Français)
+: language: fr
+  forced: true
+
+? French-PGS
+: language: fr
+
+? French-PGS (Français)
+: language: fr
+
+? Full
+: {}
+
+? Full (English PGS)
+: language: en
+
+? Full (English SRT)
+: language: en
+
+? Full (Grey)
+: {}
+
+? Full (Grey) (English PGS)
+: language: en
+
+? Full (UK)
+: language: en-GB
+
+? Full (UK) (English PGS)
+: language: en-GB
+
+? Full (US)
+: language: en-US
+
+? Full (US) (English PGS)
+: language: en-US
+
+? Full (White)
+: {}
+
+? Full (White) (English PGS)
+: language: en
+
+? Full (Русский SRT)
+: language: ru
+
+? Full SRT
+: {}
+
+? Full SRT (English)
+: language: en
+
+? Full SRT (UK)
+: language: en-GB
+
+? Full SRT (UK) (English)
+: language: en-GB
+
+? Full SRT (US)
+: language: en-US
+
+? Full SRT (US) (English)
+: language: en-US
+
+? Full UK
+: language: en-GB
+
+? Full UK (English PGS)
+: language: en-GB
+
+? Full UK SRT
+: language: en-GB
+
+? Full UK SRT (English)
+: language: en-GB
+
+? Full US
+: language: en-US
+
+? Full US (English PGS)
+: language: en-US
+
+? Full US SRT
+: language: en-US
+
+? Full US SRT (English)
+: language: en-US
+
+? German
+: language: de
+
+? German (Deutsch PGS)
+: language: de
+
+? German (Deutsch SRT)
+: language: de
+
+? German (SUP)
+: language: de
+
+? German (SUP) (Deutsch PGS)
+: language: de
+
+? German 5.1
+: language: de
+
+? German 5.1 (Deutsch AAC)
+: language: de
+
+? German-COMMENTARY-PGS
+: language: de
+  commentary: true
+
+? German-COMMENTARY-PGS (Deutsch)
+: language: de
+  commentary: true
+
+? German-FORCED-PGS
+: language: de
+  forced: true
+
+? German-FORCED-PGS (Deutsch)
+: language: de
+  forced: true
+
+? German-FORCED-pgs
+: language: de
+  forced: true
+
+? German-FORCED-pgs (Deutsch)
+: language: de
+  forced: true
+
+? German-PGS
+: language: de
+
+? German-PGS (Deutsch)
+: language: de
+
+? German-SDH-PGS
+: language: de
+  hearing_impaired: true
+
+? German-SDH-PGS (Deutsch)
+: language: de
+  hearing_impaired: true
+
+? A.Movie.2014.720p.BluRay.x264.DTS-RARBG
+: {}
+
+? A.Movie.2014.720p.BluRay.x264.DTS-RARBG (720p H.264)
+: {}
+
+? A.Movie.2014.720p.BluRay.x264.DTS-RARBG (English DTS 5.1)
+: language: en
+
+? Movie.2013.1080p.BluRay.REMUX.AVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT
+: {}
+
+? Movie.2013.1080p.BluRay.REMUX.AVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (1080p H.264)
+: {}
+
+? Movie.2013.1080p.BluRay.REMUX.AVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (Deutsch AC3 5.1)
+: language: de
+
+? Movie.2013.1080p.BluRay.REMUX.AVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (English AC3 5.1)
+: language: en
+
+? Movie.2013.1080p.BluRay.REMUX.AVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (English DTS-HD MA 7.1)
+: language: en
+
+? Movie.2013.1080p.BluRay.REMUX.AVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (English TRUEHD 7.1)
+: language: en
+
+? Movie.2013.1080p.BluRay.REMUX.AVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (Español AC3 5.1)
+: language: es
+
+? Movie.2013.1080p.BluRay.REMUX.AVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (Français AC3 5.1)
+: language: fr
+
+? Movie.2013.1080p.BluRay.REMUX.AVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (Italiano AC3 5.1)
+: language: it
+
+? Movie.2013.1080p.BluRay.REMUX.AVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (Português AC3 5.1)
+: language: pt
+
+? Greek
+: language: el
+
+? Greek (Modern)
+: language: el
+
+? Greek (Modern) (Ελληνικά SRT)
+: language: el
+
+? Greek (Ελληνικά PGS)
+: language: el
+
+? Greek (Ελληνικά SRT)
+: language: el
+
+? Greek-PGS
+: language: el
+
+? Greek-PGS (Ελληνικά)
+: language: el
+
+? Grey
+: {}
+
+? Grey (Español PGS)
+: language: es
+
+? A Movie
+: {}
+
+? A Movie (4K HDR10 HEVC Main 10)
+: {}
+
+? Movie.2018.2160p.BluRay.x265.10bit.HDR.DTS-X.7.1-SWTYBLZ
+: {}
+
+? Movie.2018.2160p.BluRay.x265.10bit.HDR.DTS-X.7.1-SWTYBLZ (4K HDR10 HEVC Main 10)
+: {}
+
+? Movie.2018.2160p.BluRay.x265.10bit.HDR.DTS-X.7.1-SWTYBLZ (English AC3 5.1)
+: language: en
+
+? Movie.2018.2160p.BluRay.x265.10bit.HDR.DTS-X.7.1-SWTYBLZ (English DTS-HD MA 7.1)
+: language: en
+
+? Hebrew
+: language: he
+
+? Hebrew (עברית PGS)
+: language: he
+
+? Hebrew (עברית SRT)
+: language: he
+
+? Hebrew-PGS
+: language: he
+
+? Hebrew-PGS (עברית)
+: language: he
+
+? Hindi
+: language: hi
+
+? Hindi (SDH)
+: language: hi
+  hearing_impaired: true
+
+? Hindi (SDH) (हिन्दी SRT)
+: language: hi
+  hearing_impaired: true
+
+? Hindi (हिन्दी PGS)
+: language: hi
+
+? Hindi (हिन्दी SRT)
+: language: hi
+
+? Hindi-PGS
+: language: hi
+
+? Hindi-PGS (हिन्दी)
+: language: hi
+
+? Movie 2015 By MgB
+: {}
+
+? Movie 2015 By MgB (720p H.264)
+: {}
+
+? Movie 2015 DTS 5.1
+: {}
+
+? Movie 2015 DTS 5.1 (English)
+: language: en
+
+? Hong Kong
+: language: zh-HK
+
+? Hong Kong (中文 SRT)
+: language: zh-HK
+
+? Hrvatski (ASS)
+: language: hr
+
+? Hrvatski (PGS)
+: language: hr
+
+? Hrvatski (SRT)
+: language: hr
+
+? Hrvatski (VOBSUB)
+: language: hr
+
+? Hungarian
+: language: hu
+
+? Hungarian (magyar PGS)
+: language: hu
+
+? Hungarian (magyar SRT)
+: language: hu
+
+? Hungarian-FORCED-PGS
+: language: hu
+  forced: true
+
+? Hungarian-FORCED-PGS (magyar)
+: language: hu
+  forced: true
+
+? Hungarian-PGS
+: language: hu
+
+? Hungarian-PGS (magyar)
+: language: hu
+
+? A.Movie.2018.1080p.BluRay.x264.DTS-HD.MA.7.1-FGT
+: {}
+
+? A.Movie.2018.1080p.BluRay.x264.DTS-HD.MA.7.1-FGT (1080p H.264)
+: {}
+
+? A.Movie.2018.1080p.BluRay.x264.DTS-HD.MA.7.1-FGT (English DTS-HD MA 7.1)
+: language: en
+
+? Icelandic
+: language: is
+
+? Icelandic (íslenska PGS)
+: language: is
+
+? Icelandic (íslenska SRT)
+: language: is
+
+? Icelandic-PGS
+: language: is
+
+? Icelandic-PGS (íslenska)
+: language: is
+
+? Indonesia (PGS)
+: language: id-ID
+
+? Indonesia (SRT)
+: language: id-ID
+
+? Indonesia (VOBSUB)
+: language: id-ID
+
+? Indonesian
+: language: id
+
+? Indonesian (Indonesia PGS)
+: language: id-ID
+
+? Indonesian (Indonesia SRT)
+: language: id-ID
+
+? Indonesian-PGS
+: language: id
+
+? Indonesian-PGS (Indonesia)
+: language: id-ID
+
+? Italian
+: language: it
+
+? Italian (Italiano PGS)
+: language: it
+
+? Italian (Italiano SRT)
+: language: it
+
+? Italian (SUP)
+: language: it
+
+? Italian (SUP) (Italiano PGS)
+: language: it
+
+? Italian DTS 5.1 chnls 768 kbps
+: language: it
+
+? Italian DTS 5.1 chnls 768 kbps (Italiano)
+: language: it
+
+? Italian-FORCED-PGS
+: language: it
+  forced: true
+
+? Italian-FORCED-PGS (Italiano)
+: language: it
+  forced: true
+
+? Italian-PGS
+: language: it
+
+? Italian-PGS (Italiano)
+: language: it
+
+? Italiano
+: language: it
+
+? Italiano (AC3 5.1)
+: language: it
+
+? Italiano (ASS)
+: language: it
+
+? Italiano (DTS 5.1)
+: language: it
+
+? Italiano (DTS-HD MA 5.1)
+: language: it
+
+? Italiano (DTS-HD MA 6.1)
+: language: it
+
+? Italiano (EAC3 5.1)
+: language: it
+
+? Italiano (PGS)
+: language: it
+
+? Italiano (SRT)
+: language: it
+
+? Italiano (VOBSUB)
+: language: it
+
+? Japanese
+: language: ja
+
+? Japanese (SUP)
+: language: ja
+
+? Japanese (SUP) (日本語 PGS)
+: language: ja
+
+? Japanese (日本語 PGS)
+: language: ja
+
+? Japanese (日本語 SRT)
+: language: ja
+
+? Japanese 1
+: language: ja
+
+? Japanese 1 (日本語 PGS)
+: language: ja
+
+? Japanese 2
+: language: ja
+
+? Japanese 2 (日本語 PGS)
+: language: ja
+
+? Japanese SDH
+: language: ja
+  hearing_impaired: true
+
+? Japanese SDH (日本語 PGS)
+: language: ja
+  hearing_impaired: true
+
+? Japanese forced
+: language: ja
+  forced: true
+
+? Japanese forced (日本語 PGS)
+: language: ja
+  forced: true
+
+? Japanese-FORCED-PGS
+: language: ja
+  forced: true
+
+? Japanese-FORCED-PGS (日本語)
+: language: ja
+  forced: true
+
+? Japanese-PGS
+: language: ja
+
+? Japanese-PGS (日本語)
+: language: ja
+
+? A.Movie.2019.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.5.1-SWTYBLZ
+: {}
+
+? A.Movie.2019.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.5.1-SWTYBLZ (4K HDR10 HEVC Main 10)
+: {}
+
+? A.Movie.2019.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.5.1-SWTYBLZ (English AC3 5.1)
+: language: en
+
+? A.Movie.2019.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.5.1-SWTYBLZ (English DTS-HD MA 5.1)
+: language: en
+
+? Korean
+: language: ko
+
+? Korean (SUP)
+: language: ko
+
+? Korean (SUP) (한국어 PGS)
+: language: ko
+
+? Korean (한국어 PGS)
+: language: ko
+
+? Korean (한국어 SRT)
+: language: ko
+
+? Korean-PGS
+: language: ko
+
+? Korean-PGS (한국어)
+: language: ko
+
+? LA
+: {}
+
+? LA (Español PGS)
+: language: es
+
+? SHOW
+: {}
+
+? SHOW (1080p H.264)
+: {}
+
+? SHOW (English AC3 5.1)
+: language: en
+
+? SHOW (English Forced SRT)
+: language: en
+  forced: true
+
+? Latin
+: language: es-419
+
+? Latin (Español PGS)
+: language: es-419
+
+? Latin America Spanish
+: language: es-419
+
+? Latin America Spanish (Español SRT)
+: language: es-419
+
+? Latin America Spanish [SDH]
+: language: es-419
+  hearing_impaired: true
+
+? Latin America Spanish [SDH] (Español SRT)
+: language: es-419
+  hearing_impaired: true
+
+? Latin American
+: language: es-419
+
+? Latin American (Español PGS)
+: language: es-419
+
+? Latin American (Español SRT)
+: language: es-419
+
+? Latin American SDH
+: language: es-419
+  hearing_impaired: true
+
+? Latin American SDH (Español SRT)
+: language: es-419
+  hearing_impaired: true
+
+? Latvian
+: language: lv
+
+? Latvian (latviešu PGS)
+: language: lv
+
+? Latvian-PGS
+: language: lv
+
+? Latvian-PGS (latviešu)
+: language: lv
+
+? Film.2017.1080p.BluRay.x264.TrueHD.7.1.Atmos-SWTYBLZ
+: {}
+
+? Film.2017.1080p.BluRay.x264.TrueHD.7.1.Atmos-SWTYBLZ (1080p H.264)
+: {}
+
+? Film.2017.1080p.BluRay.x264.TrueHD.7.1.Atmos-SWTYBLZ (English AC3 5.1)
+: language: en
+
+? Film.2017.1080p.BluRay.x264.TrueHD.7.1.Atmos-SWTYBLZ (English TRUEHD 7.1)
+: language: en
+
+? Lithuanian
+: language: lt
+
+? Lithuanian (lietuvių PGS)
+: language: lt
+
+? Lithuanian-PGS
+: language: lt
+
+? Lithuanian-PGS (lietuvių)
+: language: lt
+
+? Little.Movie.2019.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT
+: {}
+
+? Little.Movie.2019.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT (1080p H.264)
+: {}
+
+? Little.Movie.2019.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT (DTS-HD MA 5.1)
+: {}
+
+? Magyar
+: language: hu
+
+? Magyar (SRT)
+: language: hu
+
+? Malay
+: language: ms
+
+? Malay (Melayu PGS)
+: language: ms
+
+? Malay (Melayu SRT)
+: language: ms
+
+? Malay-PGS
+: language: ms
+
+? Malay-PGS (Melayu)
+: language: ms
+
+? A.First.Movie.2018.1080p.BluRay.x264.DTS-HD.MA.7.1-FGT
+: {}
+
+? A.First.Movie.2018.1080p.BluRay.x264.DTS-HD.MA.7.1-FGT (1080p H.264)
+: {}
+
+? A.First.Movie.2018.1080p.BluRay.x264.DTS-HD.MA.7.1-FGT (English DTS-HD MA 7.1)
+: language: en
+
+? Mandarin Traditional
+: language: zh
+
+? Mandarin Traditional (中文 PGS)
+: language: zh-Hant
+
+? Melayu (PGS)
+: language: ms
+
+? Melayu (SRT)
+: language: ms
+
+? Film.2019.DC.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.5.1-SWTYBLZ
+: {}
+
+? Film.2019.DC.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.5.1-SWTYBLZ (4K HDR10 HEVC Main 10)
+: {}
+
+? Film.2019.DC.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.5.1-SWTYBLZ (English AC3 5.1)
+: language: en
+
+? Film.2019.DC.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.5.1-SWTYBLZ (English DTS-HD MA 5.1)
+: language: en
+
+? Film.2020.[WEB-DL+WEBRip+HDRip] - renomeie para seu release
+: {}
+
+? Film.2020.[WEB-DL+WEBRip+HDRip] - renomeie para seu release (Português SRT OpenSubtitles)
+: language: pt
+
+? Film.2016.MULTIDUB.1080p.BluRay.x264-!DEADMEN
+: {}
+
+? Film.2016.MULTIDUB.1080p.BluRay.x264-!DEADMEN (1080p H.264)
+: {}
+
+? Film.2016.MULTIDUB.1080p.BluRay.x264-!DEADMEN (Dansk EAC3 5.1)
+: language: da
+
+? Film.2016.MULTIDUB.1080p.BluRay.x264-!DEADMEN (English DTS-HD MA 7.1)
+: language: en
+
+? Film.2016.MULTIDUB.1080p.BluRay.x264-!DEADMEN (Italiano EAC3 5.1)
+: language: it
+
+? Film.2016.MULTIDUB.1080p.BluRay.x264-!DEADMEN (Suomi EAC3 5.1)
+: language: fi
+
+? Film.2016.MULTIDUB.1080p.BluRay.x264-!DEADMEN (Svenska EAC3 5.1)
+: language: sv
+
+? Film.2016.MULTIDUB.1080p.BluRay.x264-!DEADMEN (norsk EAC3 5.1)
+: language: 'no'
+
+? Nederlands
+: language: nl
+
+? Nederlands (ASS)
+: language: nl
+
+? Nederlands (PGS)
+: language: nl
+
+? Nederlands (SRT)
+: language: nl
+
+? Nederlands (VOBSUB)
+: language: nl
+
+? Norsk
+: language: 'no'
+
+? Norsk (SRT)
+: language: 'no'
+
+? Norwegian
+: language: 'no'
+
+? Norwegian (SUP)
+: language: 'no'
+
+? Norwegian (SUP) (norsk PGS)
+: language: 'no'
+
+? Norwegian (norsk PGS)
+: language: 'no'
+
+? Norwegian (norsk SRT)
+: language: 'no'
+
+? Norwegian-PGS
+: language: 'no'
+
+? Norwegian-PGS (norsk)
+: language: 'no'
+
+? A.Second.Movie.2013.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.5.1-SWTYBLZ
+: {}
+
+? A.Second.Movie.2013.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.5.1-SWTYBLZ (4K HDR10 HEVC Main 10)
+: {}
+
+? A.Second.Movie.2013.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.5.1-SWTYBLZ (English AC3 5.1)
+: language: en
+
+? A.Second.Movie.2013.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.5.1-SWTYBLZ (English DTS-HD MA 5.1)
+: language: en
+
+? Original
+: {}
+
+? Original (English DTS 5.1)
+: language: en
+
+? Original (English TRUEHD 7.1)
+: language: en
+
+? Original 2.0
+: {}
+
+? Original 2.0 (English DTS-HD MA)
+: language: en
+
+? Original 2.0 (English FLAC)
+: language: en
+
+? Original 4.1
+: {}
+
+? Original 4.1 (English DTS)
+: language: en
+
+? PAR
+: {}
+
+? PAR (Français PGS)
+: language: fr
+
+? Parisian
+: language: fr-FR
+
+? Parisian (Français PGS)
+: language: fr-FR
+
+? Pikey
+: {}
+
+? Pikey (English VOBSUB)
+: language: en
+
+? Movie 1986 BDRip 1080p DTS-HighCode
+: {}
+
+? Movie 1986 BDRip 1080p DTS-HighCode (H.264)
+: {}
+
+? Polish
+: language: pl
+
+? Polish (SUP)
+: language: pl
+
+? Polish (SUP) (polski PGS)
+: language: pl
+
+? Polish (polski PGS)
+: language: pl
+
+? Polish (polski SRT)
+: language: pl
+
+? Polish-FORCED-PGS
+: language: pl
+  forced: true
+
+? Polish-FORCED-PGS (polski)
+: language: pl
+  forced: true
+
+? Polish-PGS
+: language: pl
+
+? Polish-PGS (polski)
+: language: pl
+
+? Polski
+: language: pl
+
+? Polski (SRT)
+: language: pl
+
+? Portuguese
+: language: pt
+
+? Portuguese (Brazilian)
+: language: pt-BR
+
+? Portuguese (Brazilian) (Português EAC3 5.1)
+: language: pt-BR
+
+? Portuguese (Brazilian) (Português PGS)
+: language: pt-BR
+
+? Portuguese (Brazilian) (SDH)
+: language: pt-BR
+  hearing_impaired: true
+
+? Portuguese (Brazilian) (SDH) (Português SRT)
+: language: pt-BR
+  hearing_impaired: true
+
+? Portuguese (Português DTS 5.1)
+: language: pt
+
+? Portuguese (Português PGS)
+: language: pt
+
+? Portuguese (Português SRT)
+: language: pt
+
+? Portuguese (SUP)
+: language: pt
+
+? Portuguese (SUP) (Português PGS)
+: language: pt
+
+? Portuguese Brazil
+: language: pt-BR
+
+? Portuguese Brazil (Português SRT)
+: language: pt-BR
+
+? Portuguese Brazilian
+: language: pt-BR
+
+? Portuguese Brazilian (Português SRT)
+: language: pt-BR
+
+? Portuguese Brazilian [SDH]
+: language: pt-BR
+  hearing_impaired: true
+
+? Portuguese Brazilian [SDH] (Português SRT)
+: language: pt-BR
+  hearing_impaired: true
+
+? Portuguese-FORCED-PGS
+: language: pt
+  forced: true
+
+? Portuguese-FORCED-PGS (Português)
+: language: pt
+  forced: true
+
+? Portuguese-PGS
+: language: pt
+
+? Portuguese-PGS (Português)
+: language: pt
+
+? Português
+: language: pt
+
+? Português (AAC 5.1)
+: language: pt
+
+? Português (AAC Stereo)
+: language: pt
+
+? Português (AC3 5.1)
+: language: pt
+
+? Português (AC3 Stereo)
+: language: pt
+
+? Português (ASS External)
+: language: pt
+  external: true
+
+? Português (ASS)
+: language: pt
+
+? Português (Brasil)
+: language: pt-BR
+
+? Português (Brasil) (SRT)
+: language: pt-BR
+
+? Português (DTS 5.1)
+: language: pt
+
+? Português (DTS-HD MA 5.1)
+: language: pt
+
+? Português (EAC3 5.1)
+: language: pt
+
+? Português (PGS)
+: language: pt
+
+? Português (SRT External)
+: language: pt
+  external: true
+
+? Português (SRT OpenSubtitles)
+: language: pt
+
+? Português (SRT)
+: language: pt
+
+? Português (VOBSUB)
+: language: pt
+
+? Português Forced (PGS)
+: language: pt
+  forced: true
+
+? Pourtuguese (SUP) (Português PGS)
+: language: pt
+
+? Film.2014.720p.BluRay.x264.DTS-RARBG
+: {}
+
+? Film.2014.720p.BluRay.x264.DTS-RARBG (720p H.264)
+: {}
+
+? Film.2014.720p.BluRay.x264.DTS-RARBG (English DTS 5.1)
+: language: en
+
+? QC
+: {}
+
+? QC (Français PGS)
+: language: fr
+
+? A.Second.Movie.2005.1080p.WEBRip.DD5.1.x264-FGT
+: {}
+
+? A.Second.Movie.2005.1080p.WEBRip.DD5.1.x264-FGT (1080p H.264)
+: {}
+
+? A.Second.Movie.2005.1080p.WEBRip.DD5.1.x264-FGT (English AC3 5.1)
+: language: en
+
+? Regular
+: {}
+
+? Regular (English SRT)
+: language: en
+
+? Film.2019.BDRip.2160p.x265.10bit.HDR.Master5
+: {}
+
+? Film.2019.BDRip.2160p.x265.10bit.HDR.Master5 (4K HDR10 HEVC Main 10)
+: {}
+
+? Romanian
+: language: ro
+
+? Romanian (Romania)
+: language: ro-RO
+
+? Romanian (Romania) (română SRT)
+: language: ro-RO
+
+? Romanian (română PGS)
+: language: ro
+
+? Romanian (română SRT)
+: language: ro
+
+? Romanian-PGS
+: language: ro
+
+? Romanian-PGS (română)
+: language: ro
+
+? Română
+: language: ro
+
+? Română (SRT)
+: language: ro
+
+? Russian
+: language: ru
+
+? Russian (Русский PGS)
+: language: ru
+
+? Russian (Русский SRT)
+: language: ru
+
+? Russian DTS 1509kbps
+: language: ru
+
+? Russian DTS 1509kbps (Русский 5.1)
+: language: ru
+
+? Russian-FORCED-PGS
+: language: ru
+  forced: true
+
+? Russian-FORCED-PGS (Русский)
+: language: ru
+  forced: true
+
+? Russian-PGS
+: language: ru
+
+? Russian-PGS (Русский)
+: language: ru
+
+? SD (H.264)
+: {}
+
+? SD (MPEG4)
+: {}
+
+? SDH
+: hearing_impaired: true
+
+? SDH (Deutsch SRT)
+: hearing_impaired: true
+  language: de
+
+? SDH (English PGS)
+: hearing_impaired: true
+  language: en
+
+? SDH (English SRT)
+: hearing_impaired: true
+  language: en
+
+? SDH (English VOBSUB)
+: hearing_impaired: true
+  language: en
+
+? SDH (Français SRT)
+: hearing_impaired: true
+  language: fr
+
+? SDH (Grey)
+: hearing_impaired: true
+
+? SDH (Grey) (English PGS)
+: hearing_impaired: true
+  language: en
+
+? SDH (UK)
+: hearing_impaired: true
+  language: en-GB
+
+? SDH (UK) (English PGS)
+: hearing_impaired: true
+  language: en-GB
+
+? SDH (US)
+: hearing_impaired: true
+  language: en-US
+
+? SDH (US) (English PGS)
+: hearing_impaired: true
+  language: en-US
+
+? SDH (White)
+: hearing_impaired: true
+
+? SDH (White) (English PGS)
+: hearing_impaired: true
+  language: en
+
+? SDH Colored
+: hearing_impaired: true
+
+? SDH Colored (English SRT)
+: hearing_impaired: true
+  language: en
+
+? SDH SRT
+: hearing_impaired: true
+
+? SDH SRT (English)
+: hearing_impaired: true
+  language: en
+
+? SDH SRT (UK)
+: hearing_impaired: true
+  language: en-GB
+
+? SDH SRT (UK) (English)
+: hearing_impaired: true
+  language: en-GB
+
+? SDH SRT (US)
+: hearing_impaired: true
+  language: en-US
+
+? SDH SRT (US) (English)
+: hearing_impaired: true
+  language: en-US
+
+? SDH SRT (not positioned)
+: hearing_impaired: true
+
+? SDH SRT (not positioned) (English)
+: hearing_impaired: true
+  language: en
+
+? SDH SUP
+: hearing_impaired: true
+
+? SDH SUP (English PGS)
+: hearing_impaired: true
+  language: en
+
+? SDH UK
+: hearing_impaired: true
+  language: en-GB
+
+? SDH UK (English PGS)
+: hearing_impaired: true
+  language: en-GB
+
+? SDH UK SRT
+: hearing_impaired: true
+  language: en-GB
+
+? SDH UK SRT (English)
+: hearing_impaired: true
+  language: en-GB
+
+? SDH US
+: hearing_impaired: true
+  language: en-US
+
+? SDH US (English PGS)
+: hearing_impaired: true
+  language: en-US
+
+? SDH US SRT
+: hearing_impaired: true
+  language: en-US
+
+? SDH US SRT (English)
+: hearing_impaired: true
+  language: en-US
+
+? SRT
+: {}
+
+? SRT (English)
+: language: en
+
+? Serbian
+: language: sr
+
+? Serbian (српски PGS)
+: language: sr
+
+? Serbian-PGS
+: language: sr
+
+? Serbian-PGS (српски)
+: language: sr
+
+? Film.2016.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT
+: {}
+
+? Film.2016.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT (1080p H.264)
+: {}
+
+? Film.2016.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT (English DTS-HD MA 5.1)
+: language: en
+
+? Simplified
+: language: zh-Hans
+
+? Simplified (中文 SRT)
+: language: zh-Hans
+
+? Film.2018.2160p.BluRay.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ
+: {}
+
+? Film.2018.2160p.BluRay.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ (4K HDR10 HEVC Main 10)
+: {}
+
+? Film.2018.2160p.BluRay.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ (English AC3 5.1)
+: language: en
+
+? Film.2018.2160p.BluRay.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ (English DTS-HD MA 7.1)
+: language: en
+
+? Film.2018.2160p.BluRay.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ (English TRUEHD 7.1)
+: language: en
+
+? Slovak
+: language: sk
+
+? Slovak (Slovenčina PGS)
+: language: sk
+
+? Slovak (Slovenčina SRT)
+: language: sk
+
+? Slovak-PGS
+: language: sk
+
+? Slovak-PGS (Slovenčina)
+: language: sk
+
+? Slovenian
+: language: sl
+
+? Slovenian (slovenščina PGS)
+: language: sl
+
+? Slovenian-PGS
+: language: sl
+
+? Slovenian-PGS (slovenščina)
+: language: sl
+
+? Slovenčina
+: language: sk
+
+? Slovenčina (PGS)
+: language: sk
+
+? Slovenčina (SRT)
+: language: sk
+
+? Slovenčina (VOBSUB)
+: language: sk
+
+? Spanish
+: language: es
+
+? Spanish (Castilian)
+: language: es
+
+? Spanish (Castilian) (Español PGS)
+: language: es
+
+? Spanish (Español AC3 5.1)
+: language: es
+
+? Spanish (Español PGS)
+: language: es
+
+? Spanish (Español SRT)
+: language: es
+
+? Spanish (Latin American)
+: language: es-419
+
+? Spanish (Latin American) (Español PGS)
+: language: es-419
+
+? Spanish (Latin American) (Español SRT)
+: language: es-419
+
+? Spanish (SUP)
+: language: es
+
+? Spanish (SUP) (Español PGS)
+: language: es
+
+? Spanish 1
+: language: es
+
+? Spanish 1 (Español PGS)
+: language: es
+
+? Spanish 2
+: language: es
+
+? Spanish 2 (Español PGS)
+: language: es
+
+? Spanish Latin American
+: language: es-419
+
+? Spanish Latin American (Español SRT)
+: language: es-419
+
+? Spanish [SDH]
+: language: es
+  hearing_impaired: true
+
+? Spanish [SDH] (Español SRT)
+: language: es
+  hearing_impaired: true
+
+? Spanish-COMMENTARY-PGS
+: language: es
+  commentary: true
+
+? Spanish-COMMENTARY-PGS (Español)
+: language: es
+  commentary: true
+
+? Spanish-FORCED-PGS
+: language: es
+  forced: true
+
+? Spanish-FORCED-PGS (Español)
+: language: es
+  forced: true
+
+? Spanish-PGS
+: language: es
+
+? Spanish-PGS (Español)
+: language: es
+
+? The.First.Movie.2018.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT
+: {}
+
+? The.First.Movie.2018.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (4K HDR10 HEVC Main 10)
+: {}
+
+? The.First.Movie.2018.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (English AC3 5.1)
+: language: en
+
+? The.First.Movie.2018.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (English AC3 Stereo)
+: language: en
+
+? The.First.Movie.2018.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (English DTS-HD MA 7.1)
+: language: en
+
+? The.First.Movie.2018.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (English TRUEHD 7.1)
+: language: en
+
+? The.First.Movie.2018.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (Español AC3 5.1)
+: language: es
+
+? The.First.Movie.2018.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (Français AC3 5.1)
+: language: fr
+
+? The.First.Movie.2021.1080p.AMZN.WEB-DL.DDP5.1.H264-CM
+: {}
+
+? Some.Other.Movie.2021.1080p.AMZN.WEB-DL.DDP5.1.H264-CM (Português SRT OpenSubtitles)
+: language: pt
+
+? Some.Film.2016.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT
+: {}
+
+? Some.Film.2016.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT (1080p H.264)
+: {}
+
+? Some.Film.2016.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT (English DTS-HD MA 5.1)
+: language: en
+
+? Another.Film.Episode.III.Title.2005.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT
+: {}
+
+? Another.Film.Episode.III.Title.2005.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (4K HDR10 HEVC Main 10)
+: {}
+
+? Another.Film.Episode.III.Title.2005.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (English AC3 5.1)
+: language: en
+
+? Another.Film.Episode.III.Title.2005.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (English TRUEHD 7.1)
+: language: en
+
+? Stereo
+: {}
+
+? Stereo (English PCM)
+: language: en
+
+? Stereo (Português AC3)
+: language: pt
+
+? Stripped SRT
+: {}
+
+? Stripped SRT (English)
+: language: en
+
+? Stripped SRT (UK)
+: language: en-GB
+
+? Stripped SRT (UK) (English)
+: language: en-GB
+
+? Stripped SRT (US)
+: language: en-US
+
+? Stripped SRT (US) (English)
+: language: en-US
+
+? Stripped SRT (not positioned)
+: {}
+
+? Stripped SRT (not positioned) (English)
+: language: en
+
+? Stripped UK SRT
+: language: en-GB
+
+? Stripped UK SRT (English)
+: language: en-GB
+
+? Stripped US SRT
+: language: en-US
+
+? Stripped US SRT (English)
+: language: en-US
+
+? Sub Eng
+: language: en
+
+? Sub Eng (English SRT)
+: language: en
+
+? Sub Ita
+: language: it
+
+? Sub Ita (Italiano SRT)
+: language: it
+
+? Suomi
+: language: fi
+
+? Suomi (ASS)
+: language: fi
+
+? Suomi (EAC3 5.1)
+: language: fi
+
+? Suomi (PGS)
+: language: fi
+
+? Suomi (SRT)
+: language: fi
+
+? Suomi (VOBSUB)
+: language: fi
+
+? Surround
+: {}
+
+? Surround (English AAC 5.1)
+: language: en
+
+? Surround (English AC3 5.1)
+: language: en
+
+? Surround (English DTS-HD MA 5.1)
+: language: en
+
+? Surround (Français DTS 5.1)
+: language: fr
+
+? Surround 5.1
+: {}
+
+? Surround 5.1 (Deutsch AC3)
+: language: de
+
+? Surround 5.1 (English AC3)
+: language: en
+
+? Surround 5.1 (English DTS-HD MA)
+: language: en
+
+? Surround 5.1 (English TRUEHD)
+: language: en
+
+? Surround 7.1
+: {}
+
+? Surround 7.1 (English TRUEHD)
+: language: en
+
+? Svenska
+: language: sv
+
+? Svenska (AC3 5.1)
+: language: sv
+
+? Svenska (ASS)
+: language: sv
+
+? Svenska (DTS 5.1)
+: language: sv
+
+? Svenska (EAC3 5.1)
+: language: sv
+
+? Svenska (PGS)
+: language: sv
+
+? Svenska (SRT)
+: language: sv
+
+? Svenska (VOBSUB)
+: language: sv
+
+? Swedish
+: language: sv
+
+? Swedish (SUP)
+: language: sv
+
+? Swedish (SUP) (Svenska PGS)
+: language: sv
+
+? Swedish (Svenska PGS)
+: language: sv
+
+? Swedish (Svenska SRT)
+: language: sv
+
+? Swedish-PGS
+: language: sv
+
+? Swedish-PGS (Svenska)
+: language: sv
+
+? A.Swiss.Film.2016.1080p.BluRay.x264.TrueHD.7.1.Atmos-FGT
+: {}
+
+? A.Swiss.Film.2016.1080p.BluRay.x264.TrueHD.7.1.Atmos-FGT (1080p H.264)
+: {}
+
+? A.Swiss.Film.2016.1080p.BluRay.x264.TrueHD.7.1.Atmos-FGT (English TRUEHD 7.1)
+: language: en
+
+? SOME_FILM T80 3_2ch 448Kbps DELAY 0ms
+: {}
+
+? SOME_FILM T80 3_2ch 448Kbps DELAY 0ms (MP3 Stereo)
+: {}
+
+? Tamil
+: language: ta
+
+? Tamil (தமிழ் SRT)
+: language: ta
+
+? Tamil-PGS
+: language: ta
+
+? Tamil-PGS (தமிழ்)
+: language: ta
+
+? Telugu
+: language: te
+
+? Telugu (తెలుగు SRT)
+: language: te
+
+? Telugu-PGS
+: language: te
+
+? Telugu-PGS (తెలుగు)
+: language: te
+
+? Thai
+: language: th
+
+? Thai (ไทย PGS)
+: language: th
+
+? Thai (ไทย SRT)
+: language: th
+
+? Thai-FORCED-PGS
+: language: th
+  forced: true
+
+? Thai-FORCED-PGS (ไทย)
+: language: th
+  forced: true
+
+? Thai-PGS
+: language: th
+
+? Thai-PGS (ไทย)
+: language: th
+
+? The Film 1980 DvdRip EngSub-HighCode
+: {}
+
+? The Film 1980 DvdRip EngSub-HighCode (SD H.264)
+: {}
+
+? The Film II 1989 DvdRip-HighCode
+: {}
+
+? The Film II 1989 DvdRip-HighCode (SD H.264)
+: {}
+
+? The Film (2014)
+: {}
+
+? The Film (2014) (720p H.264)
+: {}
+
+? The First Movie - 1080p - Bitrate=8202 kb/s - AvQuant=21.39 -Shiv@
+: {}
+
+? The First Movie - 1080p - Bitrate=8202 kb/s - AvQuant=21.39 -Shiv@ (H.264)
+: {}
+
+? The.Movie.2018.1080p.BluRay.x264.TrueHD.7.1.Atmos-FGT
+: {}
+
+? The.Movie.2018.1080p.BluRay.x264.TrueHD.7.1.Atmos-FGT (1080p H.264)
+: {}
+
+? The.Movie.2018.1080p.BluRay.x264.TrueHD.7.1.Atmos-FGT (English AC3 5.1)
+: language: en
+
+? The.Movie.2018.1080p.BluRay.x264.TrueHD.7.1.Atmos-FGT (English TRUEHD 7.1)
+: language: en
+
+? The.Second.Movie.2008.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT
+: {}
+
+? The.Second.Movie.2008.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (4K HDR10 HEVC Main 10)
+: {}
+
+? The.Second.Movie.2008.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (Deutsch DTS-HD MA 5.1)
+: language: de
+
+? The.Second.Movie.2008.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (English AC3 Stereo)
+: language: en
+
+? The.Second.Movie.2008.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (English DTS-HD MA 5.1)
+: language: en
+
+? The.Second.Movie.2008.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (Español AC3 5.1)
+: language: es
+
+? The.Second.Movie.2008.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (Français DTS-HD MA 5.1)
+: language: fr
+
+? The.Second.Movie.2008.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (Italiano AC3 5.1)
+: language: it
+
+? The.Second.Movie.2008.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (magyar AC3 5.1)
+: language: hu
+
+? The.Second.Movie.2008.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (polski AC3 5.1)
+: language: pl
+
+? The.Second.Movie.2008.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (Čeština AC3 5.1)
+: language: cs
+
+? The.Second.Movie.2008.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (Русский AC3 5.1)
+: language: ru
+
+? The.Second.Movie.2008.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (日本語 AC3 5.1)
+: language: ja
+
+? The.Third.Movie.2012.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT
+: {}
+
+? The.Third.Movie.2012.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (4K HDR10 HEVC Main 10)
+: {}
+
+? The.Third.Movie.2012.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (Deutsch DTS-HD MA 5.1)
+: language: de
+
+? The.Third.Movie.2012.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (English AC3 5.1)
+: language: en
+
+? The.Third.Movie.2012.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (English DTS-HD MA 5.1)
+: language: en
+
+? The.Third.Movie.2012.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (Español AC3 5.1)
+: language: es
+
+? The.Third.Movie.2012.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (Français AC3 5.1)
+: language: fr
+
+? The.Third.Movie.2012.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (Français DTS-HD MA 5.1)
+: language: fr
+
+? The.Third.Movie.2012.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (Italiano AC3 5.1)
+: language: it
+
+? The.Third.Movie.2012.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (Português AC3 5.1)
+: language: pt
+
+? The.Third.Movie.2012.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (Türkçe AC3 5.1)
+: language: tr
+
+? The.Third.Movie.2012.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (magyar AC3 5.1)
+: language: hu
+
+? The.Third.Movie.2012.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (polski AC3 5.1)
+: language: pl
+
+? The.Third.Movie.2012.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (Čeština AC3 5.1)
+: language: cs
+
+? The.Third.Movie.2012.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (Русский AC3 5.1)
+: language: ru
+
+? The.Third.Movie.2012.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (ไทย AC3 5.1)
+: language: th
+
+? The.Third.Movie.2012.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (中文 AC3 5.1)
+: language: zh
+
+? The.Third.Movie.2012.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT (日本語 AC3 5.1)
+: language: ja
+
+? The.Movie.2019.CHINESE.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT
+: {}
+
+? The.Movie.2019.CHINESE.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT (1080p H.264)
+: {}
+
+? The.Movie.2019.CHINESE.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT (中文 DTS-HD MA 5.1)
+: language: zh
+
+? The.First.Movie.2018.2160p.BluRay.x265.10bit.HDR.DTS-X.7.1-SWTYBLZ
+: {}
+
+? The.First.Movie.2018.2160p.BluRay.x265.10bit.HDR.DTS-X.7.1-SWTYBLZ (4K HDR10 HEVC Main 10)
+: {}
+
+? The.First.Movie.2018.2160p.BluRay.x265.10bit.HDR.DTS-X.7.1-SWTYBLZ (English AC3 5.1)
+: language: en
+
+? The.First.Movie.2018.2160p.BluRay.x265.10bit.HDR.DTS-X.7.1-SWTYBLZ (English DTS-HD MA 7.1)
+: language: en
+
+? The.First.Movie.2017.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT
+: {}
+
+? The.First.Movie.2017.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT (1080p H.264)
+: {}
+
+? The.First.Movie.2017.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT (English DTS-HD MA 5.1)
+: language: en
+
+? The.Film.2015.EXTENDED.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT
+: {}
+
+? The.Film.2015.EXTENDED.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (4K HDR10 HEVC Main 10)
+: {}
+
+? The.Film.2015.EXTENDED.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (English AC3 5.1)
+: language: en
+
+? The.Film.2015.EXTENDED.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (English AC3 Stereo)
+: language: en
+
+? The.Film.2015.EXTENDED.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (English DTS-HD MA 7.1)
+: language: en
+
+? The.Film.2015.EXTENDED.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (English TRUEHD 7.1)
+: language: en
+
+? The.Film.2015.EXTENDED.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (Español AC3 5.1)
+: language: es
+
+? The.Film.2015.EXTENDED.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (Français AC3 5.1)
+: language: fr
+
+? The.Film.2019.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT
+: {}
+
+? The.Film.2019.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT (1080p H.264)
+: {}
+
+? The.Film.2019.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT (English DTS-HD MA 5.1)
+: language: en
+
+? The.Foobar.Movie.2015.BluRay.720p.DD5.1.x264-Murtini
+: {}
+
+? The.Foobar.Movie.2015.BluRay.720p.DD5.1.x264-Murtini (720p H.264)
+: {}
+
+? Tiếng Việt (PGS)
+: language: vi
+
+? Tiếng Việt (SRT)
+: language: vi
+
+? A.Gun.1986.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ
+: {}
+
+? A.Gun.1986.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ (4K HDR10 HEVC Main 10)
+: {}
+
+? A.Gun.1986.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ (English AC3 5.1)
+: language: en
+
+? A.Gun.1986.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ (English DTS-HD MA 7.1)
+: language: en
+
+? A.Gun.1986.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ (English TRUEHD 7.1)
+: language: en
+
+? Traditional
+: language: zh-Hant
+
+? Traditional (中文 PGS)
+: language: zh-Hant
+
+? Traditional (中文 SRT)
+: language: zh-Hant
+
+? From.Here.to.There.2016.KOREAN.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-FGT
+: {}
+
+? From.Here.to.There.2016.KOREAN.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-FGT (1080p H.264)
+: {}
+
+? From.Here.to.There.2016.KOREAN.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-FGT (한국어 DTS 5.1)
+: language: ko
+
+? From.Here.to.There.2016.KOREAN.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-FGT (한국어 DTS-HD MA 5.1)
+: language: ko
+
+? TrueHD 7.1
+: {}
+
+? TrueHD 7.1 (English)
+: language: en
+
+? TrueHD 7.1 Atmos
+: {}
+
+? TrueHD 7.1 Atmos (English)
+: language: en
+
+? TrueHD 7.1 Atoms
+: {}
+
+? TrueHD 7.1 Atoms (English)
+: language: en
+
+? TrueHD 7.1. Atmos
+: {}
+
+? TrueHD 7.1. Atmos (English 7.1)
+: language: en
+
+? TrueHD Atmos 7.1
+: {}
+
+? TrueHD Atmos 7.1 (English)
+: language: en
+
+? TrueHD Atmos 7.1 (한국어)
+: language: ko
+
+? Turkish
+: language: tr
+
+? Turkish (Türkçe PGS)
+: language: tr
+
+? Turkish (Türkçe SRT)
+: language: tr
+
+? Turkish-FORCED-PGS
+: language: tr
+  forced: true
+
+? Turkish-FORCED-PGS (Türkçe)
+: language: tr
+  forced: true
+
+? Turkish-PGS
+: language: tr
+
+? Turkish-PGS (Türkçe)
+: language: tr
+
+? Um.Filme.2019.1080p.WEB-DL.DD5.1.H264-RK
+: {}
+
+? Um.Filme.2019.1080p.WEB-DL.DD5.1.H264-RK (1080p H.264)
+: {}
+
+? Türkçe
+: language: tr
+
+? Türkçe (AC3 5.1)
+: language: tr
+
+? Türkçe (ASS)
+: language: tr
+
+? Türkçe (DTS Stereo)
+: language: tr
+
+? Türkçe (PGS)
+: language: tr
+
+? Türkçe (SRT)
+: language: tr
+
+? Türkçe (VOBSUB)
+: language: tr
+
+? Ukraine
+: language: uk-UA
+
+? Ukraine (Українська SRT)
+: language: uk-UA
+
+? Film.2020.1080p.BluRay.x264.DTS-HD.MA.7.1-FGT
+: {}
+
+? Film.2020.1080p.BluRay.x264.DTS-HD.MA.7.1-FGT (1080p H.264)
+: {}
+
+? Film.2020.1080p.BluRay.x264.DTS-HD.MA.7.1-FGT (English DTS-HD MA 7.1)
+: language: en
+
+? Unknown (AAC 5.1)
+: {}
+
+? Unknown (AAC Stereo)
+: {}
+
+? Unknown (AC3 5.1)
+: {}
+
+? Unknown (AC3 Stereo)
+: {}
+
+? Unknown (Closed Captions)
+: closed_caption: true
+
+? Unknown (DTS 5.1)
+: {}
+
+? Unknown (DTS-HD MA 5.1)
+: {}
+
+? Unknown (DTS-HD MA 7.1)
+: {}
+
+? Unknown (FLAC 5.1)
+: {}
+
+? Unknown (HE-AAC 5.1)
+: {}
+
+? Unknown (MP3 Stereo)
+: {}
+
+? Unknown (PGS)
+: {}
+
+? Unknown (SRT External)
+: external: true
+
+? Unknown (SRT)
+: {}
+
+? Us.2019.1080p.BluRay.x264.TrueHD.7.1.Atmos-FGT
+: {}
+
+? Us.2019.1080p.BluRay.x264.TrueHD.7.1.Atmos-FGT (1080p H.264)
+: {}
+
+? Us.2019.1080p.BluRay.x264.TrueHD.7.1.Atmos-FGT (English AC3 5.1)
+: language: en
+
+? Us.2019.1080p.BluRay.x264.TrueHD.7.1.Atmos-FGT (English TRUEHD 7.1)
+: language: en
+
+? VFF
+: language: fr-FR
+
+? VFF (Français AC3 5.1)
+: language: fr-FR
+
+? VFQ
+: language: fr-CA
+
+? VFQ (Français AC3 5.1)
+: language: fr-CA
+
+? Vietnam
+: language: vi
+
+? Vietnam (Tiếng Việt SRT)
+: language: vi-VN
+
+? White
+: {}
+
+? White (Español PGS)
+: language: es
+
+? A.Movie.2017.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT
+: {}
+
+? A.Movie.2017.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (Deutsch AC3 5.1)
+: language: de
+
+? A.Movie.2017.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (Deutsch TRUEHD 7.1)
+: language: de
+
+? A.Movie.2017.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (English AC3 5.1)
+: language: en
+
+? A.Movie.2017.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (English DTS-HD MA 7.1)
+: language: en
+
+? A.Movie.2017.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (English TRUEHD 7.1)
+: language: en
+
+? A.Movie.2017.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (Español AC3 5.1)
+: language: es
+
+? A.Movie.2017.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (Français AC3 5.1)
+: language: fr
+
+? A.Movie.2017.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (Français TRUEHD 7.1)
+: language: fr
+
+? A.Movie.2017.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (Italiano DTS-HD MA 5.1)
+: language: it
+
+? A.Movie.2017.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (magyar AC3 5.1)
+: language: hu
+
+? A.Movie.2017.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (polski AC3 5.1)
+: language: pl
+
+? A.Movie.2017.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (Čeština AC3 5.1)
+: language: cs
+
+? A.Movie.2017.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (ไทย AC3 5.1)
+: language: th
+
+? A.Movie.2017.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT (日本語 AC3 5.1)
+: language: ja
+
+? X264
+: {}
+
+? X264 (1080p H.264)
+: {}
+
+? X264 (720p H.264)
+: {}
+
+? X264 (English AC3 5.1)
+: language: en
+
+? "[WMAN-LorD]"
+: {}
+
+? "[WMAN-LorD] (4K HDR10 HEVC Main 10)"
+: {}
+
+? br
+: language: pt-BR
+
+? br (Português ASS)
+: language: pt-BR
+
+? cant
+: language: zh
+
+? cant (中文 VOBSUB)
+: language: zh
+
+? català (PGS)
+: language: ca
+
+? català (SRT)
+: language: ca
+
+? chinese
+: language: zh
+
+? chinese (中文 VOBSUB)
+: language: zh
+
+? chs
+: {}
+
+? chs (中文 SRT)
+: language: zh
+
+? cht
+: {}
+
+? cht (中文 VOBSUB)
+: language: zh
+
+? commentary
+: commentary: true
+
+? commentary (English AAC Stereo)
+: commentary: true
+  language: en
+
+? dts
+: {}
+
+? dts (English 5.1)
+: language: en
+
+? eesti (ASS)
+: language: et
+
+? eesti (PGS)
+: language: et
+
+? eesti (SRT)
+: language: et
+
+? eesti (VOBSUB)
+: language: et
+
+? english
+: language: en
+
+? english (DTS 5.1)
+: language: en
+
+? english (SRT)
+: language: en
+
+? eu
+: {}
+
+? eu (Español ASS)
+: language: es
+
+? eu (Português ASS)
+: language: pt
+
+? euskara (SRT)
+: language: eu
+
+? forced
+: forced: true
+
+? forced (Deutsch PGS)
+: forced: true
+  language: de
+
+? forced (English PGS)
+: forced: true
+  language: en
+
+? forced (English SRT)
+: forced: true
+  language: en
+
+? forced srt
+: forced: true
+
+? forced srt (English)
+: forced: true
+  language: en
+
+? galego (SRT)
+: language: gl
+
+? iTunes
+: {}
+
+? iTunes (Русский AC3 5.1)
+: language: ru
+
+? italian
+: language: it
+
+? italian (Italiano SRT)
+: language: it
+
+? lat
+: {}
+
+? lat (Español ASS)
+: language: es
+
+? latviešu (PGS)
+: language: lv
+
+? latviešu (SRT)
+: language: lv
+
+? latviešu (VOBSUB)
+: language: lv
+
+? lietuvių (PGS)
+: language: lt
+
+? lietuvių (SRT)
+: language: lt
+
+? lietuvių (VOBSUB)
+: language: lt
+
+? magyar (AC3 5.1)
+: language: hu
+
+? magyar (ASS)
+: language: hu
+
+? magyar (PGS)
+: language: hu
+
+? magyar (SRT)
+: language: hu
+
+? magyar (VOBSUB)
+: language: hu
+
+? maodaye@HDS
+: {}
+
+? maodaye@HDS (1080p H.264)
+: {}
+
+? norsk (ASS)
+: language: 'no'
+
+? norsk (EAC3 5.1)
+: language: 'no'
+
+? norsk (PGS)
+: language: 'no'
+
+? norsk (SRT)
+: language: 'no'
+
+? norsk bokmål (SRT)
+: language: 'no'
+
+? norsk bokmål (VOBSUB)
+: language: 'no'
+
+? polski (AC3 5.1)
+: language: pl
+
+? polski (ASS)
+: language: pl
+
+? polski (DTS 5.1)
+: language: pl
+
+? polski (PGS)
+: language: pl
+
+? polski (SRT)
+: language: pl
+
+? polski (VOBSUB)
+: language: pl
+
+? portuguese
+: language: pt
+
+? portuguese (Português SRT)
+: language: pt
+
+? română (ASS)
+: language: ro
+
+? română (PGS)
+: language: ro
+
+? română (SRT)
+: language: ro
+
+? română (VOBSUB)
+: language: ro
+
+? russian
+: language: ru
+
+? russian (Русский VOBSUB)
+: language: ru
+
+? sdh
+: hearing_impaired: true
+
+? sdh (English ASS)
+: hearing_impaired: true
+  language: en
+
+? sdh (English SRT)
+: hearing_impaired: true
+  language: en
+
+? selezen
+: {}
+
+? selezen (1080p H.264)
+: {}
+
+? slovenščina (ASS)
+: language: sl
+
+? slovenščina (PGS)
+: language: sl
+
+? slovenščina (SRT)
+: language: sl
+
+? slovenščina (VOBSUB)
+: language: sl
+
+? spanish castilian
+: language: es
+
+? spanish castilian (Español SRT)
+: language: es
+
+? srt
+: {}
+
+? srt (English)
+: language: en
+
+? sup
+: {}
+
+? sup (English PGS)
+: language: en
+
+? x264 2pass @ 17190 kb/s
+: {}
+
+? x264 2pass @ 17190 kb/s (1080p H.264)
+: {}
+
+? íslenska (PGS)
+: language: is
+
+? íslenska (SRT)
+: language: is
+
+? íslenska (VOBSUB)
+: language: is
+
+? Čeština
+: language: cs
+
+? Čeština (AC3 5.1)
+: language: cs
+
+? Čeština (ASS)
+: language: cs
+
+? Čeština (DTS 5.1)
+: language: cs
+
+? Čeština (PGS)
+: language: cs
+
+? Čeština (SRT)
+: language: cs
+
+? Čeština (VOBSUB)
+: language: cs
+
+? Ελληνικά (ASS)
+: language: el
+
+? Ελληνικά (PGS)
+: language: el
+
+? Ελληνικά (SRT)
+: language: el
+
+? Ελληνικά (VOBSUB)
+: language: el
+
+? Русский (AC3 5.1)
+: language: ru
+
+? Русский (ASS)
+: language: ru
+
+? Русский (DTS 5.1)
+: language: ru
+
+? Русский (PGS)
+: language: ru
+
+? Русский (SRT)
+: language: ru
+
+? Русский (VOBSUB)
+: language: ru
+
+? Русский Forced (SRT)
+: language: ru
+  forced: true
+
+? Українська (AC3 Stereo)
+: language: uk
+
+? Українська (SRT)
+: language: uk
+
+? Українська (VOBSUB)
+: language: uk
+
+? български (ASS)
+: language: bg
+
+? български (PGS)
+: language: bg
+
+? български (SRT)
+: language: bg
+
+? български (VOBSUB)
+: language: bg
+
+? македонски (SRT)
+: language: mk
+
+? српски (AAC 5.1)
+: language: sr
+
+? српски (ASS)
+: language: sr
+
+? српски (PGS)
+: language: sr
+
+? српски (SRT)
+: language: sr
+
+? српски (VOBSUB)
+: language: sr
+
+? עברית (PGS)
+: language: he
+
+? עברית (SRT)
+: language: he
+
+? עברית (VOBSUB)
+: language: he
+
+? العربية (ASS)
+: language: ar
+
+? العربية (PGS)
+: language: ar
+
+? العربية (SRT)
+: language: ar
+
+? العربية (VOBSUB)
+: language: ar
+
+? हिन्दी (EAC3 5.1)
+: language: hi
+
+? हिन्दी (PGS)
+: language: hi
+
+? हिन्दी (SRT)
+: language: hi
+
+? हिन्दी (VOBSUB)
+: language: hi
+
+? தமிழ் (PGS)
+: language: ta
+
+? தமிழ் (SRT)
+: language: ta
+
+? తెలుగు (PGS)
+: language: te
+
+? తెలుగు (SRT)
+: language: te
+
+? ಕನ್ನಡ (SRT)
+: language: kn
+
+? മലയാളം (SRT)
+: language: ml
+
+? ไทย (AC3 5.1)
+: language: th
+
+? ไทย (PGS)
+: language: th
+
+? ไทย (SRT)
+: language: th
+
+? ไทย (VOBSUB)
+: language: th
+
+? 中文 (AC3 5.1)
+: language: zh
+
+? 中文 (AC3 Stereo)
+: language: zh
+
+? 中文 (DTS 5.1)
+: language: zh
+
+? 中文 (DTS-HD MA 5.1)
+: language: zh
+
+? 中文 (PGS)
+: language: zh
+
+? 中文 (SRT)
+: language: zh
+
+? 中文 (VOBSUB)
+: language: zh
+
+? 中文（简体）
+: language: zh-Hans
+
+? 中文（简体） (中文 SRT)
+: language: zh-Hans
+
+? 中文（繁體）
+: language: zh-Hant
+
+? 中文（繁體） (中文 SRT)
+: language: zh-Hant
+
+? 央视国配
+: {}
+
+? 央视国配 (中文 DTS 5.1)
+: language: zh
+
+? 廣東話
+: language: zh
+
+? 廣東話 (中文 SRT)
+: language: zh
+
+? 日本語 (AC3 5.1)
+: language: ja
+
+? 日本語 (DTS-HD MA 5.1)
+: language: ja
+
+? 日本語 (EAC3 5.1)
+: language: ja
+
+? 日本語 (PGS)
+: language: ja
+
+? 日本語 (SRT)
+: language: ja
+
+? 日本語 (VOBSUB)
+: language: ja
+
+? 简体双语
+: language: zh-Hans
+
+? 简体双语 (中文 PGS)
+: language: zh-Hans
+
+? 繁体双语
+: language: zh-Hant
+
+? 繁体双语 (中文 PGS)
+: language: zh-Hant
+
+? 한국어 (AC3 5.1)
+: language: ko
+
+? 한국어 (DTS 5.1)
+: language: ko
+
+? 한국어 (DTS-HD MA 5.1)
+: language: ko
+
+? 한국어 (EAC3 5.1)
+: language: ko
+
+? 한국어 (PGS)
+: language: ko
+
+? 한국어 (SRT)
+: language: ko
+
+? 한국어 (TRUEHD 7.1)
+: language: ko
+
+? 한국어 (VOBSUB)
+: language: ko

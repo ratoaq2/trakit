@@ -1,0 +1,20 @@
+? Commentary by director John Woo (EU) (Français PGS)
+: - { start:  0, end: 10, value: Commentary }
+  - { start: 11, end: 13, value: by }
+  - { start: 14, end: 22, value: director }
+  - { start: 23, end: 27, value: John }
+  - { start: 28, end: 31, value: Woo }
+  - { start: 33, end: 35, value: EU }
+  - { start: 38, end: 46, value: Français }
+  - { start: 47, end: 50, value: PGS }
+
+? 中文（繁體） (中文 SRT)
+: - { start:  0, end:  2, value: 中文 }
+  - { start:  3, end:  5, value: 繁體 }
+  - { start:  8, end: 10, value: 中文 }
+  - { start: 11, end: 14, value: SRT }
+
+? Hebrew (עברית PGS)
+: - { start:  0, end:  6, value: Hebrew }
+  - { start:  8, end: 13, value: עברית }
+  - { start: 14, end: 17, value: PGS }

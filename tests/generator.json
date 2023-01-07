@@ -1,0 +1,102 @@
+{
+  "urls": {
+    "countries": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
+    "local-language-names": "https://raw.githubusercontent.com/mozilla/language-mapping-list/master/language-mapping-list.js"
+  },
+  "ignored_words": [
+    "bit",
+    "cc",
+    "ch",
+    "dan",
+    "day",
+    "gun",
+    "hr",
+    "jordan",
+    "la",
+    "ma",
+    "na",
+    "the",
+    "to"
+  ],
+  "countries": {
+    "ignore-extraction": [
+      "nob",
+      "nno"
+    ],
+    "overriden-demonyms": {
+      "VG": "British Virgin Islander",
+      "VI": "American Virgin Islander"
+    },
+    "additional-demonyms": {
+      "CA": [
+        "canadien"
+      ]
+    },
+    "ignored-ambiguous-demonyms": {
+      "BQ": "Dutch",
+      "CG": "Congolese",
+      "DM": "Dominican",
+      "GG": "Channel Islander",
+      "IO": "Indian",
+      "MP": "American",
+      "SJ": "Norwegian",
+      "TF": "French"
+    },
+    "additional": {
+      "Vietnam": "VN"
+    }
+  },
+  "languages": {
+    "ignore-extraction": [
+      "es-LA"
+    ],
+    "additional": {
+      "ไทย": "tha",
+      "Greek": "ell",
+      "Malay": "msa",
+      "Melayu": "msa",
+      "മലയാളം": "mal",
+      "தமிழ்": "tam",
+      "廣東話": "zho",
+      "ಕನ್ನಡ": "kan",
+      "తెలుగు": "tel"
+    },
+    "implicit": {
+      "BR": "pt-BR",
+      "FR": "fr-FR",
+      "UK": "en-GB",
+      "US": "en-US",
+      "CA": "fr-CA",
+      "VN": "vie",
+      "ID": "id-ID",
+      "UA": "uk-UA",
+      "GR": "ell",
+      "HK": "zh-HK",
+      "eng": "en",
+      "ita": "it",
+      "419": "es-419",
+      "Parisian": "fr-FR",
+      "Cantonese": "zh",
+      "cant": "zh",
+      "Mandarin": "zh",
+      "Castilian": "es",
+      "Simplified": "zh-Hans",
+      "简体双语": "zh-Hans",
+      "Traditional": "zh-Hant",
+      "繁体双语": "zh-Hant",
+      "VFF": "fr-FR",
+      "VFQ": "fr-CA"
+    }
+  },
+  "scripts": {
+    "Simplified": "Hans",
+    "简体": "Hans",
+    "Traditional": "Hant",
+    "繁體": "Hant"
+  },
+  "regions": {
+    "Latin": "419",
+    "Latinoamericano": "419",
+    "Latinoamérica": "419"
+  }
+}
