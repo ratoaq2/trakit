@@ -64,7 +64,7 @@ but one of them is **British English** (`British English Forced (PGS)`) and othe
 Given a track name, **TrakIt** can guess the language:
 
 ```bash
-> trakit "Português (Brasil)"
+>> trakit "Português (Brasil)"
 {
   "language": "pt-BR"
 }
