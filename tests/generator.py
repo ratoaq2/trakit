@@ -12,6 +12,8 @@ CUR_PATH = os.path.dirname(__file__)
 GENERATED_PATH = os.path.join(CUR_PATH, 'generated')
 DOWNLOADED_PATH = os.path.join(CUR_PATH, 'downloaded')
 
+suppress_re = re.compile(r"[\(\)'\,\.\u200f]")
+
 with open(os.path.join(CUR_PATH, 'generator.json'), 'r', encoding='utf-8') as cfg_file:
     CONFIG: typing.Dict[str, typing.Any] = json.load(cfg_file)
     CONFIG['ignored_words'] = set(CONFIG['ignored_words'])
@@ -44,14 +46,15 @@ class ConfigGenerator:
         duplicated[name].append(new_value)
 
     def to_unique_values(self, values: typing.Iterable[str]):
-        values = set([re.sub(r'[\,\.\u200f]', '', v).replace('-', ' ').strip() for v in values])
-        unidecoded = [unidecode(v) for v in values]
+        values = set([suppress_re.sub('', v).replace('-', ' ').strip() for v in values])
+        unidecoded = [suppress_re.sub('', unidecode(v)) for v in values]
         values.update([v.strip() for v in unidecoded if '@' not in v])
         return [v for v in values if len(v) > 0]
 
     def register_country_synonym(self, country: Country, name: str,
                                  country_synonyms: typing.Dict[str, str],
                                  dup_country_syns: typing.Dict[str, typing.List[str]]):
+        name = suppress_re.sub('', name)
         if name.upper() == country.name:
             return
         if name in country_synonyms and country_synonyms[name] != country.alpha2:
@@ -99,6 +102,7 @@ class ConfigGenerator:
                     self.register_country_synonym(language.country, name, country_synonyms, dup_country_syns)
             lang_code = str(language) if language.script else language.alpha3
             for name in self.to_unique_values([syn]):
+                name = suppress_re.sub('', name)
                 if name.lower() == language.name.lower():
                     continue
                 if name in language_synonyms and language_synonyms[name] != lang_code:

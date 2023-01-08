@@ -120,7 +120,11 @@ class LanguageFinder:
                 sentence = to_sentence(combination)
                 country = self._find_country(sentence)
                 if country:
-                    lang = Language(lang.alpha3, country=country.value, script=lang.script)
+                    try:
+                        # discard country if value is actually the language name
+                        Language.fromguess(country.raw)
+                    except LanguageReverseError:
+                        lang = Language(lang.alpha3, country=country.value, script=lang.script)
                     break
 
                 region = self._find_region(sentence)

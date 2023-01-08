@@ -43,7 +43,7 @@ def to_words(value: str,
         if not predicate(value[start:]):
             input_string = blank(input_string, start, len(input_string))
         else:
-            words.append(Match(start, i - 1, value=word))
+            words.append(Match(start, i, value=word))
 
     for w in words:
         w.input_string = input_string

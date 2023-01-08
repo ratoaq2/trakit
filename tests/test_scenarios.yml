@@ -678,7 +678,7 @@
 
 ? Commentary (norsk bokmål VOBSUB)
 : commentary: true
-  language: 'no'
+  language: nb
 
 ? Commentary (日本語 VOBSUB)
 : commentary: true
@@ -2126,13 +2126,13 @@
 : language: et
 
 ? Estonian (eesti PGS)
-: language: et-EE
+: language: et
 
 ? Estonian-PGS
 : language: et
 
 ? Estonian-PGS (eesti)
-: language: et-EE
+: language: et
 
 ? European
 : {}
@@ -2214,19 +2214,19 @@
 : language: fi
 
 ? Finnish (SUP) (Suomi PGS)
-: language: fi-FI
+: language: fi
 
 ? Finnish (Suomi PGS)
-: language: fi-FI
+: language: fi
 
 ? Finnish (Suomi SRT)
-: language: fi-FI
+: language: fi
 
 ? Finnish-PGS
 : language: fi
 
 ? Finnish-PGS (Suomi)
-: language: fi-FI
+: language: fi
 
 ? Forced
 : forced: true
@@ -4697,10 +4697,10 @@
 : language: 'no'
 
 ? norsk bokmål (SRT)
-: language: 'no'
+: language: nb
 
 ? norsk bokmål (VOBSUB)
-: language: 'no'
+: language: nb
 
 ? polski (AC3 5.1)
 : language: pl
