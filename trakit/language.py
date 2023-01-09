@@ -18,6 +18,7 @@ from rebulk import Rebulk
 from rebulk.match import Match
 
 from trakit.config import Config
+from trakit.context import Context
 from trakit.converters.country import GuessCountryConverter
 from trakit.converters.language import GuessLanguageConverter
 from trakit.words import blank_match, blank_release_names, to_combinations, to_match, to_sentence, to_words
@@ -99,13 +100,22 @@ class LanguageFinder:
             except CountryReverseError:
                 pass
 
-    def find_language(self, value: str):
+    def accept_word(self, string: str):
+        return string.lower() not in self.common_words and not string.isnumeric()
+
+    def find_language(self, value: str, context: Context):
         value = blank_release_names(value)
-        all_words = to_words(value, predicate=lambda x: x.lower() not in self.common_words and not x.isnumeric())
+        all_words = to_words(value, predicate=self.accept_word)
         combinations = to_combinations(all_words, self.language_max_words)
         implicit_lang = self._find_implicit_language(combinations)
-        if implicit_lang and implicit_lang.value.script and implicit_lang.value.script.code.isnumeric():
+        implicit_accepted = implicit_lang and context.accept(implicit_lang.value)
+
+        if implicit_accepted and implicit_lang.value.script and implicit_lang.value.script.code.isnumeric():
             return implicit_lang
+        elif implicit_lang and not implicit_accepted:
+            value = blank_match(implicit_lang)
+            all_words = to_words(value, predicate=self.accept_word)
+            combinations = to_combinations(all_words, self.language_max_words)
 
         for c in combinations:
             language_sentence = to_sentence(c)
@@ -137,16 +147,17 @@ class LanguageFinder:
                     lang = Language(lang.alpha3, country=lang.country, script=script.value)
                     break
 
-            if implicit_lang and implicit_lang.value.alpha3 == lang.alpha3 and not lang.country and not lang.script:
+            if implicit_accepted and implicit_lang.value.alpha3 == lang.alpha3 and not lang.country and not lang.script:
                 return implicit_lang
 
-            return to_match(c, lang)
+            if context.accept(lang):
+                return to_match(c, lang)
 
-        return implicit_lang
+        if implicit_accepted:
+            return implicit_lang
 
-    # noinspection PyUnusedLocal
-    def find(self, value: str, context: typing.Mapping[str, typing.Any]):
-        match = self.find_language(value)
+    def find(self, value: str, context: Context):
+        match = self.find_language(value, context)
         if match:
             return match.start, match.end, {'value': match.value}
 

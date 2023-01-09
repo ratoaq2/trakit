@@ -1,0 +1,40 @@
+? options-y
+: args:
+    - "-y"
+    - Português (Brasil)
+  expected:
+    language: pt-BR
+
+? options--yaml
+: args:
+    - "--yaml"
+    - Português (Brasil)
+  expected:
+    language: pt-BR
+
+? options--debug
+: args:
+    - "--debug"
+    - Português (Brasil)
+  expected:
+    language: pt-BR
+
+
+? options--expected-language
+: args:
+    - "--expected-language"
+    - en
+    - John France (English SRT)
+  expected:
+    language: en
+
+? options-l
+: args:
+    - "-l"
+    - en
+    - John France (English SRT)
+  expected:
+    language: en
+
+
+
