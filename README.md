@@ -103,6 +103,30 @@ Given a track name, **TrakIt** can guess the language:
 }
 ```
 
+All available CLI options:
+```bash
+>> trakit --help
+usage: trakit [-h] [-l EXPECTED_LANGUAGE] [--debug] [-y] [--version] value
+
+positional arguments:
+  value                 track title to guess
+
+options:
+  -h, --help            show this help message and exit
+
+Configuration:
+  -l EXPECTED_LANGUAGE, --expected-language EXPECTED_LANGUAGE
+                        The expected language to be guessed
+
+Output:
+  --debug               Print information for debugging trakit and for reporting bugs.
+  -y, --yaml            Display output in yaml format
+
+Information:
+  --version             show program's version number and exit
+```
+
+
 **TrakIt** is not a release parser. Use [GuessIt](https://github.com/guessit-io/guessit)
 
 **TrakIt** is not a video metadata extractor.
