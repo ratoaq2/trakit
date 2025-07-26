@@ -41,6 +41,11 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules",
     "Topic :: Multimedia :: Video",
 ]
+include = [
+    { path = "scripts/**", format = "sdist" },
+    { path = "tests/**", format = "sdist" },
+    { path = "setup.cfg", format = "sdist" },
+]
 
 [tool.poetry.scripts]
 trakit = "trakit.__main__:main"
