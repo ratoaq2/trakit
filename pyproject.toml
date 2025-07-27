@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "trakit"
-version = "0.2.3"
+version = "0.2.4"
 description = "Guess additional information from track titles"
 authors = [
     "Rato"

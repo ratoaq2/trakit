@@ -33,6 +33,13 @@ def build_argument_parser() -> argparse.ArgumentParser:
         help='The expected language to be guessed',
         type=str,
     )
+    conf_opts.add_argument(
+        '-t',
+        '--type',
+        dest='type',
+        help='The input type: trackname or filename. Default is trackname',
+        type=str,
+    )
 
     output_opts = opts.add_argument_group('Output')
     output_opts.add_argument(
@@ -101,7 +108,7 @@ def main(args: typing.Optional[typing.List[str]] = None):
         logger.setLevel(logging.DEBUG)
         logging.getLogger('rebulk').setLevel(logging.DEBUG)
 
-    return trakit(opts.value, opts)
+    trakit(opts.value, opts)
 
 
 if __name__ == '__main__':

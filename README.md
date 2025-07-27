@@ -70,6 +70,14 @@ Given a track name, **TrakIt** can guess the language:
 }
 ```
 
+```bash
+>> trakit -t filename "foobar.en.sdh.srt"
+{
+  "language": "en"
+  "hearing_impaired": true
+}
+```
+
 **TrakIt** is also able to identify:
 * SDH: Subtitles for the Deaf or Hard of Hearing
 * Forced flag
@@ -117,6 +125,7 @@ options:
 Configuration:
   -l EXPECTED_LANGUAGE, --expected-language EXPECTED_LANGUAGE
                         The expected language to be guessed
+  -t, --type TYPE       The input type: trackname or filename. Default is trackname
 
 Output:
   --debug               Print information for debugging trakit and for reporting bugs.

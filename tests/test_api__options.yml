@@ -2,4 +2,23 @@
 : options:
     expected_language: en
   language: en
-  commentary: True
+  commentary: true
+
+? foobar.en.forced.srt
+: options:
+    type: filename
+  language: en
+  forced: true
+
+? foobar.pt-BR.cc.commentary.srt
+: options:
+    type: filename
+  language: pt-BR
+  closed_caption: true
+  commentary: true
+
+? /folder-01/s01e01.en.sdh.srt
+: options:
+    type: filename
+  language: en
+  hearing_impaired: true
