@@ -8,6 +8,8 @@ Version](https://img.shields.io/pypi/v/trakit.svg)](https://pypi.python.org/pypi
 
 [![License](https://img.shields.io/github/license/ratoaq2/trakit.svg)](https://github.com/ratoaq2/trakit/blob/master/LICENSE)
 
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/trakit)
+
   - Project page  
     <https://github.com/ratoaq2/trakit>
 

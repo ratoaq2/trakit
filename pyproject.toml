@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "trakit"
-version = "0.2.4"
+version = "0.2.5"
 description = "Guess additional information from track titles"
 authors = [
     "Rato"
@@ -35,6 +35,8 @@ classifiers = [
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
@@ -51,7 +53,7 @@ include = [
 trakit = "trakit.__main__:main"
 
 [tool.poetry.dependencies]
-python = ">=3.11,<4.0"
+python = ">=3.9,<4.0"
 rebulk = "^3.1.0"
 babelfish = "^0.6.0"
 pyyaml = {version = "^6.0.2", optional = true}
