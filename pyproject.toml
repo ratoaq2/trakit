@@ -54,9 +54,9 @@ trakit = "trakit.__main__:main"
 
 [tool.poetry.dependencies]
 python = ">=3.9,<4.0"
-rebulk = "^3.1.0"
-babelfish = "^0.6.0"
-pyyaml = {version = "^6.0.2", optional = true}
+rebulk = ">=3.1.0"
+babelfish = ">=0.6.0"
+pyyaml = {version = ">=6.0.2", optional = true}
 
 
 [tool.poetry.group.dev.dependencies]
