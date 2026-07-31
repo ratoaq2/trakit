@@ -87,6 +87,7 @@ def blank(string: str, start: int, end: int):
 
 
 def blank_match(match: Match):
+    assert match.input_string is not None
     return blank(match.input_string, match.start, match.end)
 
 

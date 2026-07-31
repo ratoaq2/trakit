@@ -35,11 +35,11 @@ classifiers = [
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
     "Topic :: Software Development :: Libraries :: Python Modules",
     "Topic :: Multimedia :: Video",
 ]
@@ -53,10 +53,10 @@ include = [
 trakit = "trakit.__main__:main"
 
 [tool.poetry.dependencies]
-python = ">=3.9,<4.0"
-rebulk = "^3.1.0"
-babelfish = "^0.6.0"
-pyyaml = {version = "^6.0.2", optional = true}
+python = ">=3.10,<4.0"
+rebulk = ">=3.1.0"
+babelfish = ">=0.6.0"
+pyyaml = {version = ">=6.0.2", optional = true}
 
 
 [tool.poetry.group.dev.dependencies]
