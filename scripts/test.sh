@@ -2,6 +2,7 @@
 
 set -ex
 
-flake8
-mypy --check-untyped-defs trakit
-pytest trakit -vv tests
+uv run ruff check trakit tests
+uv run ruff format --check trakit tests
+uv run mypy trakit
+uv run pytest trakit -vv tests

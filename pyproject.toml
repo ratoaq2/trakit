@@ -1,13 +1,13 @@
-[tool.poetry]
+[project]
 name = "trakit"
-version = "0.3.0"
+version = "0.4.0"
 description = "Guess additional information from track titles"
 authors = [
-    "Rato"
+    { name = "Rato" }
 ]
 license = "MIT"
 readme = "README.md"
-repository = "https://github.com/ratoaq2/trakit"
+requires-python = ">=3.10"
 keywords = [
     "video",
     "mkv",
@@ -30,7 +30,6 @@ keywords = [
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: Apache Software License",
     "Operating System :: OS Independent",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
@@ -43,32 +42,71 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules",
     "Topic :: Multimedia :: Video",
 ]
-include = [
-    { path = "scripts/**", format = "sdist" },
-    { path = "tests/**", format = "sdist" },
-    { path = "setup.cfg", format = "sdist" },
+dependencies = [
+    "rebulk>=3.1.0",
+    "babelfish>=0.6.0",
 ]
 
-[tool.poetry.scripts]
+[project.optional-dependencies]
+yaml = [
+    "pyyaml>=6.0.2",
+]
+
+[project.urls]
+Repository = "https://github.com/ratoaq2/trakit"
+
+[project.scripts]
 trakit = "trakit.__main__:main"
 
-[tool.poetry.dependencies]
-python = ">=3.10,<4.0"
-rebulk = ">=3.1.0"
-babelfish = ">=0.6.0"
-pyyaml = {version = ">=6.0.2", optional = true}
-
-
-[tool.poetry.group.dev.dependencies]
-pytest = "^8.4.1"
-pyyaml = "^6.0.2"
-unidecode = "^1.3.6"
-flake8 = "^7.3.0"
-mypy = "^1.17.0"
-flake8-import-order = "^0.19.2"
-types-setuptools = "^70.3.0.20240710"
-types-pyyaml = "^6.0.12.20250516"
+[dependency-groups]
+dev = [
+    "pytest>=8.4.1",
+    "pyyaml>=6.0.2",
+    "unidecode>=1.3.6",
+    "mypy>=1.17.0",
+    "ruff>=0.13.0",
+    "types-pyyaml>=6.0.12.20250516",
+]
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "trakit/**",
+    "scripts/**",
+    "tests/**",
+    "README.md",
+    "LICENSE",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "F",
+    "W",
+    "I",
+    "UP",
+    "B",
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["trakit"]
+
+[tool.ruff.format]
+quote-style = "single"
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+
+[[tool.mypy.overrides]]
+module = [
+    "babelfish.*",
+]
+ignore_missing_imports = true
