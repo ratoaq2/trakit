@@ -6,7 +6,7 @@ Version](https://img.shields.io/pypi/v/trakit.svg)](https://pypi.python.org/pypi
 
 [![tests](https://github.com/ratoaq2/trakit/actions/workflows/test.yml/badge.svg)](https://github.com/ratoaq2/trakit/actions/workflows/test.yml)
 
-[![License](https://img.shields.io/github/license/ratoaq2/trakit.svg)](https://github.com/ratoaq2/trakit/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/ratoaq2/trakit.svg)](https://github.com/ratoaq2/trakit/blob/main/LICENSE)
 
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/trakit)
 
@@ -17,8 +17,8 @@ Version](https://img.shields.io/pypi/v/trakit.svg)](https://pypi.python.org/pypi
 
 **TrakIt** is a track name parser.
 It is a tiny library created to solve a very specific problem.
-It's very common that video files do not have precise metadata information, 
-where you can have multiple subtitle tracks tagged as **Portuguese**, 
+It's very common that video files do not have precise metadata information,
+where you can have multiple subtitle tracks tagged as **Portuguese**,
 but one of them is actually **Brazilian Portuguese**:
 ```json lines
 {
@@ -75,7 +75,7 @@ Given a track name, **TrakIt** can guess the language:
 ```bash
 >> trakit -t filename "foobar.en.sdh.srt"
 {
-  "language": "en"
+  "language": "en",
   "hearing_impaired": true
 }
 ```
@@ -146,12 +146,38 @@ KnowIt already uses **trakit** to enhance the extracted information
 
 ## Installation
 
-**TrakIt** can be installed as a regular python module by running:
+**TrakIt** requires Python 3.10 or later.
 
-    $ [sudo] pip install trakit
+**TrakIt** is a command line tool. The simplest way to run it, with no install step,
+is [uvx](https://docs.astral.sh/uv/guides/tools/) (part of [uv](https://docs.astral.sh/uv/)):
 
-For a better isolation with your system you should use a dedicated
-virtualenv or install for your user only using the `--user` flag.
+    $ uvx trakit "Português (Brasil)"
+
+To install it instead, so it stays available on your `PATH`:
+
+    $ uv tool install trakit
+
+`pip` is also supported. Use a dedicated virtualenv or the `--user` flag for a
+better isolation with your system:
+
+    $ pip install --user trakit
+
+**TrakIt** is also a library. To add it as a dependency to a uv-managed project:
+
+    $ uv add trakit
+
+The `-y`/`--yaml` option needs the optional `yaml` extra:
+
+    $ uv tool install "trakit[yaml]"
+
+## Development
+
+**TrakIt** uses [uv](https://docs.astral.sh/uv/) to manage its environment and dependencies.
+
+    $ uv sync --all-extras
+    $ bash scripts/test.sh
+
+This runs [ruff](https://docs.astral.sh/ruff/) (lint and format check), [mypy](https://mypy-lang.org/) and the test suite.
 
 ## Data
 * Available languages are the same supported by [Diaoul/babelfish](https://github.com/Diaoul/babelfish)

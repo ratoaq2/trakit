@@ -5,7 +5,6 @@ import typing
 from urllib.request import urlretrieve
 
 from babelfish import Country, Language, LanguageReverseError
-
 from unidecode import unidecode
 
 CUR_PATH = os.path.dirname(__file__)
@@ -14,8 +13,8 @@ DOWNLOADED_PATH = os.path.join(CUR_PATH, 'downloaded')
 
 suppress_re = re.compile(r"[\(\)'\,\.\u200f]")
 
-with open(os.path.join(CUR_PATH, 'generator.json'), 'r', encoding='utf-8') as cfg_file:
-    CONFIG: typing.Dict[str, typing.Any] = json.load(cfg_file)
+with open(os.path.join(CUR_PATH, 'generator.json'), encoding='utf-8') as cfg_file:
+    CONFIG: dict[str, typing.Any] = json.load(cfg_file)
     CONFIG['ignored_words'] = set(CONFIG['ignored_words'])
     CONFIG['countries']['ignore-extraction'] = set(CONFIG['countries']['ignore-extraction'])
     CONFIG['languages']['ignore-extraction'] = set(CONFIG['languages']['ignore-extraction'])
@@ -25,21 +24,19 @@ with open(os.path.join(CUR_PATH, 'generator.json'), 'r', encoding='utf-8') as cf
 
 
 class ConfigGenerator:
-    def __init__(self,
-                 country_demonyms: typing.Dict[str, str],
-                 country_native_names: typing.Dict[str, typing.List[str]],
-                 language_english_names: typing.Dict[str, str],
-                 language_native_names: typing.Dict[str, str]):
+    def __init__(
+        self,
+        country_demonyms: dict[str, str],
+        country_native_names: dict[str, list[str]],
+        language_english_names: dict[str, str],
+        language_native_names: dict[str, str],
+    ):
         self.country_demonyms = country_demonyms
         self.country_native_names = country_native_names
         self.language_english_names = language_english_names
         self.language_native_names = language_native_names
 
-    def register_duplicate(self,
-                           name: str,
-                           previous_value: str,
-                           new_value: str,
-                           duplicated: typing.Dict[str, typing.List[str]]):
+    def register_duplicate(self, name: str, previous_value: str, new_value: str, duplicated: dict[str, list[str]]):
         if name not in duplicated:
             duplicated[name] = []
         duplicated[name].append(previous_value)
@@ -51,9 +48,9 @@ class ConfigGenerator:
         values.update([v.strip() for v in unidecoded if '@' not in v])
         return [v for v in values if len(v) > 0]
 
-    def register_country_synonym(self, country: Country, name: str,
-                                 country_synonyms: typing.Dict[str, str],
-                                 dup_country_syns: typing.Dict[str, typing.List[str]]):
+    def register_country_synonym(
+        self, country: Country, name: str, country_synonyms: dict[str, str], dup_country_syns: dict[str, list[str]]
+    ):
         name = suppress_re.sub('', name)
         if name.upper() == country.name:
             return
@@ -128,7 +125,7 @@ class ConfigGenerator:
             'languages': language_synonyms,
             'implicit-languages': CONFIG['languages']['implicit'],
             'scripts': scripts,
-            'regions': regions
+            'regions': regions,
         }
 
     def generate(self):
@@ -138,23 +135,21 @@ class ConfigGenerator:
 
 
 class Generator:
-
     def __init__(self):
-        self.country_demonyms: typing.Dict[str, str] = {}
-        self.country_additional_demonyms: typing.Dict[str, typing.List[str]] = {}
-        self.country_native_names: typing.Dict[str, typing.List[str]] = {}
-        self.language_english_names: typing.Dict[str, str] = {}
-        self.language_native_names: typing.Dict[str, str] = {}
+        self.country_demonyms: dict[str, str] = {}
+        self.country_additional_demonyms: dict[str, list[str]] = {}
+        self.country_native_names: dict[str, list[str]] = {}
+        self.language_english_names: dict[str, str] = {}
+        self.language_native_names: dict[str, str] = {}
 
     def generate(self):
         self.download_files()
         self.process_countries()
         self.process_languages()
         self.generate_files()
-        ConfigGenerator(self.country_demonyms,
-                        self.country_native_names,
-                        self.language_english_names,
-                        self.language_native_names).generate()
+        ConfigGenerator(
+            self.country_demonyms, self.country_native_names, self.language_english_names, self.language_native_names
+        ).generate()
 
     def generate_files(self):
         if not os.path.isdir(GENERATED_PATH):
@@ -186,24 +181,20 @@ class Generator:
         if not os.path.isfile(language_mapping_list_path):
             urlretrieve(CONFIG['urls']['local-language-names'], language_mapping_list_path)
         if not os.path.isfile(language_mapping_json_path):
-            with open(language_mapping_list_path, 'r', encoding='utf-8') as f:
+            with open(language_mapping_list_path, encoding='utf-8') as f:
                 content: str = f.read()
-                content = content[content.index('  return {')+9:content.index('  };')+3]
+                content = content[content.index('  return {') + 9 : content.index('  };') + 3]
                 content = re.sub(r"'(?P<ietf>\w+([\-\@]\w+)?)'\:", r'"\g<ietf>":', content)
-                content = re.sub(r"\b(?P<name>\w+)\b\:", r'"\g<name>":', content)
+                content = re.sub(r'\b(?P<name>\w+)\b\:', r'"\g<name>":', content)
                 with open(language_mapping_json_path, 'w', encoding='utf-8') as out:
                     out.write(content)
 
-    def process_country_demonym(self,
-                                country: Country,
-                                c: typing.Mapping[str, typing.Any]):
+    def process_country_demonym(self, country: Country, c: typing.Mapping[str, typing.Any]):
         demonym = c['demonyms']['eng']['m']
         if demonym:
             self.country_demonyms[country.alpha2] = demonym
 
-    def process_country_native_names(self,
-                                     country: Country,
-                                     c: typing.Mapping[str, typing.Any]):
+    def process_country_native_names(self, country: Country, c: typing.Mapping[str, typing.Any]):
         for v in c['name']['native'].values():
             name = v['common']
             if country.alpha2 not in self.country_native_names:
@@ -212,15 +203,13 @@ class Generator:
             if name not in names:
                 names.append(name)
 
-    def process_language_names(self,
-                               language: Language,
-                               names: typing.Mapping[str, str]):
+    def process_language_names(self, language: Language, names: typing.Mapping[str, str]):
         ietf = str(language)
         self.language_english_names[ietf] = names['englishName']
         self.language_native_names[ietf] = names['nativeName']
 
     def process_countries(self):
-        with open(os.path.join(DOWNLOADED_PATH, 'countries.json'), 'r', encoding='utf-8') as f:
+        with open(os.path.join(DOWNLOADED_PATH, 'countries.json'), encoding='utf-8') as f:
             countries = json.load(f)
             for c in countries:
                 try:
@@ -232,7 +221,7 @@ class Generator:
         self.country_demonyms.update(CONFIG['countries']['overriden-demonyms'])
 
     def process_languages(self):
-        with open(os.path.join(DOWNLOADED_PATH, 'language-mapping-list.json'), 'r', encoding='utf-8') as f:
+        with open(os.path.join(DOWNLOADED_PATH, 'language-mapping-list.json'), encoding='utf-8') as f:
             languages = json.load(f)
             for ietf, names in languages.items():
                 if ietf in CONFIG['languages']['ignore-extraction']:

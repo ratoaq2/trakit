@@ -3,7 +3,6 @@ import typing
 import pytest
 
 from tests import parameters_from_yaml
-
 from trakit.__main__ import execute
 
 
