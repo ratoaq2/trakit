@@ -7,7 +7,7 @@ from trakit import api
 
 
 @pytest.mark.parametrize('value, expected', parameters_from_yaml(__file__, 'default_api'))
-def test_default_api(value: str, expected: typing.Mapping[str, typing.Any]):
+def test_default_api(value: str, expected: typing.Mapping[str, typing.Any]) -> None:
     # when
     actual = api.trakit(value)
 
@@ -16,7 +16,7 @@ def test_default_api(value: str, expected: typing.Mapping[str, typing.Any]):
 
 
 @pytest.mark.parametrize('value, expected', parameters_from_yaml(__file__, 'options'))
-def test_options(value: str, expected: dict[str, typing.Any]):
+def test_options(value: str, expected: dict[str, typing.Any]) -> None:
     # given
     options = expected['options']
     del expected['options']

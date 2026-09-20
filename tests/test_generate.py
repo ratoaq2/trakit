@@ -8,7 +8,7 @@ from .generator import GENERATED_PATH, Generator
 TRACKIT_PATH = os.path.join(os.path.dirname(trakit.__file__), 'data')
 
 
-def test_generate_config():
+def test_generate_config() -> None:
     # given
     with open(os.path.join(TRACKIT_PATH, 'config.json'), encoding='utf-8') as f:
         expected = json.load(f)

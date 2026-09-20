@@ -179,6 +179,10 @@ The `-y`/`--yaml` option needs the optional `yaml` extra:
 
 This runs [ruff](https://docs.astral.sh/ruff/) (lint and format check), [mypy](https://mypy-lang.org/) and the test suite.
 
+[pre-commit](https://pre-commit.com/) hooks mirror the same checks and run automatically on `git commit`:
+
+    $ uv run pre-commit install
+
 ## Data
 * Available languages are the same supported by [Diaoul/babelfish](https://github.com/Diaoul/babelfish)
 * Localized country names were fetched from [mledoze/countries](https://github.com/mledoze/countries)

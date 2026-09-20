@@ -8,8 +8,20 @@ from trakit.words import blank_match, blank_release_names, to_combinations, to_s
 from . import parameters_from_yaml
 
 
+class WordFixture(typing.TypedDict):
+    start: int
+    end: int
+    value: str
+
+
+class BlankMatchFixture(typing.TypedDict):
+    start: int
+    end: int
+    expected: str
+
+
 @pytest.mark.parametrize('value, expected', parameters_from_yaml(__file__, 'to_words'))
-def test_to_words(value: str, expected: list[typing.Mapping[str, str | int]]):
+def test_to_words(value: str, expected: list[WordFixture]) -> None:
     # given
     expected_matches = [Match(d['start'], d['end'], value=d['value'], input_string=value) for d in expected]
 
@@ -19,12 +31,13 @@ def test_to_words(value: str, expected: list[typing.Mapping[str, str | int]]):
     # then
     assert actual == expected_matches
     for w in actual:
+        assert w.input_string is not None
         assert w.input_string[w.start : w.end] == value[w.start : w.end]
         assert w.value == value[w.start : w.end]
 
 
 @pytest.mark.parametrize('value, expected', parameters_from_yaml(__file__, 'to_combinations'))
-def test_to_combinations(value: str, expected: list[list[typing.Mapping[str, str | int]]]):
+def test_to_combinations(value: str, expected: list[list[WordFixture]]) -> None:
     # given
     expected_combinations = [
         [Match(d['start'], d['end'], value=d['value'], input_string=value) for d in items] for items in expected
@@ -38,7 +51,7 @@ def test_to_combinations(value: str, expected: list[list[typing.Mapping[str, str
 
 
 @pytest.mark.parametrize('expected, data', parameters_from_yaml(__file__, 'to_sentence'))
-def test_to_sentence(expected: str, data: list[typing.Mapping[str, str | int]]):
+def test_to_sentence(expected: str, data: list[WordFixture]) -> None:
     # given
     combination = [Match(m['start'], m['end'], value=m['value']) for m in data]
 
@@ -50,7 +63,7 @@ def test_to_sentence(expected: str, data: list[typing.Mapping[str, str | int]]):
 
 
 @pytest.mark.parametrize('value, data', parameters_from_yaml(__file__, 'blank_match'))
-def test_blank_match(value: str, data: typing.Mapping[str, str | int]):
+def test_blank_match(value: str, data: BlankMatchFixture) -> None:
     # given
     match = Match(data['start'], data['end'], input_string=value)
     expected = data['expected']
@@ -63,7 +76,7 @@ def test_blank_match(value: str, data: typing.Mapping[str, str | int]):
 
 
 @pytest.mark.parametrize('value, expected', parameters_from_yaml(__file__, 'blank_release_names'))
-def test_blank_release_names(value: str, expected: str):
+def test_blank_release_names(value: str, expected: str) -> None:
     # given
 
     # when

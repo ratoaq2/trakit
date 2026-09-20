@@ -7,7 +7,7 @@ from trakit.__main__ import execute
 
 
 @pytest.mark.parametrize('name, data', parameters_from_yaml(__file__, 'main'))
-def test_main(name: str, data: typing.Mapping[str, typing.Any]):
+def test_main(name: str, data: typing.Mapping[str, typing.Any]) -> None:
     # given
     args = data['args']
     expected = data['expected']

@@ -4,7 +4,7 @@ import typing
 import yaml
 
 
-def read_yaml(file_path):
+def read_yaml(file_path: str) -> typing.Any:
     with open(file_path, encoding='utf-8') as f:
         return yaml.safe_load(f)
 
