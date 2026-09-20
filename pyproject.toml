@@ -1,6 +1,6 @@
 [project]
 name = "trakit"
-version = "0.4.0"
+version = "0.4.1-dev"
 description = "Guess additional information from track titles"
 authors = [
     { name = "Rato" }
