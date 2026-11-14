@@ -15,4 +15,4 @@ same checks as CI. If a check must also run before a commit, add it to `.pre-com
 
 Python versions: the CI matrix (`.github/workflows/test.yml`), `requires-python`, and the `classifiers`
 in `pyproject.toml` list each Python version that is not end of life. Change all three together.
-`.python-version` is the newest version of the CI matrix. Dependabot does not do this.
+`.python-version` is the newest version of the CI matrix. `.github/workflows/publish.yml` builds with it. Dependabot does not do this.
