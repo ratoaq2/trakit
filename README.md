@@ -181,7 +181,9 @@ This runs [ruff](https://docs.astral.sh/ruff/) (lint and format check), [mypy](h
 
 [pre-commit](https://pre-commit.com/) hooks mirror the same checks and run automatically on `git commit`:
 
-    $ uv run pre-commit install
+    $ uv run pre-commit install --hook-type pre-commit --hook-type commit-msg
+
+See `CONTRIBUTING.md` for the branch, commit, and pull request rules.
 
 ## Data
 * Available languages are the same supported by [Diaoul/babelfish](https://github.com/Diaoul/babelfish)

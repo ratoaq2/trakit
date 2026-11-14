@@ -128,3 +128,9 @@ dmypy.json
 .idea
 tests/downloaded
 tests/generated
+
+# Claude Code
+plans/
+.claude/settings.local.json
+.claude/worktrees/
+.claude/scheduled_tasks.lock
