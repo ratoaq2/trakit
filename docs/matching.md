@@ -19,8 +19,7 @@ example `&`.
 - A flag code that is also a country code (`cc`, `ad`) must be in `ignored_words` in `tests/generator.json`.
   If it is not there, the language rule reads it as a country (`English AD` gives `en-AD`).
 - A short code that is also a language or country code (`HI`, `AD`) has the tag `after-language`. The
-  rule `RemoveCodeWithoutLanguage` removes it when no language comes before it. It also removes it in a
-  file name, because there the language span is not in the input string.
+  rule `RemoveCodeWithoutLanguage` removes it when no language comes before it.
 
 ## Generated data
 

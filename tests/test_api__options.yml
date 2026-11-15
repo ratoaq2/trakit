@@ -19,6 +19,7 @@
 : options:
     type: filename
   language: en
+  hearing_impaired: true
 
 ? foobar.ad.srt
 : options:
@@ -28,6 +29,7 @@
 : options:
     type: filename
   language: en
+  descriptive: true
 
 ? foobar.pt-BR.cc.commentary.srt
 : options:

@@ -13,20 +13,12 @@ from trakit.words import seps
 
 
 class RemoveCodeWithoutLanguage(Rule):
-    """Remove a short flag code (HI, AD) that does not come after a language.
-
-    In a file name, the language span is not in the input string, so the code is always removed.
-    """
+    """Remove a short flag code (HI, AD) that does not come after a language."""
 
     consequence = RemoveMatch
 
     def when(self, matches: Matches, context: dict[str, typing.Any] | None) -> list[Match]:
-        filename = context is not None and context.get('type') == 'filename'
-        return [
-            m
-            for m in matches.tagged('after-language')
-            if filename or not matches.previous(m, lambda x: x.name == 'language')
-        ]
+        return [m for m in matches.tagged('after-language') if not matches.previous(m, lambda x: x.name == 'language')]
 
 
 def configure(config: Config) -> Rebulk:

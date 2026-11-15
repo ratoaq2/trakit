@@ -105,6 +105,7 @@ def blank_release_names(value: str) -> str:
 
 def blank_base_name_and_extension(value: str) -> str:
     p = Path(value)
-    stems = p.stem.split('.')
+    start = len(value) - len(p.name) + len(p.stem.split('.')[0])
+    end = len(value) - len(p.suffix)
 
-    return '.'.join(stems[1:])
+    return blank(blank(value, 0, start), end, len(value))
