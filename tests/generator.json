@@ -4,6 +4,7 @@
     "local-language-names": "https://raw.githubusercontent.com/mozilla/language-mapping-list/master/language-mapping-list.js"
   },
   "ignored_words": [
+    "ad",
     "bit",
     "cc",
     "ch",
