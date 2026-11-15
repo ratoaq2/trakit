@@ -326,6 +326,15 @@
 ? Atmos 7.1 (English TRUEHD)
 : language: en
 
+? Audio Described
+: descriptive: true
+
+? Audio Description
+: descriptive: true
+
+? Audio.Description
+: descriptive: true
+
 ? BR
 : language: pt-BR
 
@@ -1550,6 +1559,9 @@
 ? Dansk (VOBSUB)
 : language: da
 
+? Described Video
+: descriptive: true
+
 ? Descriptive Audio
 : descriptive: true
 
@@ -1741,6 +1753,10 @@
 ? English (ASS)
 : language: en
 
+? English (Audio Description)
+: descriptive: true
+  language: en
+
 ? English (DCA 7.1)
 : language: en
 
@@ -1795,6 +1811,10 @@
 
 ? English (HE-AAC Stereo)
 : language: en
+
+? English (Hearing Impaired)
+: hearing_impaired: true
+  language: en
 
 ? English (MOV_TEXT)
 : language: en
@@ -1944,6 +1964,10 @@
 ? English Forced SRT
 : language: en
   forced: true
+
+? English Hearing-Impaired
+: hearing_impaired: true
+  language: en
 
 ? English PGS
 : language: en
@@ -2613,6 +2637,18 @@
 
 ? Grey (Español PGS)
 : language: es
+
+? HI
+: {}
+
+? Hearing Impaired
+: hearing_impaired: true
+
+? Hearing-Impaired
+: hearing_impaired: true
+
+? Hearing.Impaired
+: hearing_impaired: true
 
 ? A Movie
 : {}
