@@ -1828,6 +1828,7 @@
 
 ? English (Non-English Parts)
 : language: en
+  forced: true
 
 ? English (PCM Stereo)
 : language: en
@@ -1846,6 +1847,14 @@
 ? English (SDH) (SRT)
 : language: en
   hearing_impaired: true
+
+? English (Signs & Songs)
+: language: en
+  forced: true
+
+? English (Signs and Songs) (PGS)
+: language: en
+  forced: true
 
 ? English (SRT External)
 : language: en
@@ -3188,15 +3197,19 @@
 : language: nl
 
 ? Non English Parts
-: {}
+: forced: true
 
 ? Non-English Parts
-: {}
+: forced: true
 
 ? Non-English Parts (English PGS)
 : language: en
+  forced: true
 
 ? Non-Spanish Parts
+: forced: true
+
+? Non-Spanish
 : {}
 
 ? Nonsense English
@@ -3707,6 +3720,30 @@
 ? Film.2016.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT (English DTS-HD MA 5.1)
 : language: en
 
+? Sign & Song
+: forced: true
+
+? Signs
+: {}
+
+? Signs & Songs
+: forced: true
+
+? Signs and Songs
+: forced: true
+
+? Signs.and.Songs
+: forced: true
+
+? Signs/Songs
+: forced: true
+
+? Signs&Songs
+: forced: true
+
+? Signs Songs Full
+: {}
+
 ? Simplified
 : language: zh-Hans
 
@@ -3766,6 +3803,15 @@
 
 ? Slovenčina (VOBSUB)
 : language: sk
+
+? Songs
+: {}
+
+? Songs & Signs
+: forced: true
+
+? Songs (English SRT)
+: language: en
 
 ? Spanish
 : language: es
