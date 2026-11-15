@@ -173,6 +173,9 @@
 ? AC3 @ 448 kbps 5.1ch (English 5.1)
 : language: en
 
+? AD
+: {}
+
 ? Ad.Hominem.2019.2160p.UHD.BluRay-AAAUHD
 : {}
 
@@ -1750,6 +1753,10 @@
 ? English (AC3 Stereo)
 : language: en
 
+? English (AD)
+: descriptive: true
+  language: en
+
 ? English (ASS)
 : language: en
 
@@ -1901,6 +1908,10 @@
 : language: en
   closed_caption: true
 
+? English AD
+: descriptive: true
+  language: en
+
 ? English DD 5.1
 : language: en
 
@@ -1965,6 +1976,10 @@
 : language: en
   forced: true
 
+? English HI
+: hearing_impaired: true
+  language: en
+
 ? English Hearing-Impaired
 : hearing_impaired: true
   language: en
@@ -2000,6 +2015,9 @@
 ? English TrueHD Atmos 7.1
 : language: en
 
+? English US
+: language: en-US
+
 ? English [Forced]
 : language: en
   forced: true
@@ -2021,6 +2039,10 @@
 ? English [SDH] (SRT)
 : language: en
   hearing_impaired: true
+
+? English [HI]
+: hearing_impaired: true
+  language: en
 
 ? English forced
 : language: en
