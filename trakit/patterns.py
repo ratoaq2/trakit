@@ -32,6 +32,13 @@ def configure(config: Config) -> Rebulk:
     for name in ('forced', 'commentary', 'external'):
         others.string(name, name=name, value=True)
 
+    others.regex(
+        r'signs?-*(?:&|and|/)-*songs?',
+        r'songs?-*(?:&|and|/)-*signs?',
+        r'non-[^\W\d_]+-parts',
+        name='forced',
+        value=True,
+    )
     others.string('sdh', name='hearing_impaired', value=True)
     others.regex('hearing-impaired', name='hearing_impaired', value=True)
     others.string('hi', name='hearing_impaired', value=True, tags=['after-language'])
