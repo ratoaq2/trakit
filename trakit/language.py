@@ -151,6 +151,11 @@ class LanguageFinder:
             combinations = to_combinations(all_words, self.language_max_words)
 
         for c in combinations:
+            # "Non-English" is not English
+            i = all_words.index(c[0])
+            if i and all_words[i - 1].value.lower() == 'non':
+                continue
+
             language_sentence = to_sentence(c)
             lang: Language | None = _convert(language_sentence, context)
             if lang is None:
