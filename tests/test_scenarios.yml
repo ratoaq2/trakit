@@ -1826,6 +1826,9 @@
 ? English (MOV_TEXT)
 : language: en
 
+? English (Non-English Parts)
+: language: en
+
 ? English (PCM Stereo)
 : language: en
 
@@ -3183,6 +3186,21 @@
 
 ? Nederlands (VOBSUB)
 : language: nl
+
+? Non English Parts
+: {}
+
+? Non-English Parts
+: {}
+
+? Non-English Parts (English PGS)
+: language: en
+
+? Non-Spanish Parts
+: {}
+
+? Nonsense English
+: language: en
 
 ? Norsk
 : language: 'no'
