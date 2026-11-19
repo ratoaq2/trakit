@@ -10,6 +10,27 @@
   language: en
   forced: true
 
+? foobar.hi.srt
+: options:
+    type: filename
+  language: hi
+
+? foobar.en.hi.srt
+: options:
+    type: filename
+  language: en
+  hearing_impaired: true
+
+? foobar.ad.srt
+: options:
+    type: filename
+
+? foobar.en.ad.srt
+: options:
+    type: filename
+  language: en
+  descriptive: true
+
 ? foobar.pt-BR.cc.commentary.srt
 : options:
     type: filename

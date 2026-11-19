@@ -1,12 +1,24 @@
 import re
+import typing
 from functools import partial
 
 from rebulk import Rebulk
+from rebulk.match import Match, Matches
+from rebulk.rules import RemoveMatch, Rule
 from rebulk.validators import chars_surround
 
 from trakit.config import Config
 from trakit.language import language
 from trakit.words import seps
+
+
+class RemoveCodeWithoutLanguage(Rule):
+    """Remove a short flag code (HI, AD) that does not come after a language."""
+
+    consequence = RemoveMatch
+
+    def when(self, matches: Matches, context: dict[str, typing.Any] | None) -> list[Match]:
+        return [m for m in matches.tagged('after-language') if not matches.previous(m, lambda x: x.name == 'language')]
 
 
 def configure(config: Config) -> Rebulk:
@@ -20,13 +32,25 @@ def configure(config: Config) -> Rebulk:
     for name in ('forced', 'commentary', 'external'):
         others.string(name, name=name, value=True)
 
+    others.regex(
+        r'signs?-*(?:&|and|/)-*songs?',
+        r'songs?-*(?:&|and|/)-*signs?',
+        r'non-[^\W\d_]+-parts',
+        name='forced',
+        value=True,
+    )
     others.string('sdh', name='hearing_impaired', value=True)
+    others.regex('hearing-impaired', name='hearing_impaired', value=True)
+    others.string('hi', name='hearing_impaired', value=True, tags=['after-language'])
     others.string('alternate', name='version', value='alternate')
     others.string('descriptive', name='descriptive', value=True)
+    others.regex('audio-descri(?:ption|bed)', 'described-video', name='descriptive', value=True)
+    others.string('ad', name='descriptive', value=True, tags=['after-language'])
     others.regex('cc', 'closed-captions?', name='closed_caption', value=True)
 
     rebulk = Rebulk()
     rebulk.rebulk(language(config))
     rebulk.rebulk(others)
+    rebulk.rules(RemoveCodeWithoutLanguage)
 
     return rebulk

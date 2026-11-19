@@ -16,6 +16,11 @@ The flag patterns are in the `others` Rebulk in `trakit/patterns.py`. Each match
 both sides (`seps` in `trakit/words.py`). A pattern can contain a character that is not in `seps`, for
 example `&`.
 
+- A flag code that is also a country code (`cc`, `ad`) must be in `ignored_words` in `tests/generator.json`.
+  If it is not there, the language rule reads it as a country (`English AD` gives `en-AD`).
+- A short code that is also a language or country code (`HI`, `AD`) has the tag `after-language`. The
+  rule `RemoveCodeWithoutLanguage` removes it when no language comes before it.
+
 ## Generated data
 
 `trakit/data/config.json` holds the country and language synonyms, the scripts, the regions, and the
