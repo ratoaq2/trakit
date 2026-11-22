@@ -2054,8 +2054,98 @@
 ? English TrueHD Atmos 7.1
 : language: en
 
+? English NF
+: language: en-NF
+
+? English (Signs) [CR]
+: language: en
+  forced: true
+
+? English (IT)
+: language: en
+
+? English (Costa Rica)
+: language: en-CR
+
+? Spanish (CR)
+: language: es-CR
+
+? Spanish (Costa Rica)
+: language: es-CR
+
+? Portuguese (BR)
+: language: pt-BR
+
+? Portuguese [BR]
+: language: pt-BR
+
+? English [NF]
+: language: en
+
+? Spanish [CR]
+: language: es
+
+? English (NF)
+: language: en-NF
+
+? French (MA)
+: language: fr-MA
+
+? German (CH)
+: language: de-CH
+
+? Croatian (HR)
+: language: hr-HR
+
 ? English US
 : language: en-US
+
+? English (CC)
+: language: en
+  closed_caption: true
+
+? English [CC]
+: language: en
+  closed_caption: true
+
+? Catalan AD
+: language: ca
+  descriptive: true
+
+? English CC (US)
+: language: en-US
+  closed_caption: true
+
+? Catalan AD (ES)
+: language: ca-ES
+  descriptive: true
+
+? DTS-HR 7.1 (English)
+: language: en
+
+? Croatian DTS-HR 7.1
+: language: hr
+
+? English (NA)
+: language: en
+
+? German (5.1 CH)
+: language: de
+
+? German 2.0 CH
+: language: de
+
+? German 2CH
+: language: de
+
+? Day One
+: {}
+
+? Gun Fight
+: {}
+
+? Back to the Future (English)
+: language: en
 
 ? English [Forced]
 : language: en
