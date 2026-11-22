@@ -48,3 +48,228 @@
     type: filename
   language: en
   hearing_impaired: true
+
+? movie.fr.srt
+: options:
+    type: filename
+  language: fr
+
+? movie.FR.srt
+: options:
+    type: filename
+  language: fr
+
+? movie.id.srt
+: options:
+    type: filename
+  language: id
+
+? movie.ID.srt
+: options:
+    type: filename
+  language: id
+
+? movie.br.srt
+: options:
+    type: filename
+  language: br
+
+? movie.BR.srt
+: options:
+    type: filename
+  language: br
+
+? movie.uk.srt
+: options:
+    type: filename
+  language: uk
+
+? movie.ca.srt
+: options:
+    type: filename
+  language: ca
+
+? movie.hi.srt
+: options:
+    type: filename
+  language: hi
+
+? movie.dan.srt
+: options:
+    type: filename
+  language: da
+
+? movie.fre.srt
+: options:
+    type: filename
+  language: fr
+
+? movie.french.srt
+: options:
+    type: filename
+
+? movie.spanish.srt
+: options:
+    type: filename
+
+? movie.srt
+: options:
+    type: filename
+
+? movie.pt-br.srt
+: options:
+    type: filename
+  language: pt-BR
+
+? movie.pt-BR.srt
+: options:
+    type: filename
+  language: pt-BR
+
+? movie.pt_BR.srt
+: options:
+    type: filename
+  language: pt-BR
+
+? movie.fr-ca.srt
+: options:
+    type: filename
+  language: fr-CA
+
+? movie.fr-CA.srt
+: options:
+    type: filename
+  language: fr-CA
+
+? movie.en-us.srt
+: options:
+    type: filename
+  language: en-US
+
+? movie.en-gb.srt
+: options:
+    type: filename
+  language: en-GB
+
+? movie.uk-ua.srt
+: options:
+    type: filename
+  language: uk-UA
+
+? movie.zh-hk.srt
+: options:
+    type: filename
+  language: zh-HK
+
+? movie.zh-hans.srt
+: options:
+    type: filename
+  language: zh-Hans
+
+? movie.es-419.srt
+: options:
+    type: filename
+  language: es-419
+
+? movie.pt.br.srt
+: options:
+    type: filename
+  language: br
+
+? movie.fr.ca.srt
+: options:
+    type: filename
+  language: ca
+
+? movie.en.fr.srt
+: options:
+    type: filename
+  language: fr
+
+? movie.director.en.srt
+: options:
+    type: filename
+  language: en
+
+? The.Movie.2009.1080p.BluRay.x264-GRP.en.srt
+: options:
+    type: filename
+  language: en
+
+? movie.us.srt
+: options:
+    type: filename
+
+? movie.vn.srt
+: options:
+    type: filename
+
+? movie.gr.srt
+: options:
+    type: filename
+
+? movie.ua.srt
+: options:
+    type: filename
+
+? movie.hk.srt
+: options:
+    type: filename
+
+? movie.usa.srt
+: options:
+    type: filename
+
+? movie.francais.srt
+: options:
+    type: filename
+
+? movie.deutsch.srt
+: options:
+    type: filename
+
+? movie.and.srt
+: options:
+    type: filename
+
+? movie.fr.forced.srt
+: options:
+    type: filename
+  language: fr
+  forced: true
+
+? movie.forced.fr.srt
+: options:
+    type: filename
+  language: fr
+  forced: true
+
+? movie.id.forced.srt
+: options:
+    type: filename
+  language: id
+  forced: true
+
+? movie.br.forced.srt
+: options:
+    type: filename
+  language: br
+  forced: true
+
+? movie.fr.sdh.forced.srt
+: options:
+    type: filename
+  language: fr
+  hearing_impaired: true
+  forced: true
+
+? movie.en.hi.srt
+: options:
+    type: filename
+  language: en
+  hearing_impaired: true
+
+? movie.sdh.srt
+: options:
+    type: filename
+  hearing_impaired: true

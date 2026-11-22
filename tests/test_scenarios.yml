@@ -5391,3 +5391,167 @@
 
 ? 한국어 (VOBSUB)
 : language: ko
+
+? Forced (br)
+: language: pt-BR
+  forced: true
+
+? Forced (BR)
+: language: pt-BR
+  forced: true
+
+? fr
+: language: fr
+
+? Forced (fr)
+: language: fr
+  forced: true
+
+? Forced (FR)
+: language: fr-FR
+  forced: true
+
+? uk
+: language: en-GB
+
+? UK
+: language: en-GB
+
+? Forced (uk)
+: language: en-GB
+  forced: true
+
+? Forced (UK)
+: language: en-GB
+  forced: true
+
+? us
+: language: en-US
+
+? US
+: language: en-US
+
+? Forced (us)
+: language: en-US
+  forced: true
+
+? Forced (US)
+: language: en-US
+  forced: true
+
+? ca
+: language: fr-CA
+
+? Forced (ca)
+: language: fr-CA
+  forced: true
+
+? Forced (CA)
+: language: fr-CA
+  forced: true
+
+? vn
+: language: vi
+
+? VN
+: language: vi
+
+? Forced (vn)
+: language: vi
+  forced: true
+
+? Forced (VN)
+: language: vi
+  forced: true
+
+? id
+: language: id
+
+? ID
+: language: id-ID
+
+? Forced (id)
+: language: id
+  forced: true
+
+? Forced (ID)
+: language: id-ID
+  forced: true
+
+? ua
+: language: uk-UA
+
+? UA
+: language: uk-UA
+
+? Forced (ua)
+: language: uk-UA
+  forced: true
+
+? Forced (UA)
+: language: uk-UA
+  forced: true
+
+? gr
+: language: el
+
+? GR
+: language: el
+
+? Forced (gr)
+: language: el
+  forced: true
+
+? Forced (GR)
+: language: el
+  forced: true
+
+? hk
+: language: zh-HK
+
+? HK
+: language: zh-HK
+
+? Forced (hk)
+: language: zh-HK
+  forced: true
+
+? Forced (HK)
+: language: zh-HK
+  forced: true
+
+? Portuguese (br)
+: language: pt-BR
+
+? French (CA)
+: language: fr-CA
+
+? French (ca)
+: language: fr-CA
+
+? English (UK)
+: language: en-GB
+
+? English (US)
+: language: en-US
+
+? English (us)
+: language: en-US
+
+? Chinese (HK)
+: language: zh-HK
+
+? Ukrainian (UA)
+: language: uk-UA
+
+? Français (fr)
+: language: fr
+
+? Français (FR)
+: language: fr-FR
+
+? Español de España
+: language: es-ES
+
+? Português do Brasil
+: language: pt-BR
