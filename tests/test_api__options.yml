@@ -4,6 +4,11 @@
   language: en
   commentary: true
 
+? Signs.2002.en.srt
+: options:
+    type: filename
+  language: en
+
 ? foobar.en.forced.srt
 : options:
     type: filename

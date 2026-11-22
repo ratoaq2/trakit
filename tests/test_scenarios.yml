@@ -1856,6 +1856,33 @@
 : language: en
   forced: true
 
+? English (Signs) [Half-Baked]
+: language: en
+  forced: true
+
+? English Signs
+: language: en
+  forced: true
+
+? English Signs [Official]
+: language: en
+  forced: true
+
+? English[Signs-Songs]
+: language: en
+  forced: true
+
+? English (Full) [Half-Baked]
+: language: en
+
+? English (Foreign)
+: language: en
+  forced: true
+
+? English foreign parts
+: language: en
+  forced: true
+
 ? English (SRT External)
 : language: en
   external: true
@@ -2396,6 +2423,24 @@
 ? Français Forced (SRT)
 : language: fr
   forced: true
+
+? Foreign
+: forced: true
+
+? Foreign parts only
+: forced: true
+
+? Foreign parts only PGS
+: forced: true
+
+? Full Subtitles incl. Foreign
+: {}
+
+? Dialogue + Foreign
+: {}
+
+? Commentary on Foreign Correspondent
+: commentary: true
 
 ? French
 : language: fr
@@ -3720,13 +3765,35 @@
 ? Film.2016.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT (English DTS-HD MA 5.1)
 : language: en
 
+? S&S
+: forced: true
+
+? S&S (English ASS)
+: language: en
+  forced: true
+
 ? Sign & Song
 : forced: true
 
 ? Signs
-: {}
+: forced: true
 
 ? Signs & Songs
+: forced: true
+
+? Signs & Songs@EMBER
+: forced: true
+
+? Signs + Songs
+: forced: true
+
+? Signs and Karaoke (Kienai)
+: forced: true
+
+? Signs [Baws]
+: forced: true
+
+? Signs/OP/ED
 : forced: true
 
 ? Signs and Songs
@@ -3741,7 +3808,37 @@
 ? Signs&Songs
 : forced: true
 
-? Signs Songs Full
+? Styled Signs
+: forced: true
+
+? Styled Signs, Songs
+: forced: true
+
+? Unstyled Signs
+: forced: true
+
+? Full Subtitles Signs [Baws]
+: {}
+
+? Dialogue + Signs
+: {}
+
+? Commentary on Signs
+: commentary: true
+
+? Full Subtitles w/ Karaoke [DameDesuYo modified]
+: {}
+
+? Dubtitles w/ Karaoke [Funimation modified]
+: {}
+
+? No insert lyrics
+: {}
+
+? Styled Subs
+: {}
+
+? Unstyled Subs
 : {}
 
 ? Simplified
