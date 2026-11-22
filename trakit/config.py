@@ -18,4 +18,5 @@ class Config:
         self.languages: typing.Mapping[str, str] = cfg.get('languages', {})
         self.scripts: typing.Mapping[str, str] = cfg.get('scripts', {})
         self.regions: typing.Mapping[str, str] = cfg.get('regions', {})
+        self.language_regions: typing.Mapping[str, typing.Mapping[str, str]] = cfg.get('language-regions', {})
         self.implicit_languages: typing.Mapping[str, str] = cfg.get('implicit-languages', {})

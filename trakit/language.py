@@ -68,6 +68,7 @@ class LanguageFinder:
         country_converters['guess'] = GuessCountryConverter(config.countries)
         language_converters['guess'] = GuessLanguageConverter(config.languages)
         self.regions = CaseInsensitiveDict(config.regions)
+        self.language_regions = config.language_regions
         self.scripts = CaseInsensitiveDict(config.scripts)
         self.common_words = CaseInsensitiveDict(dict.fromkeys(config.ignored, 0))
         self.implicit = CaseInsensitiveDict(config.implicit_languages)
@@ -181,6 +182,13 @@ class LanguageFinder:
             remaining_sentence = blank_match(match_lang)
             for combination in to_combinations(to_words(remaining_sentence), self.country_max_words):
                 sentence = to_sentence(combination)
+                # a code that is a region only for this language, with the exact case (LA after Spanish)
+                regions = self.language_regions.get(lang.alpha3, {})
+                language_region = next((regions[w.value] for w in combination if w.value in regions), None)
+                if language_region:
+                    lang = Language(lang.alpha3, country=lang.country, script=Script(language_region))
+                    break
+
                 country = self._find_country(sentence)
                 if country:
                     try:

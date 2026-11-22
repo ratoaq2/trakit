@@ -46,24 +46,26 @@ search cannot remove the code and continue to the next word.
 After the language, `find_language` looks for a country or a region in the other words of the title. It
 tries the largest group of words first. For each group, it applies these rules in order:
 
-1. A country name is a country. `English (Costa Rica)` gives `en-CR`.
-2. A code in `bracket-tags`, directly between `[` and `]`, is not a country. These are release tags of
+1. A code in `language-regions` for this language is a region. The case must be the same. `Spanish (LA)`
+   gives `es-419`. `Español (la versión original)` gives `es`.
+2. A country name is a country. `English (Costa Rica)` gives `en-CR`.
+3. A code in `bracket-tags`, directly between `[` and `]`, is not a country. These are release tags of
    streaming services. `English [NF]` gives `en`. `English NF` gives `en-NF`.
-3. A 2-letter code is a country only when the language is official in that country
+4. A 2-letter code is a country only when the language is official in that country
    (`country-languages`). `Spanish (CR)` gives `es-CR`. `English (Signs) [CR]` gives `en`.
-4. A region name (`regions`) or a script name (`scripts`).
+5. A region name (`regions`) or a script name (`scripts`).
 
-The search stops at the first group that matches a rule, also when rule 2 or 3 rejects the country.
+The search stops at the first group that matches a rule, also when rule 3 or 4 rejects the country.
 
-Add an entry to `bracket-tags` only when real data shows the case. `bracket-tags`
+Add an entry to `language-regions` or `bracket-tags` only when real data shows the case. `bracket-tags`
 is a list of exceptions, not a list of all release tags. Most release tags have more than 2 letters
 (`AMZN`, `DSNP`), so they are never a country code.
 
 ## Generated data
 
 `trakit/data/config.json` holds the data for the language rules: the country and language synonyms, the
-official languages of each country, the scripts, the regions, the bracket tags, and the ignored words. It
-is generated data. Never edit it by hand.
+official languages of each country, the scripts, the regions, the language-specific regions, the
+bracket tags, and the ignored words. It is generated data. Never edit it by hand.
 
 To change it:
 

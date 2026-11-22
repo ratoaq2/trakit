@@ -1596,7 +1596,6 @@
     "day",
     "gun",
     "jordan",
-    "la",
     "the",
     "to"
   ],
@@ -1625,6 +1624,11 @@
     "ita": "it",
     "简体双语": "zh-Hans",
     "繁体双语": "zh-Hant"
+  },
+  "language-regions": {
+    "spa": {
+      "LA": "419"
+    }
   },
   "languages": {
     "Adygebze": "ady",

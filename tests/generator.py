@@ -135,6 +135,7 @@ class ConfigGenerator:
             'implicit-languages': CONFIG['languages']['implicit'],
             'scripts': scripts,
             'regions': regions,
+            'language-regions': CONFIG['language-regions'],
         }
 
     def generate(self) -> None:

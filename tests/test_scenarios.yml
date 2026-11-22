@@ -908,7 +908,7 @@
 
 ? Commentary by director John Woo (LA) (Español PGS)
 : commentary: true
-  language: es
+  language: es-419
 
 ? Commentary by director John Woo (日本語 PGS)
 : commentary: true
@@ -2097,6 +2097,27 @@
 ? Croatian (HR)
 : language: hr-HR
 
+? Spanish (LA)
+: language: es-419
+
+? Español LA
+: language: es-419
+
+? Lao (LA)
+: language: lo-LA
+
+? Spanish (La)
+: language: es
+
+? Español (la versión original)
+: language: es
+
+? LA Confidential (English)
+: language: en
+
+? Commentary (LA)
+: commentary: true
+
 ? English US
 : language: en-US
 
@@ -3135,7 +3156,7 @@
 : {}
 
 ? LA (Español PGS)
-: language: es
+: language: es-419
 
 ? SHOW
 : {}
