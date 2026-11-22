@@ -7,6 +7,7 @@ from babelfish import (
     Country,
     CountryReverseError,
     Language,
+    LanguageConvertError,
     LanguageReverseError,
     Script,
     country_converters,
@@ -32,18 +33,37 @@ from trakit.words import (
 )
 
 
-def _convert(value: str, context: Context) -> Language | None:
-    if context.type == 'filename':
-        for conv in (Language.fromietf, Language.fromalpha3b, Language.fromalpha2):
-            try:
-                return conv(value)
-            except (ValueError, LanguageReverseError):
-                continue
-
+def _convert(value: str) -> Language | None:
     try:
         return Language.fromguess(value)
     except LanguageReverseError:
         return None
+
+
+def _from_code(code: str) -> Language | None:
+    # only ISO 639-1 and ISO 639-2 codes, as Jellyfin: sdh and dts are ISO 639-3 codes
+    for conv in (Language.fromietf, Language.fromalpha3b):
+        try:
+            lang: Language = conv(code.lower().replace('_', '-'))
+            if lang.alpha3b:
+                return lang
+        except (ValueError, LanguageReverseError, LanguageConvertError):
+            continue
+
+    return None
+
+
+def _alpha2(lang: Language) -> str | None:
+    try:
+        alpha2: str = lang.alpha2
+        return alpha2
+    except LanguageConvertError:
+        return None
+
+
+def _between(word: Match, *brackets: str) -> bool:
+    value = word.input_string or ''
+    return any(value[word.start - 1 : word.start] == b[0] and value[word.end : word.end + 1] == b[1] for b in brackets)
 
 
 class LanguageFinder:
@@ -92,11 +112,23 @@ class LanguageFinder:
         code = len(raw) == 2 and raw.isascii()
         if code and raw in self.bracket_tags:
             # a release tag in square brackets (English [NF]) is not a country
-            for w in combination:
-                value = w.input_string or ''
-                if w.value == raw and value[w.start - 1 : w.start] == '[' and value[w.end : w.end + 1] == ']':
-                    return False
+            if any(w.value == raw and _between(w, '[]') for w in combination):
+                return False
         return not code or lang.alpha3 in self.country_languages.get(country.value.alpha2, [])
+
+    def _find_lower_case_country(self, lang: Language, combination: list[Match]) -> Match | None:
+        # a lower-case code in brackets (French (ca)) is a country, but not the code of the language (Français (fr))
+        if len(combination) != 1:
+            return None
+
+        code = combination[0].value
+        if len(code) != 2 or not code.islower() or code == _alpha2(lang) or not _between(combination[0], '()', '[]'):
+            return None
+
+        try:
+            return to_match(combination, Country(code.upper()))
+        except ValueError:
+            return None
 
     def _find_script(self, value: str) -> Match | None:
         combinations = to_combinations(to_words(value), self.script_max_words)
@@ -124,7 +156,11 @@ class LanguageFinder:
         for c in combinations:
             sentence = to_sentence(c)
             if sentence in self.implicit:
-                return to_match(c, Language.fromietf(self.implicit[sentence]))
+                lang = Language.fromietf(self.implicit[sentence])
+                # a lower-case code of the language itself (fr, id) is the language, not the country
+                if sentence.islower() and sentence == _alpha2(lang):
+                    lang = Language(lang.alpha3)
+                return to_match(c, lang)
 
             region = self._find_region(sentence)
             if region and region.value.code in self.implicit:
@@ -147,8 +183,29 @@ class LanguageFinder:
     def accept_word(self, string: str) -> bool:
         return string.lower() not in self.common_words and not string.isnumeric()
 
+    def _find_filename_language(self, value: str, context: Context) -> Match | None:
+        # as Jellyfin, then subliminal: the last code before the extension, read from right to left
+        words = to_words(blank_base_name_and_extension(value), separators=frozenset(' .'))
+        hindi: Match | None = None
+        for word in reversed(words):
+            lang = _from_code(word.value)
+            if lang is None or not context.accept(lang):
+                continue
+
+            # hi is Hindi only when no other language comes before it
+            if word.value.lower() == 'hi':
+                hindi = hindi or to_match([word], lang)
+                continue
+
+            return to_match([word], lang)
+
+        return hindi
+
     def find_language(self, value: str, context: Context) -> Match | None:
-        value = blank_base_name_and_extension(value) if context.type == 'filename' else blank_release_names(value)
+        if context.type == 'filename':
+            return self._find_filename_language(value, context)
+
+        value = blank_release_names(value)
         value = blank_technical_terms(value)
         all_words = to_words(value, predicate=self.accept_word)
         combinations = to_combinations(all_words, self.language_max_words)
@@ -174,7 +231,7 @@ class LanguageFinder:
                 continue
 
             language_sentence = to_sentence(c)
-            lang: Language | None = _convert(language_sentence, context)
+            lang: Language | None = _convert(language_sentence)
             if lang is None:
                 continue
 
@@ -189,7 +246,7 @@ class LanguageFinder:
                     lang = Language(lang.alpha3, country=lang.country, script=Script(language_region))
                     break
 
-                country = self._find_country(sentence)
+                country = self._find_country(sentence) or self._find_lower_case_country(lang, combination)
                 if country:
                     try:
                         # discard country if value is actually the language name

@@ -29,14 +29,15 @@ example `&`.
 Before it looks for a language, `find_language` in `trakit/language.py` blanks these words. They are
 never a language and never a country.
 
-1. The release names (`blank_release_names` in `trakit/words.py`). For a file name, it blanks the base
-   name and the extension instead.
+1. The release names (`blank_release_names` in `trakit/words.py`).
 2. The audio and video terms (`technical_term_re` in `trakit/words.py`), for example `DTS-HD MA`,
    `5.1 CH`, and `24-bit`. Only the full term is blanked. The code alone can still be a country:
    `French (MA)` gives `fr-MA`, and `DTS-HD MA 5.1 (Français)` gives `fr`.
 3. The words in `ignored_words` in `tests/generator.json`, in every position. These are common words
    (`The Film`), names of people (`Jordan Peele`), and flag codes. `English CC (US)` gives `en-US` with
    `closed_caption`, and `Catalan AD` gives `ca` with `descriptive`.
+
+These rules are for track names. File names use other rules. See "File names".
 
 A flag code must be in the list because the country search stops at the first country. A rule after the
 search cannot remove the code and continue to the next word.
@@ -55,7 +56,35 @@ tries the largest group of words first. For each group, it applies these rules i
    (`country-languages`). `Spanish (CR)` gives `es-CR`. `English (Signs) [CR]` gives `en`.
 5. A region name (`regions`) or a script name (`scripts`).
 
+A 2-letter country code is in upper case. A lower-case code is a country only when it is directly
+between `(` `)` or `[` `]`, and when it is not the code of the language itself. `French (ca)` gives
+`fr-CA`. `Français (fr)` gives `fr`. `Español de España` gives `es-ES`, because `de` is not in brackets.
+Rules 3 and 4 also apply to a lower-case code.
+
 The search stops at the first group that matches a rule, also when rule 3 or 4 rejects the country.
+
+A code alone (`US`, `br`) gives the language of the country (`implicit-languages`). `US` gives `en-US`,
+and `br` gives `pt-BR`. Exception: a lower-case code that is the code of that language gives the language
+only. `fr` gives `fr`, and `FR` gives `fr-FR`.
+
+## File names
+
+For the input type `filename`, trakit reads the language as Jellyfin 12.4 does, and then as subliminal
+does. Track names are more noisy, so they use the rules above. File names use only these rules:
+
+1. Blank the base name (up to the first `.`) and the extension.
+2. Split the rest on `.` and space. `pt-br` and `pt_BR` stay one word.
+3. Read the words from right to left. The first word that is a language code is the language.
+4. A language code is an IETF tag (`fr`, `pt-br`, `en-gb`, `zh-hans`, `es-419`, and `pt_BR` with `_` as
+   `-`) or an ISO 639-2/B code (`fre`). The language must have an ISO 639-2 code. So `sdh`, `and`, and
+   `dts` (ISO 639-3 codes) are not a language.
+5. `hi` is Hindi only when no other language code comes before it. `movie.en.hi.srt` gives `en` with
+   `hearing_impaired`.
+
+A file name has no implicit languages, no country code alone, no language names, and no ignored
+words. `movie.us.srt` and `movie.french.srt` give no language. `movie.uk.srt` gives `uk` (Ukrainian), but
+the track name `uk` gives `en-GB`. `movie.pt.br.srt` gives `br`, because the last code wins. The flags
+use the same patterns as track names.
 
 Add an entry to `language-regions` or `bracket-tags` only when real data shows the case. `bracket-tags`
 is a list of exceptions, not a list of all release tags. Most release tags have more than 2 letters
