@@ -202,3 +202,4 @@ See `CONTRIBUTING.md` for the branch, commit, and pull request rules.
 * Available languages are the same supported by [Diaoul/babelfish](https://github.com/Diaoul/babelfish)
 * Localized country names were fetched from [mledoze/countries](https://github.com/mledoze/countries)
 * Localized language names were fetched from [mozilla/language-mapping-list](https://github.com/mozilla/language-mapping-list)
+* Official languages of each country were fetched from [Unicode CLDR](https://github.com/unicode-org/cldr-json) (`territoryInfo.json`)

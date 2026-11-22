@@ -12,7 +12,7 @@ same family as [GuessIt](https://github.com/guessit-io/guessit) and [KnowIt](htt
 | --- | --- |
 | `trakit/api.py` | `TrakItApi`, the module-level `trakit()`, and `default_api`. The public entry point. |
 | `trakit/__main__.py` | The CLI (argparse) with JSON and YAML output. The `trakit` entry point in `[project.scripts]`. |
-| `trakit/config.py` | Loads `trakit/data/config.json`: synonyms, scripts, regions, and ignored words. |
+| `trakit/config.py` | Loads `trakit/data/config.json`, and replaces its keys with the `TrakItApi(config)` mapping. |
 | `trakit/context.py` | `Context` for one call: the expected language and the input type (track name or file name). |
 | `trakit/patterns.py` | Configures the rebulk matcher: the rules and the patterns. See `docs/matching.md`. |
 | `trakit/words.py` | Word helpers: `to_words`, `to_combinations`, `to_sentence`, `blank_match`, and others. |

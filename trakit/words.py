@@ -7,6 +7,13 @@ from rebulk.match import Match
 seps = frozenset(r' [](){}+*|=-_~#/\\.,;:' + '\uff08\uff09')
 suppress_chars = frozenset("'")
 release_name_re = re.compile(r'(?P<release>[^\.\s]+(?:\.[^\.\s]+){2,})')
+# Audio and video terms with a code that is also a country or a language (MA, HR, NA, CH, bit)
+technical_term_re = re.compile(
+    rf'(?<![^{re.escape("".join(seps))}])'
+    r'(?:dts-?hd[-. ]?(?:ma|hr|na)|dts-hr|\d(?:\.\d)?[-_. ]?ch|\d+-?bit)'
+    rf'(?![^{re.escape("".join(seps))}])',
+    re.IGNORECASE,
+)
 
 
 def to_words(
@@ -101,6 +108,10 @@ def blank_release_names(value: str) -> str:
         match = release_name_re.search(value, match.end('release'))
 
     return result
+
+
+def blank_technical_terms(value: str) -> str:
+    return technical_term_re.sub(lambda m: ' ' * len(m.group()), value)
 
 
 def blank_base_name_and_extension(value: str) -> str:

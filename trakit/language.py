@@ -24,6 +24,7 @@ from trakit.words import (
     blank_base_name_and_extension,
     blank_match,
     blank_release_names,
+    blank_technical_terms,
     to_combinations,
     to_match,
     to_sentence,
@@ -70,6 +71,8 @@ class LanguageFinder:
         self.scripts = CaseInsensitiveDict(config.scripts)
         self.common_words = CaseInsensitiveDict(dict.fromkeys(config.ignored, 0))
         self.implicit = CaseInsensitiveDict(config.implicit_languages)
+        self.country_languages = config.country_languages
+        self.bracket_tags = config.bracket_tags
 
     def _find_country(self, value: str) -> Match | None:
         combinations = to_combinations(to_words(value), self.country_max_words)
@@ -81,6 +84,18 @@ class LanguageFinder:
                 continue
 
         return None
+
+    def _accept_country(self, lang: Language, country: Match, combination: list[Match]) -> bool:
+        # a country code (CR, NF) is a country only when the language is official there, a name always is
+        raw = country.raw or ''
+        code = len(raw) == 2 and raw.isascii()
+        if code and raw in self.bracket_tags:
+            # a release tag in square brackets (English [NF]) is not a country
+            for w in combination:
+                value = w.input_string or ''
+                if w.value == raw and value[w.start - 1 : w.start] == '[' and value[w.end : w.end + 1] == ']':
+                    return False
+        return not code or lang.alpha3 in self.country_languages.get(country.value.alpha2, [])
 
     def _find_script(self, value: str) -> Match | None:
         combinations = to_combinations(to_words(value), self.script_max_words)
@@ -133,6 +148,7 @@ class LanguageFinder:
 
     def find_language(self, value: str, context: Context) -> Match | None:
         value = blank_base_name_and_extension(value) if context.type == 'filename' else blank_release_names(value)
+        value = blank_technical_terms(value)
         all_words = to_words(value, predicate=self.accept_word)
         combinations = to_combinations(all_words, self.language_max_words)
         implicit_lang = self._find_implicit_language(combinations)
@@ -171,7 +187,8 @@ class LanguageFinder:
                         # discard country if value is actually the language name
                         Language.fromguess(country.raw)
                     except LanguageReverseError:
-                        lang = Language(lang.alpha3, country=country.value, script=lang.script)
+                        if self._accept_country(lang, country, combination):
+                            lang = Language(lang.alpha3, country=country.value, script=lang.script)
                     break
 
                 region = self._find_region(sentence)

@@ -12,7 +12,9 @@ class Config:
             cfg.update(config)
 
         self.ignored: set[str] = set(cfg.get('ignored', []))
+        self.bracket_tags: set[str] = set(cfg.get('bracket-tags', []))
         self.countries: typing.Mapping[str, str] = cfg.get('countries', {})
+        self.country_languages: typing.Mapping[str, list[str]] = cfg.get('country-languages', {})
         self.languages: typing.Mapping[str, str] = cfg.get('languages', {})
         self.scripts: typing.Mapping[str, str] = cfg.get('scripts', {})
         self.regions: typing.Mapping[str, str] = cfg.get('regions', {})
