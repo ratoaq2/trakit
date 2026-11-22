@@ -82,10 +82,11 @@ Given a track name, **TrakIt** can guess the language:
 
 **TrakIt** is also able to identify:
 * SDH: Subtitles for the Deaf or Hard of Hearing
-* Forced flag
+* Forced flag, also for signs and songs tracks
 * Closed captions
 * Alternate version tracks
 * Commentary tracks
+* Descriptive tracks (audio description)
 
 ```bash
 >> trakit "British English (SDH) (PGS)"
@@ -110,6 +111,18 @@ Given a track name, **TrakIt** can guess the language:
 {
   "language": "fr",
   "forced": true
+}
+
+>> trakit "English Signs & Songs (ASS)"
+{
+  "language": "en",
+  "forced": true
+}
+
+>> trakit "English (Audio Description)"
+{
+  "language": "en",
+  "descriptive": true
 }
 ```
 

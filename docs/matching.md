@@ -20,6 +20,10 @@ example `&`.
   If it is not there, the language rule reads it as a country (`English AD` gives `en-AD`).
 - A short code that is also a language or country code (`HI`, `AD`) has the tag `after-language`. The
   rule `RemoveCodeWithoutLanguage` removes it when no language comes before it.
+- A common word that is a flag only in some positions (`signs`, `foreign`) has the tag
+  `start-or-next-to-language`. The rule `RemoveWordNotAtStartOrNextToLanguage` keeps it only at the start
+  of the title, or when only separators come between the language and the word. `Styled Signs` and
+  `English (Signs)` give `forced`. `Full Subtitles Signs` does not.
 
 ## Generated data
 
