@@ -908,7 +908,7 @@
 
 ? Commentary by director John Woo (LA) (Español PGS)
 : commentary: true
-  language: es
+  language: es-419
 
 ? Commentary by director John Woo (日本語 PGS)
 : commentary: true
@@ -1856,6 +1856,33 @@
 : language: en
   forced: true
 
+? English (Signs) [Half-Baked]
+: language: en
+  forced: true
+
+? English Signs
+: language: en
+  forced: true
+
+? English Signs [Official]
+: language: en
+  forced: true
+
+? English[Signs-Songs]
+: language: en
+  forced: true
+
+? English (Full) [Half-Baked]
+: language: en
+
+? English (Foreign)
+: language: en
+  forced: true
+
+? English foreign parts
+: language: en
+  forced: true
+
 ? English (SRT External)
 : language: en
   external: true
@@ -2027,8 +2054,119 @@
 ? English TrueHD Atmos 7.1
 : language: en
 
+? English NF
+: language: en-NF
+
+? English (Signs) [CR]
+: language: en
+  forced: true
+
+? English (IT)
+: language: en
+
+? English (Costa Rica)
+: language: en-CR
+
+? Spanish (CR)
+: language: es-CR
+
+? Spanish (Costa Rica)
+: language: es-CR
+
+? Portuguese (BR)
+: language: pt-BR
+
+? Portuguese [BR]
+: language: pt-BR
+
+? English [NF]
+: language: en
+
+? Spanish [CR]
+: language: es
+
+? English (NF)
+: language: en-NF
+
+? French (MA)
+: language: fr-MA
+
+? German (CH)
+: language: de-CH
+
+? Croatian (HR)
+: language: hr-HR
+
+? Spanish (LA)
+: language: es-419
+
+? Español LA
+: language: es-419
+
+? Lao (LA)
+: language: lo-LA
+
+? Spanish (La)
+: language: es
+
+? Español (la versión original)
+: language: es
+
+? LA Confidential (English)
+: language: en
+
+? Commentary (LA)
+: commentary: true
+
 ? English US
 : language: en-US
+
+? English (CC)
+: language: en
+  closed_caption: true
+
+? English [CC]
+: language: en
+  closed_caption: true
+
+? Catalan AD
+: language: ca
+  descriptive: true
+
+? English CC (US)
+: language: en-US
+  closed_caption: true
+
+? Catalan AD (ES)
+: language: ca-ES
+  descriptive: true
+
+? DTS-HR 7.1 (English)
+: language: en
+
+? Croatian DTS-HR 7.1
+: language: hr
+
+? English (NA)
+: language: en
+
+? German (5.1 CH)
+: language: de
+
+? German 2.0 CH
+: language: de
+
+? German 2CH
+: language: de
+
+? Day One
+: {}
+
+? Gun Fight
+: {}
+
+? Back to the Future (English)
+: language: en
 
 ? English [Forced]
 : language: en
@@ -2396,6 +2534,24 @@
 ? Français Forced (SRT)
 : language: fr
   forced: true
+
+? Foreign
+: forced: true
+
+? Foreign parts only
+: forced: true
+
+? Foreign parts only PGS
+: forced: true
+
+? Full Subtitles incl. Foreign
+: {}
+
+? Dialogue + Foreign
+: {}
+
+? Commentary on Foreign Correspondent
+: commentary: true
 
 ? French
 : language: fr
@@ -3000,7 +3156,7 @@
 : {}
 
 ? LA (Español PGS)
-: language: es
+: language: es-419
 
 ? SHOW
 : {}
@@ -3720,13 +3876,35 @@
 ? Film.2016.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT (English DTS-HD MA 5.1)
 : language: en
 
+? S&S
+: forced: true
+
+? S&S (English ASS)
+: language: en
+  forced: true
+
 ? Sign & Song
 : forced: true
 
 ? Signs
-: {}
+: forced: true
 
 ? Signs & Songs
+: forced: true
+
+? Signs & Songs@EMBER
+: forced: true
+
+? Signs + Songs
+: forced: true
+
+? Signs and Karaoke (Kienai)
+: forced: true
+
+? Signs [Baws]
+: forced: true
+
+? Signs/OP/ED
 : forced: true
 
 ? Signs and Songs
@@ -3741,7 +3919,37 @@
 ? Signs&Songs
 : forced: true
 
-? Signs Songs Full
+? Styled Signs
+: forced: true
+
+? Styled Signs, Songs
+: forced: true
+
+? Unstyled Signs
+: forced: true
+
+? Full Subtitles Signs [Baws]
+: {}
+
+? Dialogue + Signs
+: {}
+
+? Commentary on Signs
+: commentary: true
+
+? Full Subtitles w/ Karaoke [DameDesuYo modified]
+: {}
+
+? Dubtitles w/ Karaoke [Funimation modified]
+: {}
+
+? No insert lyrics
+: {}
+
+? Styled Subs
+: {}
+
+? Unstyled Subs
 : {}
 
 ? Simplified
@@ -5183,3 +5391,167 @@
 
 ? 한국어 (VOBSUB)
 : language: ko
+
+? Forced (br)
+: language: pt-BR
+  forced: true
+
+? Forced (BR)
+: language: pt-BR
+  forced: true
+
+? fr
+: language: fr
+
+? Forced (fr)
+: language: fr
+  forced: true
+
+? Forced (FR)
+: language: fr-FR
+  forced: true
+
+? uk
+: language: en-GB
+
+? UK
+: language: en-GB
+
+? Forced (uk)
+: language: en-GB
+  forced: true
+
+? Forced (UK)
+: language: en-GB
+  forced: true
+
+? us
+: language: en-US
+
+? US
+: language: en-US
+
+? Forced (us)
+: language: en-US
+  forced: true
+
+? Forced (US)
+: language: en-US
+  forced: true
+
+? ca
+: language: fr-CA
+
+? Forced (ca)
+: language: fr-CA
+  forced: true
+
+? Forced (CA)
+: language: fr-CA
+  forced: true
+
+? vn
+: language: vi
+
+? VN
+: language: vi
+
+? Forced (vn)
+: language: vi
+  forced: true
+
+? Forced (VN)
+: language: vi
+  forced: true
+
+? id
+: language: id
+
+? ID
+: language: id-ID
+
+? Forced (id)
+: language: id
+  forced: true
+
+? Forced (ID)
+: language: id-ID
+  forced: true
+
+? ua
+: language: uk-UA
+
+? UA
+: language: uk-UA
+
+? Forced (ua)
+: language: uk-UA
+  forced: true
+
+? Forced (UA)
+: language: uk-UA
+  forced: true
+
+? gr
+: language: el
+
+? GR
+: language: el
+
+? Forced (gr)
+: language: el
+  forced: true
+
+? Forced (GR)
+: language: el
+  forced: true
+
+? hk
+: language: zh-HK
+
+? HK
+: language: zh-HK
+
+? Forced (hk)
+: language: zh-HK
+  forced: true
+
+? Forced (HK)
+: language: zh-HK
+  forced: true
+
+? Portuguese (br)
+: language: pt-BR
+
+? French (CA)
+: language: fr-CA
+
+? French (ca)
+: language: fr-CA
+
+? English (UK)
+: language: en-GB
+
+? English (US)
+: language: en-US
+
+? English (us)
+: language: en-US
+
+? Chinese (HK)
+: language: zh-HK
+
+? Ukrainian (UA)
+: language: uk-UA
+
+? Français (fr)
+: language: fr
+
+? Français (FR)
+: language: fr-FR
+
+? Español de España
+: language: es-ES
+
+? Português do Brasil
+: language: pt-BR

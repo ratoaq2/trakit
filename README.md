@@ -82,10 +82,11 @@ Given a track name, **TrakIt** can guess the language:
 
 **TrakIt** is also able to identify:
 * SDH: Subtitles for the Deaf or Hard of Hearing
-* Forced flag
+* Forced flag, also for signs and songs tracks
 * Closed captions
 * Alternate version tracks
 * Commentary tracks
+* Descriptive tracks (audio description)
 
 ```bash
 >> trakit "British English (SDH) (PGS)"
@@ -110,6 +111,18 @@ Given a track name, **TrakIt** can guess the language:
 {
   "language": "fr",
   "forced": true
+}
+
+>> trakit "English Signs & Songs (ASS)"
+{
+  "language": "en",
+  "forced": true
+}
+
+>> trakit "English (Audio Description)"
+{
+  "language": "en",
+  "descriptive": true
 }
 ```
 
@@ -189,3 +202,4 @@ See `CONTRIBUTING.md` for the branch, commit, and pull request rules.
 * Available languages are the same supported by [Diaoul/babelfish](https://github.com/Diaoul/babelfish)
 * Localized country names were fetched from [mledoze/countries](https://github.com/mledoze/countries)
 * Localized language names were fetched from [mozilla/language-mapping-list](https://github.com/mozilla/language-mapping-list)
+* Official languages of each country were fetched from [Unicode CLDR](https://github.com/unicode-org/cldr-json) (`territoryInfo.json`)

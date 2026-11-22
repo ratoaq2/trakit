@@ -30,8 +30,10 @@ class ConfigGenerator:
         country_native_names: dict[str, list[str]],
         language_english_names: dict[str, str],
         language_native_names: dict[str, str],
+        country_languages: dict[str, list[str]],
     ) -> None:
         self.country_demonyms = country_demonyms
+        self.country_languages = country_languages
         self.country_native_names = country_native_names
         self.language_english_names = language_english_names
         self.language_native_names = language_native_names
@@ -126,11 +128,14 @@ class ConfigGenerator:
 
         return {
             'ignored': sorted([v for v in CONFIG['ignored_words']]),
+            'bracket-tags': CONFIG['bracket-tags'],
             'countries': country_synonyms,
+            'country-languages': self.country_languages,
             'languages': language_synonyms,
             'implicit-languages': CONFIG['languages']['implicit'],
             'scripts': scripts,
             'regions': regions,
+            'language-regions': CONFIG['language-regions'],
         }
 
     def generate(self) -> None:
@@ -146,14 +151,20 @@ class Generator:
         self.country_native_names: dict[str, list[str]] = {}
         self.language_english_names: dict[str, str] = {}
         self.language_native_names: dict[str, str] = {}
+        self.country_languages: dict[str, list[str]] = {}
 
     def generate(self) -> None:
         self.download_files()
         self.process_countries()
         self.process_languages()
+        self.process_territories()
         self.generate_files()
         ConfigGenerator(
-            self.country_demonyms, self.country_native_names, self.language_english_names, self.language_native_names
+            self.country_demonyms,
+            self.country_native_names,
+            self.language_english_names,
+            self.language_native_names,
+            self.country_languages,
         ).generate()
 
     def generate_files(self) -> None:
@@ -178,6 +189,7 @@ class Generator:
         countries_path = os.path.join(DOWNLOADED_PATH, 'countries.json')
         language_mapping_list_path = os.path.join(DOWNLOADED_PATH, 'language-mapping-list.js')
         language_mapping_json_path = os.path.join(DOWNLOADED_PATH, 'language-mapping-list.json')
+        territory_info_path = os.path.join(DOWNLOADED_PATH, 'territoryInfo.json')
 
         if not os.path.isdir(DOWNLOADED_PATH):
             os.mkdir(DOWNLOADED_PATH)
@@ -185,6 +197,8 @@ class Generator:
             urlretrieve(CONFIG['urls']['countries'], countries_path)
         if not os.path.isfile(language_mapping_list_path):
             urlretrieve(CONFIG['urls']['local-language-names'], language_mapping_list_path)
+        if not os.path.isfile(territory_info_path):
+            urlretrieve(CONFIG['urls']['territory-info'], territory_info_path)
         if not os.path.isfile(language_mapping_json_path):
             with open(language_mapping_list_path, encoding='utf-8') as f:
                 content: str = f.read()
@@ -237,3 +251,23 @@ class Generator:
                     self.process_language_names(language, names)
                 except (ValueError, LanguageReverseError):
                     print(f'Unknown babelfish.Language {ietf}: {names}')
+
+    def process_territories(self) -> None:
+        with open(os.path.join(DOWNLOADED_PATH, 'territoryInfo.json'), encoding='utf-8') as f:
+            territories = json.load(f)['supplemental']['territoryInfo']
+            for alpha2, info in territories.items():
+                try:
+                    country = Country(alpha2)
+                except ValueError:
+                    continue
+
+                languages: set[str] = set()
+                for code, population in info.get('languagePopulation', {}).items():
+                    if not population.get('_officialStatus'):
+                        continue
+                    try:
+                        languages.add(Language.fromietf(code.replace('_', '-')).alpha3)
+                    except (ValueError, LanguageReverseError):
+                        print(f'Unknown babelfish.Language {code} in {alpha2}')
+                if languages:
+                    self.country_languages[country.alpha2] = sorted(languages)

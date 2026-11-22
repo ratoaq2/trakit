@@ -1,23 +1,22 @@
 {
   "urls": {
     "countries": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
-    "local-language-names": "https://raw.githubusercontent.com/mozilla/language-mapping-list/master/language-mapping-list.js"
+    "local-language-names": "https://raw.githubusercontent.com/mozilla/language-mapping-list/master/language-mapping-list.js",
+    "territory-info": "https://raw.githubusercontent.com/unicode-org/cldr-json/main/cldr-json/cldr-core/supplemental/territoryInfo.json"
   },
   "ignored_words": [
     "ad",
-    "bit",
     "cc",
-    "ch",
     "dan",
     "day",
     "gun",
-    "hr",
     "jordan",
-    "la",
-    "ma",
-    "na",
     "the",
     "to"
+  ],
+  "bracket-tags": [
+    "NF",
+    "CR"
   ],
   "countries": {
     "ignore-extraction": [
@@ -99,5 +98,10 @@
     "Latin": "419",
     "Latinoamericano": "419",
     "Latinoamérica": "419"
+  },
+  "language-regions": {
+    "spa": {
+      "LA": "419"
+    }
   }
 }
