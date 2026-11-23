@@ -1,5 +1,9 @@
-# TrakIt
-Guess additional information from track titles
+<h1 align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ratoaq2/trakit/main/docs/images/logo-dark.png">
+    <img alt="trakit: Identify a track from its title" src="https://raw.githubusercontent.com/ratoaq2/trakit/main/docs/images/logo-light.png" width="400">
+  </picture>
+</h1>
 
 [![Latest
 Version](https://img.shields.io/pypi/v/trakit.svg)](https://pypi.python.org/pypi/trakit)
@@ -203,3 +207,9 @@ See `CONTRIBUTING.md` for the branch, commit, and pull request rules.
 * Localized country names were fetched from [mledoze/countries](https://github.com/mledoze/countries)
 * Localized language names were fetched from [mozilla/language-mapping-list](https://github.com/mozilla/language-mapping-list)
 * Official languages of each country were fetched from [Unicode CLDR](https://github.com/unicode-org/cldr-json) (`territoryInfo.json`)
+
+## License
+
+[MIT](https://github.com/ratoaq2/trakit/blob/main/LICENSE).
+
+The trakit name, logo, and icon are not covered by the MIT license. All rights reserved.
