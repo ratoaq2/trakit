@@ -81,7 +81,7 @@ include = [
     "README.md",
     "LICENSE",
 ]
-exclude = ["scripts/brand"]
+exclude = ["scripts/brand", "scripts/demo.*"]
 
 [tool.ruff]
 line-length = 120
