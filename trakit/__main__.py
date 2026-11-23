@@ -87,7 +87,7 @@ def trakit(value: str, opts: argparse.Namespace) -> typing.Mapping[str | None, t
         console.info('Parsing: %s', value)
     options = {k: v for k, v in vars(opts).items() if v is not None}
     info = TrakItApi().trakit(value, options)
-    console.info('TrakIt %s found: ', __version__)
+    console.info('trakit %s found: ', __version__)
     console.info(dump(value, info, opts))
     return info
 
