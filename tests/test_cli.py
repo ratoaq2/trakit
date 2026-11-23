@@ -1,8 +1,10 @@
+import logging
 import typing
 
 import pytest
 
 from tests import parameters_from_yaml
+from trakit import __version__
 from trakit.__main__ import execute
 
 
@@ -17,3 +19,12 @@ def test_main(name: str, data: typing.Mapping[str, typing.Any]) -> None:
 
     # then
     assert actual == expected
+
+
+def test_main_header(caplog: pytest.LogCaptureFixture) -> None:
+    # when
+    with caplog.at_level(logging.INFO, logger='CONSOLE'):
+        execute(['English CC (SRT)'])
+
+    # then
+    assert caplog.messages[:2] == ['Parsing: English CC (SRT)', f'trakit {__version__} found: ']

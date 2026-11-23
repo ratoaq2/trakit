@@ -15,4 +15,8 @@ same checks as CI. If a check must also run before a commit, add it to `.pre-com
 
 Python versions: the CI matrix (`.github/workflows/test.yml`), `requires-python`, and the `classifiers`
 in `pyproject.toml` list each Python version that is not end of life. Change all three together.
+`scripts/brand.py` makes the logo, the icon, and the social card in `docs/images/`. Its docstring tells how
+to run it. It reads the tagline from the `description` in `pyproject.toml`. `scripts/demo.sh` records
+`docs/images/demo.gif`. The `demo-gif` skill tells how.
+
 `.python-version` is the newest version of the CI matrix. `.github/workflows/publish.yml` builds with it. Dependabot does not do this.

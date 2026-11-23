@@ -5,6 +5,7 @@ forced, closed caption, commentary, descriptive, and alternate version. It uses
 [rebulk](https://github.com/guessit-io/rebulk) for the rule-based matching and
 [babelfish](https://github.com/Diaoul/babelfish) for the language and country codes. It comes from the
 same family as [GuessIt](https://github.com/guessit-io/guessit) and [KnowIt](https://github.com/ratoaq2/knowit).
+`docs/usage.md` has the user view: the CLI options, the output keys, and the Python API.
 
 ## Modules
 

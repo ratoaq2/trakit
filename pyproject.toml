@@ -1,7 +1,7 @@
 [project]
 name = "trakit"
 version = "0.6.0-dev"
-description = "Guess additional information from track titles"
+description = "Identify a track from its title"
 authors = [
     { name = "Rato" }
 ]
@@ -81,6 +81,7 @@ include = [
     "README.md",
     "LICENSE",
 ]
+exclude = ["scripts/brand", "scripts/demo.*"]
 
 [tool.ruff]
 line-length = 120

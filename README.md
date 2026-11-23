@@ -1,205 +1,210 @@
-# TrakIt
-Guess additional information from track titles
+<h1 align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ratoaq2/trakit/main/docs/images/logo-dark.png">
+    <img alt="trakit: Identify a track from its title" src="https://raw.githubusercontent.com/ratoaq2/trakit/main/docs/images/logo-light.png" width="400">
+  </picture>
+</h1>
 
-[![Latest
-Version](https://img.shields.io/pypi/v/trakit.svg)](https://pypi.python.org/pypi/trakit)
+trakit reads a track title or a file name and guesses the language and the track flags: SDH, forced,
+closed caption, commentary, audio description, and alternate version.
 
-[![tests](https://github.com/ratoaq2/trakit/actions/workflows/test.yml/badge.svg)](https://github.com/ratoaq2/trakit/actions/workflows/test.yml)
-
+[![PyPI version](https://img.shields.io/pypi/v/trakit.svg)](https://pypi.org/project/trakit/)
+[![Python versions](https://img.shields.io/pypi/pyversions/trakit.svg)](https://pypi.org/project/trakit/)
+[![Tests](https://github.com/ratoaq2/trakit/actions/workflows/test.yml/badge.svg)](https://github.com/ratoaq2/trakit/actions/workflows/test.yml)
 [![License](https://img.shields.io/github/license/ratoaq2/trakit.svg)](https://github.com/ratoaq2/trakit/blob/main/LICENSE)
 
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/trakit)
+<p align="center">
+  <img alt="trakit guesses the language and the flags of three track titles" src="https://raw.githubusercontent.com/ratoaq2/trakit/main/docs/images/demo.gif" width="760">
+</p>
 
-  - Project page  
-    <https://github.com/ratoaq2/trakit>
+## Why trakit
 
-## Info
+The language tag of a track in a video file is often not precise. Two subtitle tracks can both have the
+tag `por`, but one title says `Português` and the other says `Português (Brasil)`. The track title often
+has more information than the tags: SDH, forced, commentary. trakit reads the title, so that your tools
+can select the correct track.
 
-**TrakIt** is a track name parser.
-It is a tiny library created to solve a very specific problem.
-It's very common that video files do not have precise metadata information,
-where you can have multiple subtitle tracks tagged as **Portuguese**,
-but one of them is actually **Brazilian Portuguese**:
-```json lines
-{
-  "codec": "SubRip/SRT",
-  "id": 19,
-  "properties": {
-    "codec_id": "S_TEXT/UTF8",
-    "codec_private_length": 0,
-    "default_track": false,
-    "enabled_track": true,
-    "encoding": "UTF-8",
-    "forced_track": false,
-    "language": "por",
-    "language_ietf": "pt",
-    "number": 20,
-    "text_subtitles": true,
-    "track_name": "Português",
-    "uid": 160224385584803173
-  }
-}
+| Track title | Language tag | trakit |
+| --- | --- | --- |
+| `Português` | `por` | `language: pt` |
+| `Português (Brasil)` | `por` | `language: pt-BR` |
+| `British English (SDH) (PGS)` | `eng` | `language: en-GB`, `hearing_impaired: true` |
 
-{
-  "codec": "SubRip/SRT",
-  "id": 20,
-  "properties": {
-    "codec_id": "S_TEXT/UTF8",
-    "codec_private_length": 0,
-    "default_track": false,
-    "enabled_track": true,
-    "encoding": "UTF-8",
-    "forced_track": false,
-    "language": "por",
-    "language_ietf": "pt",
-    "number": 21,
-    "text_subtitles": true,
-    "track_name": "Português (Brasil)",
-    "uid": 1435945803220205
-  }
-}
+## What trakit detects
+
+| Key | Meaning | Example title |
+| --- | --- | --- |
+| `language` | The language, with the country or the region when the title has one | `Español (LA) Forced` gives `es-419` |
+| `hearing_impaired` | Subtitles for the deaf or hard of hearing (SDH) | `British English (SDH) (PGS)` |
+| `forced` | Forced subtitles, also signs and songs tracks | `English Signs & Songs (ASS)` |
+| `closed_caption` | Closed captions | `English CC (SRT)` |
+| `commentary` | A commentary track | `Cast and Crew Commentary (English AC3 Stereo)` |
+| `descriptive` | Audio description | `English (Audio Description)` |
+| `version` | An alternate version (`alternate`) | `Alternate Score Version (English DTS-HD MA 5.1)` |
+
+The result has only the keys that trakit finds. The full reference is in
+[docs/usage.md](https://github.com/ratoaq2/trakit/blob/main/docs/usage.md#output).
+
+## Quick start
+
+Run trakit with no install step, with [uvx](https://docs.astral.sh/uv/guides/tools/):
+
 ```
-Or you have multiple audio tracks in **English**,
-but one of them is **British English** (`British English Forced (PGS)`) and others are **American English**
-(`American English (PGS)`)
-
-Given a track name, **TrakIt** can guess the language:
-
-```bash
->> trakit "Português (Brasil)"
+$ uvx trakit "Português (Brasil)"
+...
 {
   "language": "pt-BR"
 }
 ```
 
-```bash
->> trakit -t filename "foobar.en.sdh.srt"
-{
-  "language": "en",
-  "hearing_impaired": true
-}
+Read the name of an external subtitle file:
+
 ```
-
-**TrakIt** is also able to identify:
-* SDH: Subtitles for the Deaf or Hard of Hearing
-* Forced flag, also for signs and songs tracks
-* Closed captions
-* Alternate version tracks
-* Commentary tracks
-* Descriptive tracks (audio description)
-
-```bash
->> trakit "British English (SDH) (PGS)"
+$ uvx trakit -t filename "movie.pt-BR.cc.commentary.srt"
+...
 {
-  "language": "en-GB",
-  "hearing_impaired": true
-}
-
->> trakit "English CC (SRT)"
-{
-  "language": "en",
-  "closed_caption": true
-}
-
->> trakit "Cast and Crew Commentary (English AC3 Stereo)"
-{
-  "language": "en",
+  "language": "pt-BR",
+  "closed_caption": true,
   "commentary": true
 }
-
->> trakit "Français Forced (SRT)"
-{
-  "language": "fr",
-  "forced": true
-}
-
->> trakit "English Signs & Songs (ASS)"
-{
-  "language": "en",
-  "forced": true
-}
-
->> trakit "English (Audio Description)"
-{
-  "language": "en",
-  "descriptive": true
-}
 ```
 
-All available CLI options:
-```bash
->> trakit --help
-usage: trakit [-h] [-l EXPECTED_LANGUAGE] [--debug] [-y] [--version] value
+Use it in Python:
 
-positional arguments:
-  value                 track title to guess
+```python
+from trakit import trakit
 
-options:
-  -h, --help            show this help message and exit
-
-Configuration:
-  -l EXPECTED_LANGUAGE, --expected-language EXPECTED_LANGUAGE
-                        The expected language to be guessed
-  -t, --type TYPE       The input type: trackname or filename. Default is trackname
-
-Output:
-  --debug               Print information for debugging trakit and for reporting bugs.
-  -y, --yaml            Display output in yaml format
-
-Information:
-  --version             show program's version number and exit
+trakit('British English (SDH) (PGS)')
+# MatchesDict({'language': <Language [en-GB]>, 'hearing_impaired': True})
 ```
-
-
-**TrakIt** is not a release parser. Use [GuessIt](https://github.com/guessit-io/guessit)
-
-**TrakIt** is not a video metadata extractor.
-Use [KnowIt](https://github.com/ratoaq2/knowit).
-KnowIt already uses **trakit** to enhance the extracted information
 
 ## Installation
 
-**TrakIt** requires Python 3.11 or later.
+trakit needs Python 3.11 or later.
 
-**TrakIt** is a command line tool. The simplest way to run it, with no install step,
-is [uvx](https://docs.astral.sh/uv/guides/tools/) (part of [uv](https://docs.astral.sh/uv/)):
+| To | Run |
+| --- | --- |
+| Run the CLI with no install | `uvx trakit "<title>"` |
+| Install the CLI | `uv tool install trakit` |
+| Add the library to a project | `uv add trakit` |
+| Install with pip | `pip install trakit` |
 
-    $ uvx trakit "Português (Brasil)"
+The `-y` (YAML) option needs the `yaml` extra, for example `uv tool install "trakit[yaml]"`.
 
-To install it instead, so it stays available on your `PATH`:
+## Usage
 
-    $ uv tool install trakit
+A track title:
 
-`pip` is also supported. Use a dedicated virtualenv or the `--user` flag for a
-better isolation with your system:
+```
+$ trakit "Cast and Crew Commentary (English AC3 Stereo)"
+...
+{
+  "commentary": true,
+  "language": "en"
+}
+```
 
-    $ pip install --user trakit
+A file name. trakit reads the language codes and the flags between the dots:
 
-**TrakIt** is also a library. To add it as a dependency to a uv-managed project:
+```
+$ trakit -t filename "movie.en.forced.srt"
+...
+{
+  "language": "en",
+  "forced": true
+}
+```
 
-    $ uv add trakit
+The expected language. A title can name a person or a place that is also a language. Give the language
+that you expect, for example the language tag of the track:
 
-The `-y`/`--yaml` option needs the optional `yaml` extra:
+```
+$ trakit -l en "Commentary by director John Français (EU) (English PGS)"
+...
+{
+  "commentary": true,
+  "language": "en"
+}
+```
 
-    $ uv tool install "trakit[yaml]"
+YAML output:
 
-## Development
+```
+$ trakit -y "British English (SDH) (PGS)"
+...
+British English (SDH) (PGS):
+  language: en-GB
+  hearing_impaired: true
+```
 
-**TrakIt** uses [uv](https://docs.astral.sh/uv/) to manage its environment and dependencies.
+The Python API. The `options` keys are the same as the CLI options:
 
-    $ uv sync --all-extras
-    $ bash scripts/test.sh
+```python
+from trakit import trakit
 
-This runs [ruff](https://docs.astral.sh/ruff/) (lint and format check), [mypy](https://mypy-lang.org/) and the test suite.
+trakit('movie.en.sdh.srt', {'type': 'filename'})
+# MatchesDict({'language': <Language [en]>, 'hearing_impaired': True})
 
-[pre-commit](https://pre-commit.com/) hooks mirror the same checks and run automatically on `git commit`:
+info = trakit('Commentary by director John Français (EU) (English PGS)', {'expected_language': 'en'})
+str(info['language'])  # 'en'
+```
 
-    $ uv run pre-commit install --hook-type pre-commit --hook-type commit-msg
+### Main options
 
-See `CONTRIBUTING.md` for the branch, commit, and pull request rules.
+| Option | Use |
+| --- | --- |
+| `-t filename` | Read a file name. The default is `trackname`. |
+| `-l <language>` | The expected language, as an IETF tag (`en`, `pt-BR`). |
+| `-y` | YAML output. |
+| `--debug` | Print the debug information. Add it to a bug report. |
 
-## Data
-* Available languages are the same supported by [Diaoul/babelfish](https://github.com/Diaoul/babelfish)
-* Localized country names were fetched from [mledoze/countries](https://github.com/mledoze/countries)
-* Localized language names were fetched from [mozilla/language-mapping-list](https://github.com/mozilla/language-mapping-list)
-* Official languages of each country were fetched from [Unicode CLDR](https://github.com/unicode-org/cldr-json) (`territoryInfo.json`)
+All the options, the output keys, `TrakItApi`, and the babelfish `Language` values are in
+[docs/usage.md](https://github.com/ratoaq2/trakit/blob/main/docs/usage.md).
+
+## What trakit is not
+
+- trakit is not a release name parser. Use [GuessIt](https://github.com/guessit-io/guessit).
+- trakit does not read media files. Use [knowit](https://github.com/ratoaq2/knowit). knowit uses trakit to
+  read the track titles.
+
+## FAQ
+
+**trakit gives `{}`. Why?**
+The title has no word that trakit knows, for example a release name. If the title has a language or a
+flag, report it.
+
+**trakit gives the wrong language. What can I do?**
+Give the expected language with `-l`. Then report the title.
+
+**Does trakit read the media file?**
+No. It reads only the string that you give. Use knowit to read the tracks of a file.
+
+**Which languages does trakit know?**
+The languages of babelfish, with their names in many languages. See [Data sources](#data-sources).
+
+## Report a bug
+
+[Open an issue](https://github.com/ratoaq2/trakit/issues) with:
+
+- The track title or the file name.
+- The result that you expect.
+- The output of `trakit --debug "<title>"`.
+
+## Data sources
+
+- The languages are the languages of [Diaoul/babelfish](https://github.com/Diaoul/babelfish).
+- The country names in many languages come from [mledoze/countries](https://github.com/mledoze/countries).
+- The language names in many languages come from
+  [mozilla/language-mapping-list](https://github.com/mozilla/language-mapping-list).
+- The official languages of each country come from [Unicode CLDR](https://github.com/unicode-org/cldr-json)
+  (`territoryInfo.json`).
+
+## Contributing
+
+See [CONTRIBUTING.md](https://github.com/ratoaq2/trakit/blob/main/CONTRIBUTING.md).
+
+## License
+
+[MIT](https://github.com/ratoaq2/trakit/blob/main/LICENSE).
+
+The trakit name, logo, and icon are not covered by the MIT license. All rights reserved.
