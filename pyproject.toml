@@ -1,6 +1,6 @@
 [project]
 name = "trakit"
-version = "0.6.0-dev"
+version = "0.6.0"
 description = "Identify a track from its title"
 authors = [
     { name = "Rato" }
